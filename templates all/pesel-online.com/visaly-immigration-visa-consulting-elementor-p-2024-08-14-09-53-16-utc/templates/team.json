@@ -1,0 +1,3462 @@
+{
+    "version": "0.4",
+    "title": "Team",
+    "type": "page",
+    "metadata": {
+        "template_type": "single-page",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "4313047f",
+            "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                    "unit": "px",
+                    "size": "20",
+                    "column": "20",
+                    "row": "20",
+                    "isLinked": "1"
+                },
+                "background_background": "classic",
+                "background_image": {
+                    "id": "159",
+                    "url": "http:\/\/elementor-kits-02.nicdark.com\/immigration-visa-wordpress-elementor-kit\/wp-content\/uploads\/sites\/7\/2024\/01\/three-generation-black-family-celebrating-independence-day-together-at-home-elevated-view.jpg",
+                    "alt": "Three generation black family celebrating Independence Day together at home,elevated view",
+                    "source": "library",
+                    "size": ""
+                },
+                "background_position": "center center",
+                "background_repeat": "no-repeat",
+                "background_size": "cover",
+                "background_overlay_background": "gradient",
+                "background_overlay_gradient_angle": {
+                    "unit": "deg",
+                    "size": "0",
+                    "sizes": []
+                },
+                "background_overlay_opacity": {
+                    "unit": "px",
+                    "size": "0.4",
+                    "sizes": []
+                },
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": ""
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "220",
+                    "right": "20",
+                    "bottom": "220",
+                    "left": "20",
+                    "isLinked": ""
+                },
+                "_title": "Header Image",
+                "__globals__": {
+                    "background_overlay_color": "globals\/colors?id=10a94b3",
+                    "background_overlay_color_b": "globals\/colors?id=b4ec28f"
+                }
+            },
+            "elements": [
+                {
+                    "id": "ff5dfa9",
+                    "settings": {
+                        "flex_direction": "column",
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": "100"
+                        },
+                        "flex_gap": {
+                            "column": "20",
+                            "row": "20",
+                            "isLinked": "1",
+                            "unit": "px",
+                            "size": "20"
+                        },
+                        "margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": ""
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": ""
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "61774749",
+                            "settings": {
+                                "title": "Add Your Heading Text Here",
+                                "header_size": "h5",
+                                "align_tablet": "center",
+                                "_animation": "fadeInUp",
+                                "_animation_delay": "400",
+                                "__globals__": {
+                                    "typography_typography": "globals\/typography?id=31919b4",
+                                    "title_color": "globals\/colors?id=8235737"
+                                },
+                                "__dynamic__": {
+                                    "title": "[elementor-tag id=\"c01350f\" name=\"site-tagline\" settings=\"%7B%7D\"]"
+                                },
+                                "align": "center"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "6a0f7877",
+                            "settings": {
+                                "title": "Heading Text Here",
+                                "header_size": "h1",
+                                "align_tablet": "center",
+                                "_animation": "fadeIn",
+                                "_animation_delay": "200",
+                                "__globals__": {
+                                    "title_color": "globals\/colors?id=8235737",
+                                    "typography_typography": "globals\/typography?id=927ae6c"
+                                },
+                                "__dynamic__": {
+                                    "title": "[elementor-tag id=\"101d5c1\" name=\"page-title\" settings=\"%7B%7D\"]"
+                                },
+                                "align": "center"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": "1",
+                    "elType": "container"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        },
+        {
+            "id": "400cb6dd",
+            "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                    "unit": "px",
+                    "size": "80",
+                    "column": "80",
+                    "row": "80",
+                    "isLinked": "1"
+                },
+                "flex_direction_tablet": "column",
+                "flex_align_items": "center",
+                "background_background": "classic",
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": ""
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "120",
+                    "right": "20",
+                    "bottom": "120",
+                    "left": "20",
+                    "isLinked": ""
+                },
+                "__globals__": {
+                    "background_color": "globals\/colors?id=34fcf59"
+                },
+                "_title": "About",
+                "background_image": {
+                    "url": "http:\/\/elementor-kits-02.nicdark.com\/immigration-visa-wordpress-elementor-kit\/wp-content\/uploads\/sites\/7\/2024\/01\/bg-06.jpg",
+                    "id": 371,
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                },
+                "background_position": "center center",
+                "background_repeat": "no-repeat",
+                "background_size": "cover"
+            },
+            "elements": [
+                {
+                    "id": "6b5df5bf",
+                    "settings": {
+                        "flex_direction": "column",
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": "50"
+                        },
+                        "width_tablet": {
+                            "unit": "%",
+                            "size": "100",
+                            "sizes": []
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "flex_gap": {
+                            "column": "20",
+                            "row": "20",
+                            "isLinked": "1",
+                            "unit": "px",
+                            "size": "20"
+                        },
+                        "margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": ""
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": ""
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "2bf8a668",
+                            "settings": {
+                                "content_width": "full",
+                                "flex_gap": {
+                                    "column": "20",
+                                    "row": "20",
+                                    "isLinked": "1",
+                                    "unit": "px",
+                                    "size": "20"
+                                },
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "animation": "fadeIn",
+                                "animation_delay": "200"
+                            },
+                            "elements": [
+                                {
+                                    "id": "5df2fce2",
+                                    "settings": {
+                                        "title": "EMBRACING EXCELLENCE",
+                                        "header_size": "h5",
+                                        "align_tablet": "center",
+                                        "__globals__": {
+                                            "title_color": "globals\/colors?id=0a51f97",
+                                            "typography_typography": "globals\/typography?id=31919b4"
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "heading",
+                                    "elType": "widget"
+                                },
+                                {
+                                    "id": "1246fdfd",
+                                    "settings": {
+                                        "title": "Passport to Possibilities &amp;\nYour Visa Experts",
+                                        "align_tablet": "center"
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "heading",
+                                    "elType": "widget"
+                                },
+                                {
+                                    "id": "20a7cc30",
+                                    "settings": {
+                                        "title": "Our journey began years ago, and since then, we have been privileged to serve countless clients, each with unique needs and aspirations. Our success is a result of not only our expertise but also our genuine care for the success of those we work with. We welcome you to explore the possibilities with us.",
+                                        "header_size": "p",
+                                        "align_tablet": "center",
+                                        "__globals__": {
+                                            "typography_typography": "globals\/typography?id=text"
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "heading",
+                                    "elType": "widget"
+                                },
+                                {
+                                    "id": "3efec275",
+                                    "settings": {
+                                        "icon_list": [
+                                            {
+                                                "text": "Navigating possibilities: your gateway to premium services",
+                                                "_id": "1c2939c"
+                                            },
+                                            {
+                                                "text": "Transforming challenges into opportunities and ideas into reality",
+                                                "_id": "3330715"
+                                            }
+                                        ],
+                                        "space_between": {
+                                            "unit": "px",
+                                            "size": "10",
+                                            "sizes": []
+                                        },
+                                        "icon_align_tablet": "center",
+                                        "icon_size": {
+                                            "unit": "px",
+                                            "size": "15",
+                                            "sizes": []
+                                        },
+                                        "text_indent": {
+                                            "unit": "px",
+                                            "size": "10",
+                                            "sizes": []
+                                        },
+                                        "__globals__": {
+                                            "icon_color": "globals\/colors?id=text",
+                                            "icon_color_hover": "globals\/colors?id=445bfed",
+                                            "icon_typography_typography": "globals\/typography?id=text",
+                                            "text_color": "globals\/colors?id=text",
+                                            "text_color_hover": "globals\/colors?id=text"
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "icon-list",
+                                    "elType": "widget"
+                                }
+                            ],
+                            "isInner": "1",
+                            "elType": "container"
+                        },
+                        {
+                            "id": "3bf9998e",
+                            "settings": {
+                                "content_width": "full",
+                                "flex_gap": {
+                                    "column": "20",
+                                    "row": "20",
+                                    "isLinked": "1",
+                                    "unit": "px",
+                                    "size": "20"
+                                },
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "166aa731",
+                                    "settings": {
+                                        "text": "All Services",
+                                        "align_tablet": "center",
+                                        "_animation": "fadeInUp",
+                                        "_animation_delay": "400"
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "button",
+                                    "elType": "widget"
+                                }
+                            ],
+                            "isInner": "1",
+                            "elType": "container"
+                        }
+                    ],
+                    "isInner": "1",
+                    "elType": "container"
+                },
+                {
+                    "id": "6957a55f",
+                    "settings": {
+                        "flex_direction": "column",
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": "50"
+                        },
+                        "width_tablet": {
+                            "unit": "%",
+                            "size": "100",
+                            "sizes": []
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "flex_align_items": "center",
+                        "flex_gap": {
+                            "column": "20",
+                            "row": "20",
+                            "isLinked": "1",
+                            "unit": "px",
+                            "size": "20"
+                        },
+                        "margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": ""
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": ""
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "23e82df9",
+                            "settings": {
+                                "content_width": "full",
+                                "flex_direction": "row",
+                                "flex_align_items": "center",
+                                "flex_gap": {
+                                    "column": "20",
+                                    "row": "20",
+                                    "isLinked": "1",
+                                    "unit": "px",
+                                    "size": "20"
+                                },
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "31c463fe",
+                                    "settings": {
+                                        "content_width": "full",
+                                        "flex_gap": {
+                                            "column": "20",
+                                            "row": "20",
+                                            "isLinked": "1",
+                                            "unit": "px",
+                                            "size": "20"
+                                        },
+                                        "margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": ""
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": ""
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "697ca1d9",
+                                            "settings": {
+                                                "image": {
+                                                    "id": "173",
+                                                    "url": "http:\/\/elementor-kits-02.nicdark.com\/immigration-visa-wordpress-elementor-kit\/wp-content\/uploads\/sites\/7\/2024\/01\/smiling-african-american-student-in-glasses-using-digital-tablet.jpg",
+                                                    "alt": "smiling african american student in glasses using digital tablet",
+                                                    "source": "library",
+                                                    "size": ""
+                                                },
+                                                "width": {
+                                                    "unit": "%",
+                                                    "size": "100",
+                                                    "sizes": []
+                                                },
+                                                "height": {
+                                                    "unit": "px",
+                                                    "size": "300",
+                                                    "sizes": []
+                                                },
+                                                "height_tablet": {
+                                                    "unit": "px",
+                                                    "size": "350",
+                                                    "sizes": []
+                                                },
+                                                "height_mobile": {
+                                                    "unit": "px",
+                                                    "size": "300",
+                                                    "sizes": []
+                                                },
+                                                "object-fit": "cover",
+                                                "motion_fx_motion_fx_scrolling": "yes",
+                                                "motion_fx_translateY_effect": "yes",
+                                                "motion_fx_translateY_speed": {
+                                                    "unit": "px",
+                                                    "size": "1",
+                                                    "sizes": []
+                                                },
+                                                "motion_fx_devices": [
+                                                    "desktop"
+                                                ],
+                                                "_animation": "fadeIn",
+                                                "_animation_delay": "200"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "image",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": "1",
+                                    "elType": "container"
+                                },
+                                {
+                                    "id": "5c2afec",
+                                    "settings": {
+                                        "content_width": "full",
+                                        "flex_gap": {
+                                            "column": "20",
+                                            "row": "20",
+                                            "isLinked": "1",
+                                            "unit": "px",
+                                            "size": "20"
+                                        },
+                                        "margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": ""
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": ""
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "70475671",
+                                            "settings": {
+                                                "image": {
+                                                    "id": "170",
+                                                    "url": "http:\/\/elementor-kits-02.nicdark.com\/immigration-visa-wordpress-elementor-kit\/wp-content\/uploads\/sites\/7\/2024\/01\/visa-online-application-concept-open-passport-with-visa-stamps.jpg",
+                                                    "alt": "Visa online application concept. Open passport with visa stamps",
+                                                    "source": "library",
+                                                    "size": ""
+                                                },
+                                                "width": {
+                                                    "unit": "%",
+                                                    "size": "100",
+                                                    "sizes": []
+                                                },
+                                                "height": {
+                                                    "unit": "px",
+                                                    "size": "350",
+                                                    "sizes": []
+                                                },
+                                                "height_mobile": {
+                                                    "unit": "px",
+                                                    "size": "300",
+                                                    "sizes": []
+                                                },
+                                                "object-fit": "cover",
+                                                "motion_fx_motion_fx_scrolling": "yes",
+                                                "motion_fx_translateY_effect": "yes",
+                                                "motion_fx_translateY_direction": "negative",
+                                                "motion_fx_translateY_speed": {
+                                                    "unit": "px",
+                                                    "size": "1",
+                                                    "sizes": []
+                                                },
+                                                "motion_fx_devices": [
+                                                    "desktop"
+                                                ],
+                                                "_animation": "fadeIn",
+                                                "_animation_delay": "400"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "image",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": "1",
+                                    "elType": "container"
+                                },
+                                {
+                                    "id": "13d725c9",
+                                    "settings": {
+                                        "content_width": "full",
+                                        "flex_gap": {
+                                            "column": "20",
+                                            "row": "20",
+                                            "isLinked": "1",
+                                            "unit": "px",
+                                            "size": "20"
+                                        },
+                                        "margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": ""
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": ""
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "7af5c00a",
+                                            "settings": {
+                                                "image": {
+                                                    "id": "168",
+                                                    "url": "http:\/\/elementor-kits-02.nicdark.com\/immigration-visa-wordpress-elementor-kit\/wp-content\/uploads\/sites\/7\/2024\/01\/young-smiling-student-standing-at-a-window-preparing-for-lecture.jpg",
+                                                    "alt": "Young smiling student standing at a window, preparing for lecture",
+                                                    "source": "library",
+                                                    "size": ""
+                                                },
+                                                "width": {
+                                                    "unit": "%",
+                                                    "size": "100",
+                                                    "sizes": []
+                                                },
+                                                "height": {
+                                                    "unit": "px",
+                                                    "size": "350",
+                                                    "sizes": []
+                                                },
+                                                "height_mobile": {
+                                                    "unit": "px",
+                                                    "size": "300",
+                                                    "sizes": []
+                                                },
+                                                "object-fit": "cover",
+                                                "motion_fx_motion_fx_scrolling": "yes",
+                                                "motion_fx_translateY_effect": "yes",
+                                                "motion_fx_translateY_speed": {
+                                                    "unit": "px",
+                                                    "size": "0.5",
+                                                    "sizes": []
+                                                },
+                                                "motion_fx_devices": [
+                                                    "desktop"
+                                                ],
+                                                "_animation": "fadeIn",
+                                                "_animation_delay": "600"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "image",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": "1",
+                                    "elType": "container"
+                                }
+                            ],
+                            "isInner": "1",
+                            "elType": "container"
+                        },
+                        {
+                            "id": "642babb9",
+                            "settings": {
+                                "content_width": "full",
+                                "width": {
+                                    "unit": "%",
+                                    "size": "50",
+                                    "sizes": []
+                                },
+                                "flex_gap": {
+                                    "column": "20",
+                                    "row": "20",
+                                    "isLinked": "1",
+                                    "unit": "px",
+                                    "size": "20"
+                                },
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "569163fd",
+                                    "settings": {
+                                        "image": {
+                                            "id": "176",
+                                            "url": "http:\/\/elementor-kits-02.nicdark.com\/immigration-visa-wordpress-elementor-kit\/wp-content\/uploads\/sites\/7\/2024\/01\/black-military-man-wrapped-in-flag-posing-with-wife-and-little-daughter.jpg",
+                                            "alt": "Black military man wrapped in flag posing with wife and little daughter",
+                                            "source": "library",
+                                            "size": ""
+                                        },
+                                        "width": {
+                                            "unit": "%",
+                                            "size": "100",
+                                            "sizes": []
+                                        },
+                                        "height": {
+                                            "unit": "px",
+                                            "size": "200",
+                                            "sizes": []
+                                        },
+                                        "height_mobile": {
+                                            "unit": "px",
+                                            "size": "300",
+                                            "sizes": []
+                                        },
+                                        "object-fit": "cover",
+                                        "motion_fx_motion_fx_scrolling": "yes",
+                                        "motion_fx_translateY_effect": "yes",
+                                        "motion_fx_translateY_speed": {
+                                            "unit": "px",
+                                            "size": "1",
+                                            "sizes": []
+                                        },
+                                        "motion_fx_scale_effect": "yes",
+                                        "motion_fx_scale_speed": {
+                                            "unit": "px",
+                                            "size": "2",
+                                            "sizes": []
+                                        },
+                                        "motion_fx_devices": [
+                                            "desktop"
+                                        ],
+                                        "_animation": "fadeInUp",
+                                        "_animation_delay": "800"
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "image",
+                                    "elType": "widget"
+                                }
+                            ],
+                            "isInner": "1",
+                            "elType": "container"
+                        }
+                    ],
+                    "isInner": "1",
+                    "elType": "container"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        },
+        {
+            "id": "69d0e198",
+            "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                    "unit": "px",
+                    "size": "0",
+                    "column": "0",
+                    "row": "0",
+                    "isLinked": "1"
+                },
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": ""
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": "1"
+                },
+                "_title": "Team Parallax",
+                "content_width": "full",
+                "flex_direction_tablet": "column",
+                "border_border": "solid",
+                "border_width": {
+                    "unit": "px",
+                    "top": "1",
+                    "right": "0",
+                    "bottom": "1",
+                    "left": "0",
+                    "isLinked": ""
+                },
+                "__globals__": {
+                    "border_color": "globals\/colors?id=d0bbac9"
+                }
+            },
+            "elements": [
+                {
+                    "id": "5a3e104a",
+                    "settings": {
+                        "flex_direction": "column",
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": "100"
+                        },
+                        "flex_gap": {
+                            "column": "20",
+                            "row": "20",
+                            "isLinked": "1",
+                            "unit": "px",
+                            "size": "20"
+                        },
+                        "margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": ""
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": ""
+                        },
+                        "background_background": "classic",
+                        "__globals__": {
+                            "background_color": "globals\/colors?id=445bfed"
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "7126fa13",
+                            "settings": {
+                                "content_width": "full",
+                                "flex_gap": {
+                                    "column": "20",
+                                    "row": "20",
+                                    "isLinked": "1",
+                                    "unit": "px",
+                                    "size": "20"
+                                },
+                                "background_background": "classic",
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "80",
+                                    "right": "80",
+                                    "bottom": "80",
+                                    "left": "80",
+                                    "isLinked": "1"
+                                },
+                                "padding_mobile": {
+                                    "unit": "px",
+                                    "top": "80",
+                                    "right": "20",
+                                    "bottom": "80",
+                                    "left": "20",
+                                    "isLinked": ""
+                                },
+                                "animation": "fadeIn",
+                                "animation_delay": "200"
+                            },
+                            "elements": [
+                                {
+                                    "id": "6e7af675",
+                                    "settings": {
+                                        "image": {
+                                            "id": "344",
+                                            "url": "http:\/\/elementor-kits-02.nicdark.com\/immigration-visa-wordpress-elementor-kit\/wp-content\/uploads\/sites\/7\/2024\/01\/sq-02.jpg",
+                                            "alt": "",
+                                            "source": "library",
+                                            "size": ""
+                                        },
+                                        "width": {
+                                            "unit": "%",
+                                            "size": "100",
+                                            "sizes": []
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "image",
+                                    "elType": "widget"
+                                },
+                                {
+                                    "id": "38d7386a",
+                                    "settings": {
+                                        "title": "Robert Taylor",
+                                        "header_size": "h4",
+                                        "align": "center",
+                                        "__globals__": {
+                                            "title_color": "globals\/colors?id=8235737"
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "heading",
+                                    "elType": "widget"
+                                },
+                                {
+                                    "id": "351c121",
+                                    "settings": {
+                                        "title": "A dedicated and cooperative team member who thrives on collaboration, bringing positivity and enthusiasm to every project. Known for excellent adaptability.",
+                                        "header_size": "p",
+                                        "align": "center",
+                                        "__globals__": {
+                                            "typography_typography": "globals\/typography?id=text",
+                                            "title_color": "globals\/colors?id=8235737"
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "heading",
+                                    "elType": "widget"
+                                },
+                                {
+                                    "id": "3bdbfa0a",
+                                    "settings": {
+                                        "text": "Contact Me",
+                                        "align": "center",
+                                        "hover_animation": "shrink",
+                                        "__globals__": {
+                                            "button_text_color": "globals\/colors?id=ca5120d",
+                                            "background_color": "globals\/colors?id=c656f1c",
+                                            "hover_color": "globals\/colors?id=4f4b866",
+                                            "button_background_hover_color": "globals\/colors?id=ebbf1d8"
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "button",
+                                    "elType": "widget"
+                                }
+                            ],
+                            "isInner": "1",
+                            "elType": "container"
+                        }
+                    ],
+                    "isInner": "1",
+                    "elType": "container"
+                },
+                {
+                    "id": "c88d98f",
+                    "settings": {
+                        "flex_direction": "column",
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": "100"
+                        },
+                        "flex_gap": {
+                            "column": "20",
+                            "row": "20",
+                            "isLinked": "1",
+                            "unit": "px",
+                            "size": "20"
+                        },
+                        "margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": ""
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": ""
+                        },
+                        "min_height_tablet": {
+                            "unit": "px",
+                            "size": "450",
+                            "sizes": []
+                        },
+                        "min_height_mobile": {
+                            "unit": "px",
+                            "size": "350",
+                            "sizes": []
+                        },
+                        "flex_justify_content": "flex-end",
+                        "background_background": "classic",
+                        "background_image": {
+                            "id": "158",
+                            "url": "http:\/\/elementor-kits-02.nicdark.com\/immigration-visa-wordpress-elementor-kit\/wp-content\/uploads\/sites\/7\/2024\/01\/american-queuing-at-a-polling-place.jpg",
+                            "alt": "American queuing at a polling place",
+                            "source": "library",
+                            "size": ""
+                        },
+                        "background_position": "center center",
+                        "background_repeat": "no-repeat",
+                        "background_size": "cover",
+                        "background_overlay_background": "gradient",
+                        "background_overlay_color_stop": {
+                            "unit": "%",
+                            "size": "70",
+                            "sizes": []
+                        },
+                        "background_overlay_opacity": {
+                            "unit": "px",
+                            "size": "0.7",
+                            "sizes": []
+                        },
+                        "__globals__": {
+                            "background_overlay_color": "globals\/colors?id=10a94b3",
+                            "background_overlay_color_b": "globals\/colors?id=b4ec28f"
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "7ceda304",
+                            "settings": {
+                                "title": "One Team, One Dream",
+                                "header_size": "h3",
+                                "align": "center",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "_padding": {
+                                    "unit": "px",
+                                    "top": "40",
+                                    "right": "40",
+                                    "bottom": "40",
+                                    "left": "40",
+                                    "isLinked": "1"
+                                },
+                                "_animation": "fadeInUp",
+                                "_animation_delay": "400",
+                                "__globals__": {
+                                    "title_color": "globals\/colors?id=8235737"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": "1",
+                    "elType": "container"
+                },
+                {
+                    "id": "3d31733e",
+                    "settings": {
+                        "flex_direction": "column",
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": "100"
+                        },
+                        "flex_gap": {
+                            "column": "20",
+                            "row": "20",
+                            "isLinked": "1",
+                            "unit": "px",
+                            "size": "20"
+                        },
+                        "margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": ""
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": ""
+                        },
+                        "background_background": "classic",
+                        "__globals__": {
+                            "background_color": "globals\/colors?id=0ccbf47"
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "324adf7a",
+                            "settings": {
+                                "content_width": "full",
+                                "flex_gap": {
+                                    "column": "20",
+                                    "row": "20",
+                                    "isLinked": "1",
+                                    "unit": "px",
+                                    "size": "20"
+                                },
+                                "background_background": "classic",
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "80",
+                                    "right": "80",
+                                    "bottom": "80",
+                                    "left": "80",
+                                    "isLinked": "1"
+                                },
+                                "padding_mobile": {
+                                    "unit": "px",
+                                    "top": "80",
+                                    "right": "20",
+                                    "bottom": "80",
+                                    "left": "20",
+                                    "isLinked": ""
+                                },
+                                "animation": "fadeIn",
+                                "animation_delay": "600"
+                            },
+                            "elements": [
+                                {
+                                    "id": "6912138b",
+                                    "settings": {
+                                        "image": {
+                                            "id": "342",
+                                            "url": "http:\/\/elementor-kits-02.nicdark.com\/immigration-visa-wordpress-elementor-kit\/wp-content\/uploads\/sites\/7\/2024\/01\/sq-04.jpg",
+                                            "alt": "",
+                                            "source": "library",
+                                            "size": ""
+                                        },
+                                        "width": {
+                                            "unit": "%",
+                                            "size": "100",
+                                            "sizes": []
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "image",
+                                    "elType": "widget"
+                                },
+                                {
+                                    "id": "79c21ec",
+                                    "settings": {
+                                        "title": "Michael Clark",
+                                        "header_size": "h4",
+                                        "align": "center",
+                                        "__globals__": {
+                                            "title_color": ""
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "heading",
+                                    "elType": "widget"
+                                },
+                                {
+                                    "id": "2b638a79",
+                                    "settings": {
+                                        "title": "A dependable and results-driven team member who consistently delivers quality work. This person's strong work ethic and commitment to team goals.",
+                                        "header_size": "p",
+                                        "align": "center",
+                                        "typography_typography": "custom",
+                                        "typography_font_family": "Jost",
+                                        "typography_font_size": {
+                                            "unit": "px",
+                                            "size": "16",
+                                            "sizes": []
+                                        },
+                                        "typography_font_weight": "500",
+                                        "typography_text_transform": "none",
+                                        "typography_font_style": "normal",
+                                        "typography_text_decoration": "none",
+                                        "typography_line_height": {
+                                            "unit": "em",
+                                            "size": "1.5",
+                                            "sizes": []
+                                        },
+                                        "typography_letter_spacing": {
+                                            "unit": "px",
+                                            "size": "0",
+                                            "sizes": []
+                                        },
+                                        "__globals__": {
+                                            "typography_typography": "globals\/typography?id=text",
+                                            "title_color": ""
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "heading",
+                                    "elType": "widget"
+                                },
+                                {
+                                    "id": "611fceb4",
+                                    "settings": {
+                                        "text": "Contact Me",
+                                        "align": "center",
+                                        "hover_animation": "shrink",
+                                        "__globals__": {
+                                            "button_text_color": "",
+                                            "background_color": "",
+                                            "hover_color": "",
+                                            "button_background_hover_color": ""
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "button",
+                                    "elType": "widget"
+                                }
+                            ],
+                            "isInner": "1",
+                            "elType": "container"
+                        }
+                    ],
+                    "isInner": "1",
+                    "elType": "container"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        },
+        {
+            "id": "771279d9",
+            "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                    "unit": "px",
+                    "size": "80",
+                    "column": "80",
+                    "row": "80",
+                    "isLinked": "1"
+                },
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": ""
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "120",
+                    "right": "20",
+                    "bottom": "120",
+                    "left": "20",
+                    "isLinked": ""
+                },
+                "_title": "Services",
+                "background_background": "classic",
+                "__globals__": {
+                    "background_color": "globals\/colors?id=34fcf59",
+                    "background_overlay_color": "globals\/colors?id=34fcf59"
+                },
+                "flex_gap_tablet": {
+                    "column": "40",
+                    "row": "40",
+                    "isLinked": "1",
+                    "unit": "px",
+                    "size": "40"
+                },
+                "background_image": {
+                    "url": "http:\/\/elementor-kits-02.nicdark.com\/immigration-visa-wordpress-elementor-kit\/wp-content\/uploads\/sites\/7\/2024\/01\/bg-02.jpg",
+                    "id": 369,
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                },
+                "background_position": "center center",
+                "background_repeat": "no-repeat",
+                "background_size": "cover",
+                "background_overlay_background": "classic",
+                "background_overlay_opacity": {
+                    "unit": "px",
+                    "size": 0.40000000000000002220446049250313080847263336181640625,
+                    "sizes": []
+                }
+            },
+            "elements": [
+                {
+                    "id": "6094e9ea",
+                    "settings": {
+                        "flex_direction": "column",
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": "50"
+                        },
+                        "flex_gap": {
+                            "column": "40",
+                            "row": "40",
+                            "isLinked": "1",
+                            "unit": "px",
+                            "size": "40"
+                        },
+                        "margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": ""
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": ""
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "34bc9a20",
+                            "settings": {
+                                "content_width": "full",
+                                "flex_gap": {
+                                    "column": "20",
+                                    "row": "20",
+                                    "isLinked": "1",
+                                    "unit": "px",
+                                    "size": "20"
+                                },
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "animation": "fadeIn",
+                                "animation_delay": "200"
+                            },
+                            "elements": [
+                                {
+                                    "id": "37c5d396",
+                                    "settings": {
+                                        "title": "CRAFTING EXPERIENCES THAT CONVERT",
+                                        "header_size": "h5",
+                                        "__globals__": {
+                                            "title_color": "globals\/colors?id=0a51f97",
+                                            "typography_typography": "globals\/typography?id=31919b4"
+                                        },
+                                        "align_mobile": "center"
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "heading",
+                                    "elType": "widget"
+                                },
+                                {
+                                    "id": "6cb0ec10",
+                                    "settings": {
+                                        "title": "Immigration Solutions",
+                                        "align_mobile": "center"
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "heading",
+                                    "elType": "widget"
+                                }
+                            ],
+                            "isInner": "1",
+                            "elType": "container"
+                        },
+                        {
+                            "id": "479f8883",
+                            "settings": {
+                                "content_width": "full",
+                                "flex_gap": {
+                                    "column": "20",
+                                    "row": "20",
+                                    "isLinked": "1",
+                                    "unit": "px",
+                                    "size": "20"
+                                },
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "3853ce71",
+                                    "settings": {
+                                        "image": {
+                                            "id": "177",
+                                            "url": "http:\/\/elementor-kits-02.nicdark.com\/immigration-visa-wordpress-elementor-kit\/wp-content\/uploads\/sites\/7\/2024\/01\/woman-getting-visa-documents-in-office.jpg",
+                                            "alt": "Woman getting visa documents in office",
+                                            "source": "library",
+                                            "size": ""
+                                        },
+                                        "width": {
+                                            "unit": "%",
+                                            "size": "100",
+                                            "sizes": []
+                                        },
+                                        "height": {
+                                            "unit": "px",
+                                            "size": "700",
+                                            "sizes": []
+                                        },
+                                        "height_tablet": {
+                                            "unit": "px",
+                                            "size": "450",
+                                            "sizes": []
+                                        },
+                                        "height_mobile": {
+                                            "unit": "px",
+                                            "size": "350",
+                                            "sizes": []
+                                        },
+                                        "motion_fx_motion_fx_scrolling": "yes",
+                                        "motion_fx_translateY_effect": "yes",
+                                        "motion_fx_translateY_direction": "negative",
+                                        "motion_fx_translateY_speed": {
+                                            "unit": "px",
+                                            "size": "1",
+                                            "sizes": []
+                                        },
+                                        "motion_fx_devices": [
+                                            "desktop"
+                                        ],
+                                        "_animation": "fadeInUp",
+                                        "_animation_delay": "400",
+                                        "object-fit": "cover"
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "image",
+                                    "elType": "widget"
+                                }
+                            ],
+                            "isInner": "1",
+                            "elType": "container"
+                        }
+                    ],
+                    "isInner": "1",
+                    "elType": "container"
+                },
+                {
+                    "id": "6bf1ae53",
+                    "settings": {
+                        "flex_direction": "column",
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": "50"
+                        },
+                        "flex_gap": {
+                            "column": "40",
+                            "row": "40",
+                            "isLinked": "1",
+                            "unit": "px",
+                            "size": "40"
+                        },
+                        "margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": ""
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": ""
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "461508d",
+                            "settings": {
+                                "content_width": "full",
+                                "flex_gap": {
+                                    "column": "20",
+                                    "row": "20",
+                                    "isLinked": "1",
+                                    "unit": "px",
+                                    "size": "20"
+                                },
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "3374566a",
+                                    "settings": {
+                                        "image": {
+                                            "id": "161",
+                                            "url": "http:\/\/elementor-kits-02.nicdark.com\/immigration-visa-wordpress-elementor-kit\/wp-content\/uploads\/sites\/7\/2024\/01\/happy-african-american-couple-sitting-with-american-flag-and-baggage-in-departure-lounge-in-airport.jpg",
+                                            "alt": "happy african american couple sitting with american flag and baggage in departure lounge in airport",
+                                            "source": "library",
+                                            "size": ""
+                                        },
+                                        "width": {
+                                            "unit": "%",
+                                            "size": "100",
+                                            "sizes": []
+                                        },
+                                        "height": {
+                                            "unit": "px",
+                                            "size": "700",
+                                            "sizes": []
+                                        },
+                                        "height_tablet": {
+                                            "unit": "px",
+                                            "size": "320",
+                                            "sizes": []
+                                        },
+                                        "height_mobile": {
+                                            "unit": "px",
+                                            "size": "350",
+                                            "sizes": []
+                                        },
+                                        "motion_fx_motion_fx_scrolling": "yes",
+                                        "motion_fx_translateY_effect": "yes",
+                                        "motion_fx_translateY_speed": {
+                                            "unit": "px",
+                                            "size": "1",
+                                            "sizes": []
+                                        },
+                                        "motion_fx_devices": [
+                                            "desktop"
+                                        ],
+                                        "_animation": "fadeIn",
+                                        "_animation_delay": "600",
+                                        "object-fit": "cover"
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "image",
+                                    "elType": "widget"
+                                }
+                            ],
+                            "isInner": "1",
+                            "elType": "container"
+                        },
+                        {
+                            "id": "601e15cb",
+                            "settings": {
+                                "content_width": "full",
+                                "flex_gap": {
+                                    "column": "20",
+                                    "row": "20",
+                                    "isLinked": "1",
+                                    "unit": "px",
+                                    "size": "20"
+                                },
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "animation": "fadeIn",
+                                "animation_delay": "800"
+                            },
+                            "elements": [
+                                {
+                                    "id": "1d45dfa8",
+                                    "settings": {
+                                        "title": "In a competitive business landscape, reaching and engaging your target audience is vital for success. Cornerstone for businesses seeking to maximize their online presence and drive growth. Maximize their online presence and drive growth.",
+                                        "header_size": "p",
+                                        "__globals__": {
+                                            "title_color": "",
+                                            "typography_typography": "globals\/typography?id=text"
+                                        },
+                                        "align_mobile": "center"
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "heading",
+                                    "elType": "widget"
+                                },
+                                {
+                                    "id": "20723335",
+                                    "settings": {
+                                        "text": "More Info",
+                                        "align_mobile": "center"
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "button",
+                                    "elType": "widget"
+                                }
+                            ],
+                            "isInner": "1",
+                            "elType": "container"
+                        }
+                    ],
+                    "isInner": "1",
+                    "elType": "container"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        },
+        {
+            "id": "246f408",
+            "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                    "unit": "px",
+                    "size": "0",
+                    "column": "0",
+                    "row": "0",
+                    "isLinked": "1"
+                },
+                "content_width": "full",
+                "border_border": "solid",
+                "border_width": {
+                    "unit": "px",
+                    "top": "1",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": ""
+                },
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": ""
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": ""
+                },
+                "_title": "Team 1",
+                "__globals__": {
+                    "border_color": "globals\/colors?id=d0bbac9"
+                },
+                "flex_direction_tablet": "column"
+            },
+            "elements": [
+                {
+                    "id": "e0c839c",
+                    "settings": {
+                        "flex_direction": "row",
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": ""
+                        },
+                        "flex_gap": {
+                            "column": "0",
+                            "row": "0",
+                            "isLinked": "1",
+                            "unit": "px",
+                            "size": "0"
+                        },
+                        "margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": ""
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": ""
+                        },
+                        "flex_align_items": "center"
+                    },
+                    "elements": [
+                        {
+                            "id": "3444ffb9",
+                            "settings": {
+                                "content_width": "full",
+                                "flex_gap": {
+                                    "column": "0",
+                                    "row": "0",
+                                    "isLinked": "1",
+                                    "unit": "px",
+                                    "size": "0"
+                                },
+                                "background_background": "classic",
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "__globals__": {
+                                    "background_color": ""
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "7eacb417",
+                                    "settings": {
+                                        "content_width": "full",
+                                        "flex_gap": {
+                                            "column": "20",
+                                            "row": "20",
+                                            "isLinked": "1",
+                                            "unit": "px",
+                                            "size": "20"
+                                        },
+                                        "margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": ""
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "80",
+                                            "right": "80",
+                                            "bottom": "80",
+                                            "left": "80",
+                                            "isLinked": "1"
+                                        },
+                                        "animation": "fadeIn",
+                                        "animation_delay": "200"
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "869ad5d",
+                                            "settings": {
+                                                "title": "Sarah Davy",
+                                                "header_size": "h1",
+                                                "align": "center"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "4aecc7e9",
+                                            "settings": {
+                                                "title": "Administrative Assistant",
+                                                "header_size": "p",
+                                                "align": "center",
+                                                "__globals__": {
+                                                    "typography_typography": "globals\/typography?id=text"
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "1f413792",
+                                            "settings": {
+                                                "text": "Contact Me",
+                                                "align": "center"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "button",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": "1",
+                                    "elType": "container"
+                                }
+                            ],
+                            "isInner": "1",
+                            "elType": "container"
+                        },
+                        {
+                            "id": "507b9a30",
+                            "settings": {
+                                "content_width": "full",
+                                "flex_gap": {
+                                    "column": "0",
+                                    "row": "0",
+                                    "isLinked": "1",
+                                    "unit": "px",
+                                    "size": "0"
+                                },
+                                "background_background": "classic",
+                                "background_image": {
+                                    "id": "345",
+                                    "url": "http:\/\/elementor-kits-02.nicdark.com\/immigration-visa-wordpress-elementor-kit\/wp-content\/uploads\/sites\/7\/2024\/01\/sq-01.jpg",
+                                    "alt": "",
+                                    "source": "library",
+                                    "size": ""
+                                },
+                                "background_position": "center center",
+                                "background_repeat": "no-repeat",
+                                "background_size": "cover",
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "min_height": {
+                                    "unit": "px",
+                                    "size": "400",
+                                    "sizes": []
+                                },
+                                "min_height_mobile": {
+                                    "unit": "px",
+                                    "size": "350",
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "isInner": "1",
+                            "elType": "container"
+                        }
+                    ],
+                    "isInner": "1",
+                    "elType": "container"
+                },
+                {
+                    "id": "23574df",
+                    "settings": {
+                        "flex_direction": "row",
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": ""
+                        },
+                        "flex_gap": {
+                            "column": "0",
+                            "row": "0",
+                            "isLinked": "1",
+                            "unit": "px",
+                            "size": "0"
+                        },
+                        "margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": ""
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": ""
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "4d063034",
+                            "settings": {
+                                "content_width": "full",
+                                "flex_gap": {
+                                    "column": "0",
+                                    "row": "0",
+                                    "isLinked": "1",
+                                    "unit": "px",
+                                    "size": "0"
+                                },
+                                "background_background": "classic",
+                                "background_image": {
+                                    "id": "175",
+                                    "url": "http:\/\/elementor-kits-02.nicdark.com\/immigration-visa-wordpress-elementor-kit\/wp-content\/uploads\/sites\/7\/2024\/01\/multicultural-students-with-american-flag-in-summer-park.jpg",
+                                    "alt": "multicultural students with american flag in summer park",
+                                    "source": "library",
+                                    "size": ""
+                                },
+                                "background_position": "center center",
+                                "background_repeat": "no-repeat",
+                                "background_size": "cover",
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "min_height": {
+                                    "unit": "px",
+                                    "size": "400",
+                                    "sizes": []
+                                },
+                                "min_height_mobile": {
+                                    "unit": "px",
+                                    "size": "350",
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "isInner": "1",
+                            "elType": "container"
+                        },
+                        {
+                            "id": "3e470940",
+                            "settings": {
+                                "content_width": "full",
+                                "flex_gap": {
+                                    "column": "0",
+                                    "row": "0",
+                                    "isLinked": "1",
+                                    "unit": "px",
+                                    "size": "0"
+                                },
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "flex_justify_content": "center",
+                                "background_background": "classic",
+                                "background_image": {
+                                    "id": "169",
+                                    "url": "http:\/\/elementor-kits-02.nicdark.com\/immigration-visa-wordpress-elementor-kit\/wp-content\/uploads\/sites\/7\/2024\/01\/passport-and-visa-on-an-american-flag.jpg",
+                                    "alt": "Passport and visa on an American flag",
+                                    "source": "library",
+                                    "size": ""
+                                },
+                                "background_position": "center center",
+                                "background_repeat": "no-repeat",
+                                "background_size": "cover",
+                                "background_overlay_background": "gradient",
+                                "background_overlay_color_stop": {
+                                    "unit": "%",
+                                    "size": "60",
+                                    "sizes": []
+                                },
+                                "background_overlay_opacity": {
+                                    "unit": "px",
+                                    "size": "0.7",
+                                    "sizes": []
+                                },
+                                "__globals__": {
+                                    "background_overlay_color": "globals\/colors?id=10a94b3",
+                                    "background_overlay_color_b": "globals\/colors?id=958ddac"
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "1393e9f4",
+                                    "settings": {
+                                        "content_width": "full",
+                                        "flex_gap": {
+                                            "column": "20",
+                                            "row": "20",
+                                            "isLinked": "1",
+                                            "unit": "px",
+                                            "size": "20"
+                                        },
+                                        "margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": ""
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "40",
+                                            "right": "40",
+                                            "bottom": "40",
+                                            "left": "40",
+                                            "isLinked": "1"
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "1ce0ce3c",
+                                            "settings": {
+                                                "content_width": "full",
+                                                "flex_gap": {
+                                                    "column": "10",
+                                                    "row": "10",
+                                                    "isLinked": "1",
+                                                    "unit": "px",
+                                                    "size": "10"
+                                                },
+                                                "background_background": "classic",
+                                                "margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": ""
+                                                },
+                                                "padding": {
+                                                    "unit": "px",
+                                                    "top": "80",
+                                                    "right": "80",
+                                                    "bottom": "80",
+                                                    "left": "80",
+                                                    "isLinked": "1"
+                                                },
+                                                "animation": "fadeIn",
+                                                "animation_delay": "400",
+                                                "__globals__": {
+                                                    "background_color": "globals\/colors?id=0ccbf47"
+                                                }
+                                            },
+                                            "elements": [
+                                                {
+                                                    "id": "79d460",
+                                                    "settings": {
+                                                        "title": "Visa",
+                                                        "header_size": "h4",
+                                                        "align": "center"
+                                                    },
+                                                    "elements": [],
+                                                    "isInner": false,
+                                                    "widgetType": "heading",
+                                                    "elType": "widget"
+                                                },
+                                                {
+                                                    "id": "68472d52",
+                                                    "settings": {
+                                                        "title": "Unity in diversity",
+                                                        "header_size": "p",
+                                                        "align": "center",
+                                                        "__globals__": {
+                                                            "typography_typography": "globals\/typography?id=text"
+                                                        }
+                                                    },
+                                                    "elements": [],
+                                                    "isInner": false,
+                                                    "widgetType": "heading",
+                                                    "elType": "widget"
+                                                }
+                                            ],
+                                            "isInner": "1",
+                                            "elType": "container"
+                                        }
+                                    ],
+                                    "isInner": "1",
+                                    "elType": "container"
+                                }
+                            ],
+                            "isInner": "1",
+                            "elType": "container"
+                        }
+                    ],
+                    "isInner": "1",
+                    "elType": "container"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        },
+        {
+            "id": "2136019a",
+            "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                    "unit": "px",
+                    "size": "0",
+                    "column": "0",
+                    "row": "0",
+                    "isLinked": "1"
+                },
+                "content_width": "full",
+                "border_border": "solid",
+                "border_width": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "1",
+                    "left": "0",
+                    "isLinked": ""
+                },
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": ""
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": ""
+                },
+                "_title": "Team 2",
+                "__globals__": {
+                    "border_color": "globals\/colors?id=d0bbac9"
+                },
+                "flex_direction_tablet": "column"
+            },
+            "elements": [
+                {
+                    "id": "5a207fb0",
+                    "settings": {
+                        "flex_direction": "row",
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": ""
+                        },
+                        "flex_gap": {
+                            "column": "0",
+                            "row": "0",
+                            "isLinked": "1",
+                            "unit": "px",
+                            "size": "0"
+                        },
+                        "margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": ""
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": ""
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "2463a54b",
+                            "settings": {
+                                "content_width": "full",
+                                "flex_gap": {
+                                    "column": "0",
+                                    "row": "0",
+                                    "isLinked": "1",
+                                    "unit": "px",
+                                    "size": "0"
+                                },
+                                "background_background": "classic",
+                                "background_image": {
+                                    "id": "162",
+                                    "url": "http:\/\/elementor-kits-02.nicdark.com\/immigration-visa-wordpress-elementor-kit\/wp-content\/uploads\/sites\/7\/2024\/01\/smiling-young-multiethnic-friends-standing-with-flag-of-usa.jpg",
+                                    "alt": "smiling young multiethnic friends standing with flag of USA",
+                                    "source": "library",
+                                    "size": ""
+                                },
+                                "background_position": "center center",
+                                "background_repeat": "no-repeat",
+                                "background_size": "cover",
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "min_height": {
+                                    "unit": "px",
+                                    "size": "400",
+                                    "sizes": []
+                                },
+                                "min_height_mobile": {
+                                    "unit": "px",
+                                    "size": "350",
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "isInner": "1",
+                            "elType": "container"
+                        },
+                        {
+                            "id": "4b7a454d",
+                            "settings": {
+                                "content_width": "full",
+                                "flex_gap": {
+                                    "column": "0",
+                                    "row": "0",
+                                    "isLinked": "1",
+                                    "unit": "px",
+                                    "size": "0"
+                                },
+                                "background_background": "classic",
+                                "background_image": {
+                                    "id": "156",
+                                    "url": "http:\/\/elementor-kits-02.nicdark.com\/immigration-visa-wordpress-elementor-kit\/wp-content\/uploads\/sites\/7\/2024\/01\/contemporary-young-delegate-or-political-leader-in-turban.jpg",
+                                    "alt": "Contemporary young delegate or political leader in turban",
+                                    "source": "library",
+                                    "size": ""
+                                },
+                                "background_position": "center center",
+                                "background_repeat": "no-repeat",
+                                "background_size": "cover",
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "min_height": {
+                                    "unit": "px",
+                                    "size": "400",
+                                    "sizes": []
+                                },
+                                "min_height_mobile": {
+                                    "unit": "px",
+                                    "size": "350",
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "isInner": "1",
+                            "elType": "container"
+                        }
+                    ],
+                    "isInner": "1",
+                    "elType": "container"
+                },
+                {
+                    "id": "78fd7dbc",
+                    "settings": {
+                        "flex_direction": "row",
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": ""
+                        },
+                        "flex_gap": {
+                            "column": "0",
+                            "row": "0",
+                            "isLinked": "1",
+                            "unit": "px",
+                            "size": "0"
+                        },
+                        "margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": ""
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": ""
+                        },
+                        "flex_align_items": "center"
+                    },
+                    "elements": [
+                        {
+                            "id": "6af88c16",
+                            "settings": {
+                                "content_width": "full",
+                                "flex_gap": {
+                                    "column": "0",
+                                    "row": "0",
+                                    "isLinked": "1",
+                                    "unit": "px",
+                                    "size": "0"
+                                },
+                                "background_background": "classic",
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "__globals__": {
+                                    "background_color": ""
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "6e982049",
+                                    "settings": {
+                                        "content_width": "full",
+                                        "flex_gap": {
+                                            "column": "20",
+                                            "row": "20",
+                                            "isLinked": "1",
+                                            "unit": "px",
+                                            "size": "20"
+                                        },
+                                        "margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": ""
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "80",
+                                            "right": "80",
+                                            "bottom": "80",
+                                            "left": "80",
+                                            "isLinked": "1"
+                                        },
+                                        "animation": "fadeIn",
+                                        "animation_delay": "200"
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "79520a2b",
+                                            "settings": {
+                                                "title": "Emily Smit",
+                                                "header_size": "h1",
+                                                "align": "center"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "4d551a6a",
+                                            "settings": {
+                                                "title": "General Manager",
+                                                "header_size": "p",
+                                                "align": "center",
+                                                "__globals__": {
+                                                    "typography_typography": "globals\/typography?id=text"
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "54a565d6",
+                                            "settings": {
+                                                "text": "Contact Me",
+                                                "align": "center"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "button",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": "1",
+                                    "elType": "container"
+                                }
+                            ],
+                            "isInner": "1",
+                            "elType": "container"
+                        },
+                        {
+                            "id": "7c41f3d1",
+                            "settings": {
+                                "content_width": "full",
+                                "flex_gap": {
+                                    "column": "0",
+                                    "row": "0",
+                                    "isLinked": "1",
+                                    "unit": "px",
+                                    "size": "0"
+                                },
+                                "background_background": "classic",
+                                "background_image": {
+                                    "id": "343",
+                                    "url": "http:\/\/elementor-kits-02.nicdark.com\/immigration-visa-wordpress-elementor-kit\/wp-content\/uploads\/sites\/7\/2024\/01\/sq-03.jpg",
+                                    "alt": "",
+                                    "source": "library",
+                                    "size": ""
+                                },
+                                "background_position": "center center",
+                                "background_repeat": "no-repeat",
+                                "background_size": "cover",
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "min_height": {
+                                    "unit": "px",
+                                    "size": "400",
+                                    "sizes": []
+                                },
+                                "min_height_mobile": {
+                                    "unit": "px",
+                                    "size": "350",
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "isInner": "1",
+                            "elType": "container"
+                        }
+                    ],
+                    "isInner": "1",
+                    "elType": "container"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        },
+        {
+            "id": "38d667c2",
+            "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                    "unit": "px",
+                    "size": "80",
+                    "column": "80",
+                    "row": "80",
+                    "isLinked": "1"
+                },
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": ""
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "120",
+                    "right": "20",
+                    "bottom": "120",
+                    "left": "20",
+                    "isLinked": ""
+                },
+                "_title": "Form",
+                "flex_align_items": "center",
+                "overflow": "hidden",
+                "background_background": "classic",
+                "__globals__": {
+                    "background_color": "globals\/colors?id=34fcf59"
+                },
+                "background_image": {
+                    "url": "http:\/\/elementor-kits-02.nicdark.com\/immigration-visa-wordpress-elementor-kit\/wp-content\/uploads\/sites\/7\/2024\/01\/bg-03.jpg",
+                    "id": 363,
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                },
+                "background_position": "center center",
+                "background_repeat": "no-repeat",
+                "background_size": "cover"
+            },
+            "elements": [
+                {
+                    "id": "9973213",
+                    "settings": {
+                        "flex_direction": "column",
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": "100"
+                        },
+                        "flex_gap": {
+                            "column": "60",
+                            "row": "60",
+                            "isLinked": "1",
+                            "unit": "px",
+                            "size": "60"
+                        },
+                        "margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": ""
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": ""
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "2e240b32",
+                            "settings": {
+                                "content_width": "full",
+                                "flex_gap": {
+                                    "column": "20",
+                                    "row": "20",
+                                    "isLinked": "1",
+                                    "unit": "px",
+                                    "size": "20"
+                                },
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "d06bb5d",
+                                    "settings": {
+                                        "title": "Bridging Connections",
+                                        "header_size": "h5",
+                                        "__globals__": {
+                                            "title_color": "globals\/colors?id=0a51f97",
+                                            "typography_typography": "globals\/typography?id=31919b4"
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "heading",
+                                    "elType": "widget"
+                                },
+                                {
+                                    "id": "56c31d10",
+                                    "settings": {
+                                        "title": "Your Trusted Immigration Partner\n"
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "heading",
+                                    "elType": "widget"
+                                }
+                            ],
+                            "isInner": "1",
+                            "elType": "container"
+                        },
+                        {
+                            "id": "7b44a0c0",
+                            "settings": {
+                                "content_width": "full",
+                                "flex_direction": "column",
+                                "flex_gap": {
+                                    "column": "40",
+                                    "row": "40",
+                                    "isLinked": "1",
+                                    "unit": "px",
+                                    "size": "40"
+                                },
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "700a8cc1",
+                                    "settings": {
+                                        "content_width": "full",
+                                        "flex_direction": "row",
+                                        "flex_gap": {
+                                            "column": "20",
+                                            "row": "20",
+                                            "isLinked": "1",
+                                            "unit": "px",
+                                            "size": "20"
+                                        },
+                                        "margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": ""
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": ""
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "34ce78dd",
+                                            "settings": {
+                                                "content_width": "full",
+                                                "flex_gap": {
+                                                    "column": "20",
+                                                    "row": "20",
+                                                    "isLinked": "1",
+                                                    "unit": "px",
+                                                    "size": "20"
+                                                },
+                                                "margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": ""
+                                                },
+                                                "padding": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": ""
+                                                }
+                                            },
+                                            "elements": [
+                                                {
+                                                    "id": "132879cd",
+                                                    "settings": {
+                                                        "title": "Customer Support",
+                                                        "header_size": "h4"
+                                                    },
+                                                    "elements": [],
+                                                    "isInner": false,
+                                                    "widgetType": "heading",
+                                                    "elType": "widget"
+                                                },
+                                                {
+                                                    "id": "49b09789",
+                                                    "settings": {
+                                                        "icon_list": [
+                                                            {
+                                                                "text": "Consultancy +1 473 483 384",
+                                                                "selected_icon": {
+                                                                    "value": "",
+                                                                    "library": ""
+                                                                },
+                                                                "_id": "70826de"
+                                                            },
+                                                            {
+                                                                "text": "Planning +1 395 393 595",
+                                                                "selected_icon": {
+                                                                    "value": "",
+                                                                    "library": ""
+                                                                },
+                                                                "_id": "19efe9b"
+                                                            }
+                                                        ],
+                                                        "space_between": {
+                                                            "unit": "px",
+                                                            "size": "5",
+                                                            "sizes": []
+                                                        },
+                                                        "__globals__": {
+                                                            "icon_typography_typography": "globals\/typography?id=text"
+                                                        }
+                                                    },
+                                                    "elements": [],
+                                                    "isInner": false,
+                                                    "widgetType": "icon-list",
+                                                    "elType": "widget"
+                                                }
+                                            ],
+                                            "isInner": "1",
+                                            "elType": "container"
+                                        },
+                                        {
+                                            "id": "7310cd89",
+                                            "settings": {
+                                                "content_width": "full",
+                                                "flex_gap": {
+                                                    "column": "20",
+                                                    "row": "20",
+                                                    "isLinked": "1",
+                                                    "unit": "px",
+                                                    "size": "20"
+                                                },
+                                                "margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": ""
+                                                },
+                                                "padding": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": ""
+                                                }
+                                            },
+                                            "elements": [
+                                                {
+                                                    "id": "76182433",
+                                                    "settings": {
+                                                        "title": "Headquarter",
+                                                        "header_size": "h4"
+                                                    },
+                                                    "elements": [],
+                                                    "isInner": false,
+                                                    "widgetType": "heading",
+                                                    "elType": "widget"
+                                                },
+                                                {
+                                                    "id": "3b8f16aa",
+                                                    "settings": {
+                                                        "icon_list": [
+                                                            {
+                                                                "text": "1080 Brickell Ave - Miami",
+                                                                "selected_icon": {
+                                                                    "value": "",
+                                                                    "library": ""
+                                                                },
+                                                                "_id": "70826de"
+                                                            },
+                                                            {
+                                                                "text": "United States of America",
+                                                                "selected_icon": {
+                                                                    "value": "",
+                                                                    "library": ""
+                                                                },
+                                                                "_id": "19efe9b"
+                                                            }
+                                                        ],
+                                                        "space_between": {
+                                                            "unit": "px",
+                                                            "size": "5",
+                                                            "sizes": []
+                                                        },
+                                                        "__globals__": {
+                                                            "icon_typography_typography": "globals\/typography?id=text"
+                                                        }
+                                                    },
+                                                    "elements": [],
+                                                    "isInner": false,
+                                                    "widgetType": "icon-list",
+                                                    "elType": "widget"
+                                                }
+                                            ],
+                                            "isInner": "1",
+                                            "elType": "container"
+                                        }
+                                    ],
+                                    "isInner": "1",
+                                    "elType": "container"
+                                },
+                                {
+                                    "id": "5a0679d0",
+                                    "settings": {
+                                        "content_width": "full",
+                                        "flex_direction": "row",
+                                        "flex_gap": {
+                                            "column": "20",
+                                            "row": "20",
+                                            "isLinked": "1",
+                                            "unit": "px",
+                                            "size": "20"
+                                        },
+                                        "margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": ""
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": ""
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "4419f1f",
+                                            "settings": {
+                                                "content_width": "full",
+                                                "flex_gap": {
+                                                    "column": "20",
+                                                    "row": "20",
+                                                    "isLinked": "1",
+                                                    "unit": "px",
+                                                    "size": "20"
+                                                },
+                                                "margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": ""
+                                                },
+                                                "padding": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": ""
+                                                }
+                                            },
+                                            "elements": [
+                                                {
+                                                    "id": "1c7fa58b",
+                                                    "settings": {
+                                                        "title": "General Inquiries",
+                                                        "header_size": "h4"
+                                                    },
+                                                    "elements": [],
+                                                    "isInner": false,
+                                                    "widgetType": "heading",
+                                                    "elType": "widget"
+                                                },
+                                                {
+                                                    "id": "1116877b",
+                                                    "settings": {
+                                                        "title": "We value your feedback and are eager to provide any information",
+                                                        "header_size": "p",
+                                                        "__globals__": {
+                                                            "typography_typography": "globals\/typography?id=text"
+                                                        }
+                                                    },
+                                                    "elements": [],
+                                                    "isInner": false,
+                                                    "widgetType": "heading",
+                                                    "elType": "widget"
+                                                }
+                                            ],
+                                            "isInner": "1",
+                                            "elType": "container"
+                                        },
+                                        {
+                                            "id": "62ef6a6f",
+                                            "settings": {
+                                                "content_width": "full",
+                                                "flex_gap": {
+                                                    "column": "20",
+                                                    "row": "20",
+                                                    "isLinked": "1",
+                                                    "unit": "px",
+                                                    "size": "20"
+                                                },
+                                                "margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": ""
+                                                },
+                                                "padding": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": ""
+                                                }
+                                            },
+                                            "elements": [
+                                                {
+                                                    "id": "2184adf5",
+                                                    "settings": {
+                                                        "title": "Collaboration\n\n",
+                                                        "header_size": "h4"
+                                                    },
+                                                    "elements": [],
+                                                    "isInner": false,
+                                                    "widgetType": "heading",
+                                                    "elType": "widget"
+                                                },
+                                                {
+                                                    "id": "231587ac",
+                                                    "settings": {
+                                                        "title": "We welcome collaboration proposals and partnership inquiries",
+                                                        "header_size": "p",
+                                                        "__globals__": {
+                                                            "typography_typography": "globals\/typography?id=text"
+                                                        }
+                                                    },
+                                                    "elements": [],
+                                                    "isInner": false,
+                                                    "widgetType": "heading",
+                                                    "elType": "widget"
+                                                }
+                                            ],
+                                            "isInner": "1",
+                                            "elType": "container"
+                                        }
+                                    ],
+                                    "isInner": "1",
+                                    "elType": "container"
+                                }
+                            ],
+                            "isInner": "1",
+                            "elType": "container"
+                        },
+                        {
+                            "id": "2149355c",
+                            "settings": {
+                                "content_width": "full",
+                                "flex_gap": {
+                                    "column": "20",
+                                    "row": "20",
+                                    "isLinked": "1",
+                                    "unit": "px",
+                                    "size": "20"
+                                },
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "42a717f",
+                                    "settings": {
+                                        "title": "since 1850",
+                                        "text_stroke_text_stroke": {
+                                            "unit": "px",
+                                            "size": "1",
+                                            "sizes": []
+                                        },
+                                        "__globals__": {
+                                            "title_color": "globals\/colors?id=primary",
+                                            "typography_typography": "globals\/typography?id=927ae6c",
+                                            "text_stroke_stroke_color": "globals\/colors?id=a0fe96f"
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "heading",
+                                    "elType": "widget"
+                                }
+                            ],
+                            "isInner": "1",
+                            "elType": "container"
+                        }
+                    ],
+                    "isInner": "1",
+                    "elType": "container"
+                },
+                {
+                    "id": "124eaccd",
+                    "settings": {
+                        "flex_direction": "column",
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": "100"
+                        },
+                        "flex_gap": {
+                            "column": "20",
+                            "row": "20",
+                            "isLinked": "1",
+                            "unit": "px",
+                            "size": "20"
+                        },
+                        "margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": ""
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": ""
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "7fe8ff98",
+                            "settings": {
+                                "content_width": "full",
+                                "flex_gap": {
+                                    "column": "20",
+                                    "row": "20",
+                                    "isLinked": "1",
+                                    "unit": "px",
+                                    "size": "20"
+                                },
+                                "background_background": "classic",
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "80",
+                                    "right": "80",
+                                    "bottom": "80",
+                                    "left": "80",
+                                    "isLinked": "1"
+                                },
+                                "__globals__": {
+                                    "background_color": "globals\/colors?id=a0fe96f"
+                                },
+                                "background_overlay_background": "classic",
+                                "background_overlay_image": {
+                                    "url": "http:\/\/elementor-kits-02.nicdark.com\/immigration-visa-wordpress-elementor-kit\/wp-content\/uploads\/sites\/7\/2024\/01\/thinking-of-america.jpg",
+                                    "id": 270,
+                                    "size": "",
+                                    "alt": "Thinking of America",
+                                    "source": "library"
+                                },
+                                "background_overlay_position": "center right",
+                                "background_overlay_repeat": "no-repeat",
+                                "background_overlay_size": "cover",
+                                "background_overlay_opacity": {
+                                    "unit": "px",
+                                    "size": 0.299999999999999988897769753748434595763683319091796875,
+                                    "sizes": []
+                                },
+                                "overlay_blend_mode": "multiply"
+                            },
+                            "elements": [
+                                {
+                                    "id": "3b217cf2",
+                                    "settings": {
+                                        "title": "Write Us a Line",
+                                        "__globals__": {
+                                            "title_color": "globals\/colors?id=d7d2315"
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "heading",
+                                    "elType": "widget"
+                                },
+                                {
+                                    "id": "51db1666",
+                                    "settings": {
+                                        "title": "We are committed to providing high-quality construction solutions for our clients, and we would love the opportunity to discuss your project with you.",
+                                        "header_size": "p",
+                                        "__globals__": {
+                                            "title_color": "globals\/colors?id=7a61029",
+                                            "typography_typography": "globals\/typography?id=text"
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "heading",
+                                    "elType": "widget"
+                                },
+                                {
+                                    "id": "18868506",
+                                    "settings": {
+                                        "form_name": "New Form",
+                                        "form_fields": [
+                                            {
+                                                "custom_id": "name",
+                                                "field_label": "Name",
+                                                "placeholder": "Name",
+                                                "dynamic": {
+                                                    "active": "1"
+                                                },
+                                                "_id": "1804abb",
+                                                "previous_button": "",
+                                                "next_button": "",
+                                                "file_sizes": "",
+                                                "file_types": "",
+                                                "allow_multiple_upload": "",
+                                                "max_files": "",
+                                                "acceptance_text": "",
+                                                "checked_by_default": "",
+                                                "field_min": "",
+                                                "field_max": "",
+                                                "min_date": "",
+                                                "max_date": "",
+                                                "use_native_date": "",
+                                                "use_native_time": ""
+                                            },
+                                            {
+                                                "custom_id": "email",
+                                                "field_type": "email",
+                                                "required": "true",
+                                                "field_label": "Email",
+                                                "placeholder": "Email",
+                                                "_id": "86f29c1",
+                                                "previous_button": "",
+                                                "next_button": "",
+                                                "file_sizes": "",
+                                                "file_types": "",
+                                                "allow_multiple_upload": "",
+                                                "max_files": "",
+                                                "acceptance_text": "",
+                                                "checked_by_default": "",
+                                                "field_min": "",
+                                                "field_max": "",
+                                                "min_date": "",
+                                                "max_date": "",
+                                                "use_native_date": "",
+                                                "use_native_time": ""
+                                            },
+                                            {
+                                                "custom_id": "message",
+                                                "field_type": "textarea",
+                                                "field_label": "Message",
+                                                "placeholder": "Message",
+                                                "_id": "1b6f0d0",
+                                                "previous_button": "",
+                                                "next_button": "",
+                                                "file_sizes": "",
+                                                "file_types": "",
+                                                "allow_multiple_upload": "",
+                                                "max_files": "",
+                                                "acceptance_text": "",
+                                                "checked_by_default": "",
+                                                "field_min": "",
+                                                "field_max": "",
+                                                "min_date": "",
+                                                "max_date": "",
+                                                "use_native_date": "",
+                                                "use_native_time": ""
+                                            }
+                                        ],
+                                        "show_labels": "",
+                                        "step_next_label": "Next",
+                                        "step_previous_label": "Previous",
+                                        "button_text": "Send",
+                                        "email_content": "[all-fields]",
+                                        "email_content_2": "[all-fields]",
+                                        "success_message": "Your submission was successful.",
+                                        "error_message": "Your submission failed because of an error.",
+                                        "server_message": "Your submission failed because of a server error.",
+                                        "invalid_message": "Your submission failed because the form is invalid.",
+                                        "required_field_message": "This field is required.",
+                                        "column_gap": {
+                                            "unit": "px",
+                                            "size": "30",
+                                            "sizes": []
+                                        },
+                                        "row_gap": {
+                                            "unit": "px",
+                                            "size": "30",
+                                            "sizes": []
+                                        },
+                                        "_margin": {
+                                            "unit": "px",
+                                            "top": "20",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": ""
+                                        },
+                                        "_padding": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": ""
+                                        },
+                                        "field_border_width": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "1",
+                                            "left": "0",
+                                            "isLinked": ""
+                                        },
+                                        "__globals__": {
+                                            "field_text_color": "globals\/colors?id=8235737",
+                                            "field_background_color": "globals\/colors?id=10a94b3"
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "form",
+                                    "elType": "widget"
+                                }
+                            ],
+                            "isInner": "1",
+                            "elType": "container"
+                        }
+                    ],
+                    "isInner": "1",
+                    "elType": "container"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        }
+    ],
+    "page_settings": {
+        "hide_title": "yes"
+    }
+}

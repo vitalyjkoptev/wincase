@@ -1,0 +1,19 @@
+/** === Base Typography === */
+body {
+  font-size: 18px;
+  font-family: "Open Sans";
+  line-height: 1.6;
+  color: #111;
+}
+
+.block-editor-block-list__layout .block-editor-default-block-appender > .block-editor-default-block-appender__content, .block-editor-block-list__layout > .block-editor-block-list__block > .block-editor-block-list__block-edit, .block-editor-block-list__layout > .block-editor-block-list__layout > .block-editor-block-list__block > .block-editor-block-list__block-edit {
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+}
+
+.editor-post-title__block .editor-post-title__input {
+  font-family: "Open Sans", sans-serif;
+  font-size: 36px;
+  line-height: 1.25;
+  font-weight: 600;
+}

@@ -1,0 +1,107 @@
+{
+    "name": "W02: Lead Auto-Response",
+    "nodes": [
+        {
+            "parameters": {
+                "path": "leads\/auto-response",
+                "httpMethod": "POST",
+                "responseMode": "responseNode"
+            },
+            "name": "Webhook",
+            "type": "n8n-nodes-base.webhook",
+            "typeVersion": 2,
+            "position": [
+                250,
+                300
+            ]
+        },
+        {
+            "parameters": {
+                "method": "GET",
+                "url": "https:\/\/crm.wincase.eu\/api\/v1\/leads\/{{$json.lead_id}}",
+                "options": [],
+                "sendHeaders": true,
+                "headerParameters": {
+                    "parameters": [
+                        {
+                            "name": "Accept",
+                            "value": "application\/json"
+                        }
+                    ]
+                }
+            },
+            "name": "Get Lead",
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 4.2,
+            "position": [
+                500,
+                300
+            ]
+        },
+        {
+            "parameters": {
+                "method": "POST",
+                "url": "https:\/\/crm.wincase.eu\/api\/v1\/notifications\/send",
+                "options": [],
+                "sendHeaders": true,
+                "headerParameters": {
+                    "parameters": [
+                        {
+                            "name": "Accept",
+                            "value": "application\/json"
+                        }
+                    ]
+                },
+                "sendBody": true,
+                "bodyParameters": {
+                    "parameters": [
+                        {
+                            "name": "type",
+                            "value": "lead_welcome"
+                        },
+                        {
+                            "name": "lead_id",
+                            "value": "={{\\$json.data.id}}"
+                        }
+                    ]
+                }
+            },
+            "name": "Send Response",
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 4.2,
+            "position": [
+                750,
+                300
+            ]
+        }
+    ],
+    "connections": {
+        "Webhook": {
+            "main": [
+                [
+                    {
+                        "node": "Get Lead",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Get Lead": {
+            "main": [
+                [
+                    {
+                        "node": "Send Response",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        }
+    },
+    "active": false,
+    "settings": {
+        "executionOrder": "v1"
+    },
+    "tags": []
+}

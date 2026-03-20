@@ -1,0 +1,99 @@
+{
+    "name": "W35: Daily News Digest (20:00)",
+    "nodes": [
+        {
+            "parameters": {
+                "rule": {
+                    "interval": [
+                        {
+                            "field": "cronExpression",
+                            "expression": "0 20 * * *"
+                        }
+                    ]
+                }
+            },
+            "name": "Schedule Trigger",
+            "type": "n8n-nodes-base.scheduleTrigger",
+            "typeVersion": 1.2,
+            "position": [
+                250,
+                300
+            ]
+        },
+        {
+            "parameters": {
+                "method": "GET",
+                "url": "https:\/\/crm.wincase.eu\/api\/v1\/news\/statistics",
+                "options": [],
+                "sendHeaders": true,
+                "headerParameters": {
+                    "parameters": [
+                        {
+                            "name": "Accept",
+                            "value": "application\/json"
+                        }
+                    ]
+                }
+            },
+            "name": "Get Stats",
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 4.2,
+            "position": [
+                500,
+                300
+            ]
+        },
+        {
+            "parameters": {
+                "operation": "sendMessage",
+                "chatId": "7627104580",
+                "text": "📰 <b>Daily News Digest<\/b>\n\n📥 Parsed: {{$json.data.today_parsed}}\n📤 Published: {{$json.data.today_published}}\n📊 Total: {{$json.data.total_articles}}",
+                "additionalFields": {
+                    "parse_mode": "HTML"
+                }
+            },
+            "name": "Digest",
+            "type": "n8n-nodes-base.telegram",
+            "typeVersion": 1.2,
+            "position": [
+                750,
+                300
+            ],
+            "credentials": {
+                "telegramApi": {
+                    "name": "WinCase Bot",
+                    "id": "telegram_cred"
+                }
+            }
+        }
+    ],
+    "connections": {
+        "Schedule Trigger": {
+            "main": [
+                [
+                    {
+                        "node": "Get Stats",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Get Stats": {
+            "main": [
+                [
+                    {
+                        "node": "Digest",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        }
+    },
+    "active": false,
+    "settings": {
+        "executionOrder": "v1"
+    },
+    "tags": []
+}

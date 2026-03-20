@@ -1,0 +1,2303 @@
+{
+    "manifest_version": "1.0.23",
+    "title": "Consultvisa",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/template-kit.evonicmedia.com\/layout98",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.jpg",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/template-kit\/home\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.jpg",
+            "source": "templates\/contact.json",
+            "preview_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/template-kit\/contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About",
+            "screenshot": "screenshots\/about.jpg",
+            "source": "templates\/about.json",
+            "preview_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/template-kit\/about\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Visa Page",
+            "screenshot": "screenshots\/visa-page.jpg",
+            "source": "templates\/visa-page.json",
+            "preview_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/template-kit\/visa-page\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Visa Detail Page",
+            "screenshot": "screenshots\/visa-detail-page.jpg",
+            "source": "templates\/visa-detail-page.json",
+            "preview_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/template-kit\/visa-detail-page\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Booking",
+            "screenshot": "screenshots\/booking.jpg",
+            "source": "templates\/booking.json",
+            "preview_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/template-kit\/booking\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Countries",
+            "screenshot": "screenshots\/countries.jpg",
+            "source": "templates\/countries.json",
+            "preview_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/template-kit\/countries\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "IELTS",
+            "screenshot": "screenshots\/ielts.jpg",
+            "source": "templates\/ielts.json",
+            "preview_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/template-kit\/ielts\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Pricing",
+            "screenshot": "screenshots\/pricing.jpg",
+            "source": "templates\/pricing.json",
+            "preview_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/template-kit\/pricing\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Coaching",
+            "screenshot": "screenshots\/coaching.jpg",
+            "source": "templates\/coaching.json",
+            "preview_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/template-kit\/coaching\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Team",
+            "screenshot": "screenshots\/team.jpg",
+            "source": "templates\/team.json",
+            "preview_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/template-kit\/team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blog",
+            "screenshot": "screenshots\/blog.jpg",
+            "source": "templates\/blog.json",
+            "preview_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/template-kit\/blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blogs Detail",
+            "screenshot": "screenshots\/blogs-detail.jpg",
+            "source": "templates\/blogs-detail.json",
+            "preview_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/template-kit\/blogs-detail\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "FAQs",
+            "screenshot": "screenshots\/faqs.jpg",
+            "source": "templates\/faqs.json",
+            "preview_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/template-kit\/faqs\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Coming Soon",
+            "screenshot": "screenshots\/coming-soon.jpg",
+            "source": "templates\/coming-soon.json",
+            "preview_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/template-kit\/coming-soon\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "404",
+            "screenshot": "screenshots\/404.jpg",
+            "source": "templates\/404.json",
+            "preview_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/template-kit\/404\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/template-kit\/header\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/template-kit\/footer\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Newsletter",
+            "screenshot": "screenshots\/newsletter.jpg",
+            "source": "templates\/newsletter.json",
+            "preview_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/template-kit\/newsletter\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-cta",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact Form",
+            "screenshot": "screenshots\/contact-form.jpg",
+            "source": "templates\/contact-form.json",
+            "preview_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/template-kit\/contact-form\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-cta",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Booking Form",
+            "screenshot": "screenshots\/booking-form.jpg",
+            "source": "templates\/booking-form.json",
+            "preview_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/template-kit\/booking-form\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-cta",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor",
+            "version": "3.24.7",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "ElementsKit Lite",
+            "version": "3.3.0",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Happy Elementor Addons",
+            "version": "3.12.5",
+            "file": "happy-elementor-addons\/plugin.php",
+            "author": "Leevio"
+        },
+        {
+            "name": "MetForm",
+            "version": "3.9.0",
+            "file": "metform\/metform.php",
+            "author": "Wpmet"
+        }
+    ],
+    "images": [
+        {
+            "filename": "HeroSection-min.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/07\/HeroSection-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 224686,
+            "dimensions": [
+                1920,
+                804
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/two-females-pointing-at-space-near-big-sur-bridge-UGDBERD"
+        },
+        {
+            "filename": "Rating-1.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/07\/Rating-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 2449,
+            "dimensions": [
+                43,
+                43
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/happy-asian-young-woman-keeps-fingers-crossed-beli-H2JBG9Q"
+        },
+        {
+            "filename": "Rating-2.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/07\/Rating-2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 2853,
+            "dimensions": [
+                43,
+                43
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/vertical-shot-of-hesitant-asian-man-spreads-palms--36DVW92"
+        },
+        {
+            "filename": "Rating-3.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/07\/Rating-3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 2429,
+            "dimensions": [
+                43,
+                43
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/vertical-shot-of-beautiful-young-successful-female-S6KSUZW"
+        },
+        {
+            "filename": "Rating-4.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/07\/Rating-4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 2633,
+            "dimensions": [
+                43,
+                43
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/look-up-cheerful-black-guy-pointing-finger-up-at-c-EXFVDT2"
+        },
+        {
+            "filename": "039-travel.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/07\/039-travel.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 2234,
+            "dimensions": [
+                42,
+                42
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/30-immigration-icons-KETJCW2"
+        },
+        {
+            "filename": "043-customs-agent.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/07\/043-customs-agent.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 1098,
+            "dimensions": [
+                42,
+                42
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/30-immigration-icons-KETJCW2"
+        },
+        {
+            "filename": "icon_person-check-tick-approval.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/07\/icon_person-check-tick-approval.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 1495,
+            "dimensions": [
+                42,
+                42
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/30-immigration-icons-KETJCW2"
+        },
+        {
+            "filename": "Group.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/07\/Group.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 1529,
+            "dimensions": [
+                40,
+                38
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/30-immigration-icons-KETJCW2"
+        },
+        {
+            "filename": "Frame-32-1.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/Frame-32-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 21079,
+            "dimensions": [
+                178,
+                178
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "About-min.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/07\/About-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 44196,
+            "dimensions": [
+                470,
+                530
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/running-through-the-details-again-W8VEUR3"
+        },
+        {
+            "filename": "Glyph_-undefined-1.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/Glyph_-undefined-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 586,
+            "dimensions": [
+                23,
+                23
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "Frame-29.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/07\/Frame-29.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 1465,
+            "dimensions": [
+                48,
+                48
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "Frame-35.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/10\/Frame-35.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/visa-page.json",
+                    "name": "Visa Page"
+                }
+            ],
+            "filesize": 2497,
+            "dimensions": [
+                60,
+                60
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/immigration-icons-LQ6H5TU"
+        },
+        {
+            "filename": "Frame-36-1.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/10\/Frame-36-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/visa-page.json",
+                    "name": "Visa Page"
+                }
+            ],
+            "filesize": 1784,
+            "dimensions": [
+                60,
+                60
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/immigration-icons-LQ6H5TU"
+        },
+        {
+            "filename": "Frame-35-1.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/10\/Frame-35-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/visa-page.json",
+                    "name": "Visa Page"
+                }
+            ],
+            "filesize": 1791,
+            "dimensions": [
+                60,
+                60
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/immigration-icons-LQ6H5TU"
+        },
+        {
+            "filename": "Frame-35-2.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/10\/Frame-35-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/visa-page.json",
+                    "name": "Visa Page"
+                }
+            ],
+            "filesize": 1836,
+            "dimensions": [
+                60,
+                60
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/immigration-icons-LQ6H5TU"
+        },
+        {
+            "filename": "Frame-35.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/07\/Frame-35.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 1899,
+            "dimensions": [
+                60,
+                60
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/immigration-icons-LQ6H5TU"
+        },
+        {
+            "filename": "Booking-appointement-min.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/07\/Booking-appointement-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/booking.json",
+                    "name": "Booking"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 65909,
+            "dimensions": [
+                570,
+                684
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/happy-multiracial-couple-of-tourists-exploring-the-M6T5M49"
+        },
+        {
+            "filename": "Group-5.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/Group-5.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 2906,
+            "dimensions": [
+                186,
+                41
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo-75.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/10\/logo-75.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 2886,
+            "dimensions": [
+                186,
+                41
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo-50-1.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/10\/logo-50-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 2061,
+            "dimensions": [
+                153,
+                38
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo-50.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/logo-50.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 3336,
+            "dimensions": [
+                153,
+                38
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo-54.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/logo-54.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 2512,
+            "dimensions": [
+                170,
+                41
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo-54.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/10\/logo-54.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 2833,
+            "dimensions": [
+                170,
+                41
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo-49.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/logo-49.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 1761,
+            "dimensions": [
+                154,
+                27
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo-49.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/10\/logo-49.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 2113,
+            "dimensions": [
+                154,
+                27
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "Frame-73.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/10\/Frame-73.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 1196,
+            "dimensions": [
+                82,
+                40
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "Framee.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/10\/Framee.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 1899,
+            "dimensions": [
+                82,
+                40
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo-87-1.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/10\/logo-87-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 2829,
+            "dimensions": [
+                202,
+                40
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo-87.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/10\/logo-87.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 2815,
+            "dimensions": [
+                202,
+                40
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo-46-1.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/10\/logo-46-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 2395,
+            "dimensions": [
+                123,
+                61
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo-46.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/10\/logo-46.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 4341,
+            "dimensions": [
+                123,
+                61
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo-74-1.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/10\/logo-74-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 2433,
+            "dimensions": [
+                70,
+                44
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo-74.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/10\/logo-74.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 4316,
+            "dimensions": [
+                70,
+                44
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "Country-1-min.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/07\/Country-1-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/countries.json",
+                    "name": "Countries"
+                }
+            ],
+            "filesize": 26900,
+            "dimensions": [
+                270,
+                360
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/a-long-bridge-in-the-middle-of-town-with-people-wa-ZG9DNQE"
+        },
+        {
+            "filename": "flag109-1.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/flag109-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/countries.json",
+                    "name": "Countries"
+                }
+            ],
+            "filesize": 1829,
+            "dimensions": [
+                70,
+                70
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/world-flags-design-7VMWFA3"
+        },
+        {
+            "filename": "Country-6-min.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/07\/Country-6-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/countries.json",
+                    "name": "Countries"
+                }
+            ],
+            "filesize": 25193,
+            "dimensions": [
+                270,
+                360
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/luxury-and-relaxing-view-of-dubai-united-arab-emir-WZ4PV55"
+        },
+        {
+            "filename": "Flag-2.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/07\/Flag-2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/countries.json",
+                    "name": "Countries"
+                }
+            ],
+            "filesize": 3911,
+            "dimensions": [
+                120,
+                70
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/world-flags-design-7VMWFA3"
+        },
+        {
+            "filename": "Country-5-min.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/07\/Country-5-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/countries.json",
+                    "name": "Countries"
+                }
+            ],
+            "filesize": 22806,
+            "dimensions": [
+                270,
+                360
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/tropical-beach-UYY9BL2"
+        },
+        {
+            "filename": "Flag-3.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/07\/Flag-3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/countries.json",
+                    "name": "Countries"
+                }
+            ],
+            "filesize": 11130,
+            "dimensions": [
+                120,
+                70
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/world-flags-design-7VMWFA3"
+        },
+        {
+            "filename": "Country-2-min.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/07\/Country-2-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/countries.json",
+                    "name": "Countries"
+                }
+            ],
+            "filesize": 22359,
+            "dimensions": [
+                270,
+                360
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/big-ben-inb-london-JNX7AV6"
+        },
+        {
+            "filename": "Flag-4.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/07\/Flag-4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/countries.json",
+                    "name": "Countries"
+                }
+            ],
+            "filesize": 13821,
+            "dimensions": [
+                120,
+                70
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/world-flags-design-7VMWFA3"
+        },
+        {
+            "filename": "Frame-52.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/07\/Frame-52.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/visa-page.json",
+                    "name": "Visa Page"
+                }
+            ],
+            "filesize": 10751,
+            "dimensions": [
+                144,
+                144
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/nomad-visa-icons-E22BL29"
+        },
+        {
+            "filename": "Frame-51.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/07\/Frame-51.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/visa-page.json",
+                    "name": "Visa Page"
+                }
+            ],
+            "filesize": 13951,
+            "dimensions": [
+                140,
+                140
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/nomad-visa-icons-E22BL29"
+        },
+        {
+            "filename": "Frame-50.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/07\/Frame-50.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/visa-page.json",
+                    "name": "Visa Page"
+                }
+            ],
+            "filesize": 10669,
+            "dimensions": [
+                144,
+                144
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/nomad-visa-icons-E22BL29"
+        },
+        {
+            "filename": "Frame-53.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/07\/Frame-53.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/visa-page.json",
+                    "name": "Visa Page"
+                }
+            ],
+            "filesize": 11613,
+            "dimensions": [
+                144,
+                144
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/nomad-visa-icons-E22BL29"
+        },
+        {
+            "filename": "students-sitting-at-international-meeting-2023-11-27-04-49-31-utc-1.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/students-sitting-at-international-meeting-2023-11-27-04-49-31-utc-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 101543,
+            "dimensions": [
+                223,
+                350
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/students-sitting-at-international-meeting-AXN3UUH"
+        },
+        {
+            "filename": "pleasant-psychologist-wearing-grey-trousers-smilin-2023-11-27-05-09-49-utc.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/pleasant-psychologist-wearing-grey-trousers-smilin-2023-11-27-05-09-49-utc.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 88236,
+            "dimensions": [
+                223,
+                350
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/pleasant-psychologist-wearing-grey-trousers-smilin-DCV5SPG"
+        },
+        {
+            "filename": "portrait-of-a-diverse-group-of-businesspeople-stan-2023-11-27-05-34-25-utc.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/portrait-of-a-diverse-group-of-businesspeople-stan-2023-11-27-05-34-25-utc.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 84408,
+            "dimensions": [
+                223,
+                350
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/portrait-of-a-diverse-group-of-businesspeople-stan-BPLLBLY"
+        },
+        {
+            "filename": "Testimonial-1-min.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/07\/Testimonial-1-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 53981,
+            "dimensions": [
+                749,
+                530
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/cheerful-arabian-man-in-eyeglasses-outdoors-AFRHVL3"
+        },
+        {
+            "filename": "Group-1000002875.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/07\/Group-1000002875.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 677,
+            "dimensions": [
+                43,
+                43
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "Testimonial-2.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/07\/Testimonial-2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 10958,
+            "dimensions": [
+                74,
+                74
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/african-teenage-student-standing-outside-9WVPJA6"
+        },
+        {
+            "filename": "Team-3-min.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/Team-3-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 16415,
+            "dimensions": [
+                270,
+                362
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/cheerful-arabian-man-in-eyeglasses-outdoors-AFRHVL3"
+        },
+        {
+            "filename": "Team-8-min.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/Team-8-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 15366,
+            "dimensions": [
+                270,
+                362
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/strong-teams-are-the-foundation-of-high-performing-58XLB7S"
+        },
+        {
+            "filename": "CTA-Banner-min.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/07\/CTA-Banner-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/visa-page.json",
+                    "name": "Visa Page"
+                }
+            ],
+            "filesize": 108492,
+            "dimensions": [
+                1170,
+                526
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/stylish-man-pushing-luggage-trolley-with-charming--6B2H7DS"
+        },
+        {
+            "filename": "FAQ-min.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/07\/FAQ-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                }
+            ],
+            "filesize": 43987,
+            "dimensions": [
+                470,
+                632
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/smiling-travel-agent-pointing-with-pen-at-map-near-KRH4JE3"
+        },
+        {
+            "filename": "Banner-min.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/Banner-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/visa-page.json",
+                    "name": "Visa Page"
+                },
+                {
+                    "source": "templates\/visa-detail-page.json",
+                    "name": "Visa Detail Page"
+                },
+                {
+                    "source": "templates\/booking.json",
+                    "name": "Booking"
+                },
+                {
+                    "source": "templates\/countries.json",
+                    "name": "Countries"
+                },
+                {
+                    "source": "templates\/ielts.json",
+                    "name": "IELTS"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/coaching.json",
+                    "name": "Coaching"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/blogs-detail.json",
+                    "name": "Blogs Detail"
+                },
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                }
+            ],
+            "filesize": 125723,
+            "dimensions": [
+                1920,
+                505
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/back-view-of-travelling-woman-with-other-travelers-NENTH3C"
+        },
+        {
+            "filename": "Frame-1000003057.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/Frame-1000003057.png",
+            "templates": [
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 1124,
+            "dimensions": [
+                42,
+                42
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "Frame-1000003058.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/Frame-1000003058.png",
+            "templates": [
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 977,
+            "dimensions": [
+                42,
+                42
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "Frame-1000003059.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/Frame-1000003059.png",
+            "templates": [
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 1033,
+            "dimensions": [
+                42,
+                42
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "Glyph_-undefined.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/Glyph_-undefined.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 2262,
+            "dimensions": [
+                66,
+                66
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/mission-statement-icons-HUVA4S9"
+        },
+        {
+            "filename": "eye.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/eye.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 1876,
+            "dimensions": [
+                66,
+                66
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/mission-statement-icons-HUVA4S9"
+        },
+        {
+            "filename": "1.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/1.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 1866,
+            "dimensions": [
+                66,
+                66
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/mission-statement-icons-HUVA4S9"
+        },
+        {
+            "filename": "Team-1-min.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/Team-1-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 17742,
+            "dimensions": [
+                270,
+                362
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/male-tailor-with-folded-hands-on-chest-WMZQZGM"
+        },
+        {
+            "filename": "Team-2-min.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/Team-2-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 16200,
+            "dimensions": [
+                270,
+                362
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/cheerful-arab-businessman-in-elegant-suit-holding--ERLGF7W"
+        },
+        {
+            "filename": "Team-4-min.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/Team-4-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 16794,
+            "dimensions": [
+                270,
+                362
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/smiling-businesswoman-checking-phone-in-office-HLSBULV"
+        },
+        {
+            "filename": "Frame-35-6.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/10\/Frame-35-6.png",
+            "templates": [
+                {
+                    "source": "templates\/visa-page.json",
+                    "name": "Visa Page"
+                }
+            ],
+            "filesize": 1933,
+            "dimensions": [
+                60,
+                60
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/immigration-icons-LQ6H5TU"
+        },
+        {
+            "filename": "Frame-35-5.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/10\/Frame-35-5.png",
+            "templates": [
+                {
+                    "source": "templates\/visa-page.json",
+                    "name": "Visa Page"
+                }
+            ],
+            "filesize": 1820,
+            "dimensions": [
+                60,
+                60
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/immigration-icons-LQ6H5TU"
+        },
+        {
+            "filename": "Frame-35-4.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/10\/Frame-35-4.png",
+            "templates": [
+                {
+                    "source": "templates\/visa-page.json",
+                    "name": "Visa Page"
+                }
+            ],
+            "filesize": 1814,
+            "dimensions": [
+                60,
+                60
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/immigration-icons-LQ6H5TU"
+        },
+        {
+            "filename": "Frame-35-3.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/10\/Frame-35-3.png",
+            "templates": [
+                {
+                    "source": "templates\/visa-page.json",
+                    "name": "Visa Page"
+                }
+            ],
+            "filesize": 1895,
+            "dimensions": [
+                60,
+                60
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/immigration-icons-LQ6H5TU"
+        },
+        {
+            "filename": "Service-detail-min.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/Service-detail-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/visa-detail-page.json",
+                    "name": "Visa Detail Page"
+                }
+            ],
+            "filesize": 69163,
+            "dimensions": [
+                870,
+                446
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/male-tourism-passenger-with-girlfriend-check-in-at-W22W54N"
+        },
+        {
+            "filename": "Country-3-min.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/Country-3-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/countries.json",
+                    "name": "Countries"
+                }
+            ],
+            "filesize": 22287,
+            "dimensions": [
+                270,
+                360
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/dawn-at-the-river-spree-in-berlin-PE7W5A8"
+        },
+        {
+            "filename": "Flag-5.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/Flag-5.jpg",
+            "templates": [
+                {
+                    "source": "templates\/countries.json",
+                    "name": "Countries"
+                }
+            ],
+            "filesize": 10134,
+            "dimensions": [
+                120,
+                70
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/world-flags-design-7VMWFA3"
+        },
+        {
+            "filename": "Country-7-min.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/Country-7-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/countries.json",
+                    "name": "Countries"
+                }
+            ],
+            "filesize": 28076,
+            "dimensions": [
+                270,
+                360
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/rear-view-of-man-wearing-traditional-straw-hat-sta-NXN6KTZ"
+        },
+        {
+            "filename": "flag138.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/flag138.png",
+            "templates": [
+                {
+                    "source": "templates\/countries.json",
+                    "name": "Countries"
+                }
+            ],
+            "filesize": 1373,
+            "dimensions": [
+                70,
+                70
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/world-flags-design-7VMWFA3"
+        },
+        {
+            "filename": "Country-4-min.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/Country-4-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/countries.json",
+                    "name": "Countries"
+                }
+            ],
+            "filesize": 26274,
+            "dimensions": [
+                270,
+                360
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/the-icefields-parkway-with-autumn-trees-and-snowy--ZE5DSRF"
+        },
+        {
+            "filename": "Flag-7.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/Flag-7.jpg",
+            "templates": [
+                {
+                    "source": "templates\/countries.json",
+                    "name": "Countries"
+                }
+            ],
+            "filesize": 7099,
+            "dimensions": [
+                120,
+                70
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/world-flags-design-7VMWFA3"
+        },
+        {
+            "filename": "Country-8-min.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/Country-8-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/countries.json",
+                    "name": "Countries"
+                }
+            ],
+            "filesize": 28081,
+            "dimensions": [
+                270,
+                360
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/passu-cones-hunza-valley-pakistan-winter-break-win-LP2Y9UY"
+        },
+        {
+            "filename": "Flag-8.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/Flag-8.jpg",
+            "templates": [
+                {
+                    "source": "templates\/countries.json",
+                    "name": "Countries"
+                }
+            ],
+            "filesize": 5137,
+            "dimensions": [
+                120,
+                70
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/world-flags-design-7VMWFA3"
+        },
+        {
+            "filename": "Coaching-detail-min.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/Coaching-detail-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/ielts.json",
+                    "name": "IELTS"
+                }
+            ],
+            "filesize": 63237,
+            "dimensions": [
+                870,
+                446
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/students-sitting-at-international-meeting-AXN3UUH"
+        },
+        {
+            "filename": "Coaching-detail-min.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/07\/Coaching-detail-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/coaching.json",
+                    "name": "Coaching"
+                }
+            ],
+            "filesize": 63237,
+            "dimensions": [
+                870,
+                446
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/students-sitting-at-international-meeting-AXN3UUH"
+        },
+        {
+            "filename": "Coaching-2-min.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/07\/Coaching-2-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/coaching.json",
+                    "name": "Coaching"
+                }
+            ],
+            "filesize": 25905,
+            "dimensions": [
+                370,
+                306
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/portrait-of-a-diverse-group-of-businesspeople-stan-BPLLBLY"
+        },
+        {
+            "filename": "Coaching-3-min.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/07\/Coaching-3-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/coaching.json",
+                    "name": "Coaching"
+                }
+            ],
+            "filesize": 23267,
+            "dimensions": [
+                370,
+                306
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/pleasant-psychologist-wearing-grey-trousers-smilin-DCV5SPG"
+        },
+        {
+            "filename": "Coaching-6-min.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/Coaching-6-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/coaching.json",
+                    "name": "Coaching"
+                }
+            ],
+            "filesize": 18631,
+            "dimensions": [
+                370,
+                306
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/business-asian-man-and-writing-on-board-for-presen-TGK863S"
+        },
+        {
+            "filename": "Coaching-5-min.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/Coaching-5-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/coaching.json",
+                    "name": "Coaching"
+                }
+            ],
+            "filesize": 27436,
+            "dimensions": [
+                370,
+                306
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/group-of-medics-in-row-taking-notes-during-lecture-U3GXR7C"
+        },
+        {
+            "filename": "Coaching-4-min.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/Coaching-4-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/coaching.json",
+                    "name": "Coaching"
+                }
+            ],
+            "filesize": 32670,
+            "dimensions": [
+                370,
+                306
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/muslim-woman-during-class-R6MPSSR"
+        },
+        {
+            "filename": "Team-7-min.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/Team-7-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 21457,
+            "dimensions": [
+                270,
+                362
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/coaching-motivation-and-happy-business-leader-in-m-XQENJDS"
+        },
+        {
+            "filename": "Team-6-min.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/Team-6-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 16606,
+            "dimensions": [
+                270,
+                362
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/portrait-of-mature-female-photographer-at-desk-in--SES6WGE"
+        },
+        {
+            "filename": "Team-5-min.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/Team-5-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 18413,
+            "dimensions": [
+                270,
+                362
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/portrait-of-a-young-businessman-in-an-office-with--E66BP9P"
+        },
+        {
+            "filename": "Blog-Detail-2-min.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/Blog-Detail-2-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/blogs-detail.json",
+                    "name": "Blogs Detail"
+                }
+            ],
+            "filesize": 32263,
+            "dimensions": [
+                570,
+                292
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/travel-arrangements-concept-2P2S2MB"
+        },
+        {
+            "filename": "Coming-Soon-BG-min.jpg",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/Coming-Soon-BG-min.jpg",
+            "templates": [
+                {
+                    "source": "templates\/coming-soon.json",
+                    "name": "Coming Soon"
+                }
+            ],
+            "filesize": 16514,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/10-different-dark-and-black-polygon-backgrounds-7ZM2U8"
+        },
+        {
+            "filename": "404.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/404.png",
+            "templates": [
+                {
+                    "source": "templates\/404.json",
+                    "name": "404"
+                }
+            ],
+            "filesize": 12832,
+            "dimensions": [
+                623,
+                254
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "404-Error-1.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/08\/404-Error-1.png",
+            "templates": [
+                {
+                    "source": "templates\/404.json",
+                    "name": "404"
+                }
+            ],
+            "filesize": 24508,
+            "dimensions": [
+                406,
+                596
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/404-page-error-illustration-8GZCH8P"
+        },
+        {
+            "filename": "Group-1000002919.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/07\/Group-1000002919.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 5181,
+            "dimensions": [
+                279,
+                54
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "Footer-removebg-preview.png",
+            "thumbnail_url": "https:\/\/template-kit.evonicmedia.com\/layout98\/wp-content\/uploads\/2024\/07\/Footer-removebg-preview.png",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 219360,
+            "dimensions": [
+                481,
+                395
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/pretty-woman-waiting-for-her-flight-at-airport-ZNW8XC5"
+        }
+    ]
+}

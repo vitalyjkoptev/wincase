@@ -1,0 +1,348 @@
+{
+    "version": "0.4",
+    "title": "Archive",
+    "type": "archive",
+    "metadata": {
+        "template_type": "archive-blog",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "elementor_library_type": "archive",
+        "elementor_pro_conditions": [
+            "include\/archive"
+        ],
+        "additional_template_information": [
+            "This is a \"Archive\" template for Elementor Pro.",
+            "This template will display on: All Archives."
+        ],
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "46ab267f",
+            "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                    "unit": "px",
+                    "size": "20",
+                    "column": "20",
+                    "row": "20",
+                    "isLinked": "1"
+                },
+                "background_background": "classic",
+                "background_image": {
+                    "id": 175,
+                    "url": "http:\/\/elementor-kits-02.nicdark.com\/immigration-visa-wordpress-elementor-kit\/wp-content\/uploads\/sites\/7\/2024\/01\/multicultural-students-with-american-flag-in-summer-park.jpg",
+                    "alt": "multicultural students with american flag in summer park",
+                    "source": "library",
+                    "size": ""
+                },
+                "background_position": "center center",
+                "background_repeat": "no-repeat",
+                "background_size": "cover",
+                "background_overlay_background": "gradient",
+                "background_overlay_gradient_angle": {
+                    "unit": "deg",
+                    "size": "0",
+                    "sizes": []
+                },
+                "background_overlay_opacity": {
+                    "unit": "px",
+                    "size": 0.8000000000000000444089209850062616169452667236328125,
+                    "sizes": []
+                },
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": ""
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "220",
+                    "right": "20",
+                    "bottom": "220",
+                    "left": "20",
+                    "isLinked": ""
+                },
+                "_title": "Header Image",
+                "__globals__": {
+                    "background_overlay_color": "globals\/colors?id=10a94b3",
+                    "background_overlay_color_b": "globals\/colors?id=b4ec28f"
+                }
+            },
+            "elements": [
+                {
+                    "id": "57a34d98",
+                    "settings": {
+                        "flex_direction": "column",
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": "100"
+                        },
+                        "flex_gap": {
+                            "column": "20",
+                            "row": "20",
+                            "isLinked": "1",
+                            "unit": "px",
+                            "size": "20"
+                        },
+                        "margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": ""
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": ""
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "7c13f57e",
+                            "settings": {
+                                "title": "Add Your Heading Text Here",
+                                "header_size": "h5",
+                                "align_tablet": "center",
+                                "_animation": "fadeInUp",
+                                "_animation_delay": "400",
+                                "__globals__": {
+                                    "typography_typography": "globals\/typography?id=31919b4",
+                                    "title_color": "globals\/colors?id=8235737"
+                                },
+                                "__dynamic__": {
+                                    "title": "[elementor-tag id=\"c01350f\" name=\"site-tagline\" settings=\"%7B%7D\"]"
+                                },
+                                "align": "center"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "2ee0eb10",
+                            "settings": {
+                                "__dynamic__": {
+                                    "title": "[elementor-tag id=\"\" name=\"archive-title\" settings=\"%7B%22include_context%22%3A%22yes%22%2C%22before%22%3A%22%22%2C%22after%22%3A%22%22%2C%22fallback%22%3A%22%22%7D\"]"
+                                },
+                                "title": "Add Your Heading Text Here",
+                                "align": "center",
+                                "__globals__": {
+                                    "title_color": "globals\/colors?id=8235737",
+                                    "typography_typography": "globals\/typography?id=927ae6c"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "theme-archive-title",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": "1",
+                    "elType": "container"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        },
+        {
+            "id": "5f6f8b03",
+            "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                    "unit": "px",
+                    "size": "20",
+                    "column": "20",
+                    "row": "20",
+                    "isLinked": "1"
+                },
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": ""
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "120",
+                    "right": "20",
+                    "bottom": "120",
+                    "left": "20",
+                    "isLinked": ""
+                },
+                "_title": "Archive",
+                "background_background": "classic",
+                "__globals__": {
+                    "background_color": "globals\/colors?id=34fcf59",
+                    "background_overlay_color": "globals\/colors?id=34fcf59"
+                },
+                "background_color": "#FFFFFF",
+                "background_image": {
+                    "url": "http:\/\/elementor-kits-02.nicdark.com\/immigration-visa-wordpress-elementor-kit\/wp-content\/uploads\/sites\/7\/2024\/01\/bg-03.jpg",
+                    "id": "363",
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                },
+                "background_position": "center center",
+                "background_attachment": "scroll",
+                "background_repeat": "no-repeat",
+                "background_size": "cover",
+                "background_overlay_background": "classic",
+                "background_overlay_opacity": {
+                    "unit": "px",
+                    "size": 0.40000000000000002220446049250313080847263336181640625,
+                    "sizes": []
+                }
+            },
+            "elements": [
+                {
+                    "id": "e719c4b",
+                    "settings": {
+                        "flex_direction": "column",
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": "100"
+                        },
+                        "flex_gap": {
+                            "column": "20",
+                            "row": "20",
+                            "isLinked": "1",
+                            "unit": "px",
+                            "size": "20"
+                        },
+                        "margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": ""
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": ""
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "7f8e95aa",
+                            "settings": {
+                                "archive_classic_thumbnail_size_size": "full",
+                                "archive_classic_title_tag": "h4",
+                                "archive_classic_meta_separator": "|",
+                                "archive_classic_read_more_text": "Read More",
+                                "archive_cards_meta_separator": "\u2022",
+                                "archive_cards_read_more_text": "Read More \u00bb",
+                                "archive_full_content_meta_separator": "\/\/\/",
+                                "pagination_page_limit": "5",
+                                "pagination_prev_label": "&laquo; Previous",
+                                "pagination_next_label": "Next &raquo;",
+                                "text": "Load More",
+                                "load_more_no_posts_custom_message": "No more posts to show",
+                                "nothing_found_message": "It seems we can&#039;t find what you&#039;re looking for.",
+                                "archive_classic_column_gap": {
+                                    "unit": "px",
+                                    "size": "40",
+                                    "sizes": []
+                                },
+                                "archive_classic_column_gap_tablet": {
+                                    "unit": "px",
+                                    "size": "20",
+                                    "sizes": []
+                                },
+                                "archive_classic_row_gap": {
+                                    "unit": "px",
+                                    "size": "40",
+                                    "sizes": []
+                                },
+                                "archive_classic_alignment": "left",
+                                "archive_classic_thumbnail_hover_filters_css_filter": "custom",
+                                "archive_classic_thumbnail_hover_filters_saturate": {
+                                    "unit": "px",
+                                    "size": "0",
+                                    "sizes": []
+                                },
+                                "archive_classic_title_spacing": {
+                                    "unit": "px",
+                                    "size": "20",
+                                    "sizes": []
+                                },
+                                "archive_classic_meta_spacing": {
+                                    "unit": "px",
+                                    "size": "19",
+                                    "sizes": []
+                                },
+                                "archive_classic_excerpt_spacing": {
+                                    "unit": "px",
+                                    "size": "20",
+                                    "sizes": []
+                                },
+                                "archive_classic_read_more_spacing": {
+                                    "unit": "px",
+                                    "size": "20",
+                                    "sizes": []
+                                },
+                                "pagination_spacing": {
+                                    "unit": "px",
+                                    "size": "20",
+                                    "sizes": []
+                                },
+                                "pagination_spacing_top": {
+                                    "unit": "px",
+                                    "size": "40",
+                                    "sizes": []
+                                },
+                                "_animation": "fadeIn",
+                                "_animation_delay": "200",
+                                "__globals__": {
+                                    "archive_classic_title_color": "globals\/colors?id=primary",
+                                    "archive_classic_title_typography_typography": "globals\/typography?id=6220262",
+                                    "archive_classic_meta_color": "globals\/colors?id=text",
+                                    "archive_classic_meta_separator_color": "globals\/colors?id=d0bbac9",
+                                    "archive_classic_meta_typography_typography": "globals\/typography?id=9c5aacb",
+                                    "archive_classic_excerpt_color": "globals\/colors?id=text",
+                                    "archive_classic_excerpt_typography_typography": "globals\/typography?id=text",
+                                    "archive_classic_read_more_color": "globals\/colors?id=445bfed",
+                                    "archive_classic_read_more_typography_typography": "globals\/typography?id=19445a5",
+                                    "pagination_typography_typography": "globals\/typography?id=text",
+                                    "pagination_color": "globals\/colors?id=text",
+                                    "pagination_hover_color": "globals\/colors?id=445bfed",
+                                    "pagination_active_color": "globals\/colors?id=445bfed",
+                                    "nothing_found_color": "globals\/colors?id=text",
+                                    "nothing_found_typography_typography": "globals\/typography?id=text"
+                                },
+                                "archive_classic_meta_data": []
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "archive-posts",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": "1",
+                    "elType": "container"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        }
+    ]
+}

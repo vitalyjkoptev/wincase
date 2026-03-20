@@ -1,0 +1,129 @@
+{
+    "name": "W10: Reviews Sync (4 platforms)",
+    "nodes": [
+        {
+            "parameters": {
+                "rule": {
+                    "interval": [
+                        {
+                            "field": "cronExpression",
+                            "expression": "0 *\/2 * * *"
+                        }
+                    ]
+                }
+            },
+            "name": "Schedule Trigger",
+            "type": "n8n-nodes-base.scheduleTrigger",
+            "typeVersion": 1.2,
+            "position": [
+                250,
+                300
+            ]
+        },
+        {
+            "parameters": {
+                "method": "POST",
+                "url": "https:\/\/crm.wincase.eu\/api\/v1\/brand\/reviews\/sync",
+                "options": [],
+                "sendHeaders": true,
+                "headerParameters": {
+                    "parameters": [
+                        {
+                            "name": "Accept",
+                            "value": "application\/json"
+                        }
+                    ]
+                }
+            },
+            "name": "Sync Reviews",
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 4.2,
+            "position": [
+                500,
+                300
+            ]
+        },
+        {
+            "parameters": {
+                "conditions": {
+                    "string": [
+                        {
+                            "value1": "={{\\$json.data.new_count}}",
+                            "operation": "isNotEmpty"
+                        }
+                    ]
+                }
+            },
+            "name": "New Reviews?",
+            "type": "n8n-nodes-base.if",
+            "typeVersion": 1,
+            "position": [
+                750,
+                300
+            ]
+        },
+        {
+            "parameters": {
+                "operation": "sendMessage",
+                "chatId": "7627104580",
+                "text": "⭐ {{$json.data.new_count}} new reviews found (avg: {{$json.data.avg_rating}})",
+                "additionalFields": {
+                    "parse_mode": "HTML"
+                }
+            },
+            "name": "Alert",
+            "type": "n8n-nodes-base.telegram",
+            "typeVersion": 1.2,
+            "position": [
+                1000,
+                300
+            ],
+            "credentials": {
+                "telegramApi": {
+                    "name": "WinCase Bot",
+                    "id": "telegram_cred"
+                }
+            }
+        }
+    ],
+    "connections": {
+        "Schedule Trigger": {
+            "main": [
+                [
+                    {
+                        "node": "Sync Reviews",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Sync Reviews": {
+            "main": [
+                [
+                    {
+                        "node": "New Reviews?",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "New Reviews?": {
+            "main": [
+                [
+                    {
+                        "node": "Alert",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        }
+    },
+    "active": false,
+    "settings": {
+        "executionOrder": "v1"
+    },
+    "tags": []
+}

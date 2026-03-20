@@ -1,0 +1,129 @@
+{
+    "name": "W16: NAP Consistency Check",
+    "nodes": [
+        {
+            "parameters": {
+                "rule": {
+                    "interval": [
+                        {
+                            "field": "cronExpression",
+                            "expression": "0 10 * * 5"
+                        }
+                    ]
+                }
+            },
+            "name": "Schedule Trigger",
+            "type": "n8n-nodes-base.scheduleTrigger",
+            "typeVersion": 1.2,
+            "position": [
+                250,
+                300
+            ]
+        },
+        {
+            "parameters": {
+                "method": "POST",
+                "url": "https:\/\/crm.wincase.eu\/api\/v1\/brand\/nap\/check",
+                "options": [],
+                "sendHeaders": true,
+                "headerParameters": {
+                    "parameters": [
+                        {
+                            "name": "Accept",
+                            "value": "application\/json"
+                        }
+                    ]
+                }
+            },
+            "name": "Check NAP",
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 4.2,
+            "position": [
+                500,
+                300
+            ]
+        },
+        {
+            "parameters": {
+                "conditions": {
+                    "string": [
+                        {
+                            "value1": "={{\\$json.data.mismatches}}",
+                            "operation": "isNotEmpty"
+                        }
+                    ]
+                }
+            },
+            "name": "Mismatches?",
+            "type": "n8n-nodes-base.if",
+            "typeVersion": 1,
+            "position": [
+                750,
+                300
+            ]
+        },
+        {
+            "parameters": {
+                "operation": "sendMessage",
+                "chatId": "7627104580",
+                "text": "⚠️ NAP mismatches: {{$json.data.mismatches}} directories need update",
+                "additionalFields": {
+                    "parse_mode": "HTML"
+                }
+            },
+            "name": "Alert",
+            "type": "n8n-nodes-base.telegram",
+            "typeVersion": 1.2,
+            "position": [
+                1000,
+                300
+            ],
+            "credentials": {
+                "telegramApi": {
+                    "name": "WinCase Bot",
+                    "id": "telegram_cred"
+                }
+            }
+        }
+    ],
+    "connections": {
+        "Schedule Trigger": {
+            "main": [
+                [
+                    {
+                        "node": "Check NAP",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Check NAP": {
+            "main": [
+                [
+                    {
+                        "node": "Mismatches?",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Mismatches?": {
+            "main": [
+                [
+                    {
+                        "node": "Alert",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        }
+    },
+    "active": false,
+    "settings": {
+        "executionOrder": "v1"
+    },
+    "tags": []
+}

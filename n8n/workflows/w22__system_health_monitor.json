@@ -1,0 +1,129 @@
+{
+    "name": "W22: System Health Monitor",
+    "nodes": [
+        {
+            "parameters": {
+                "rule": {
+                    "interval": [
+                        {
+                            "field": "cronExpression",
+                            "expression": "*\/15 * * * *"
+                        }
+                    ]
+                }
+            },
+            "name": "Schedule Trigger",
+            "type": "n8n-nodes-base.scheduleTrigger",
+            "typeVersion": 1.2,
+            "position": [
+                250,
+                300
+            ]
+        },
+        {
+            "parameters": {
+                "method": "GET",
+                "url": "https:\/\/crm.wincase.eu\/api\/v1\/system\/health",
+                "options": [],
+                "sendHeaders": true,
+                "headerParameters": {
+                    "parameters": [
+                        {
+                            "name": "Accept",
+                            "value": "application\/json"
+                        }
+                    ]
+                }
+            },
+            "name": "Health Check",
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 4.2,
+            "position": [
+                500,
+                300
+            ]
+        },
+        {
+            "parameters": {
+                "conditions": {
+                    "string": [
+                        {
+                            "value1": "={{\\$json.status === \"degraded\"}}",
+                            "operation": "isNotEmpty"
+                        }
+                    ]
+                }
+            },
+            "name": "Degraded?",
+            "type": "n8n-nodes-base.if",
+            "typeVersion": 1,
+            "position": [
+                750,
+                300
+            ]
+        },
+        {
+            "parameters": {
+                "operation": "sendMessage",
+                "chatId": "7627104580",
+                "text": "🔴 SYSTEM DEGRADED\n{{JSON.stringify($json.checks)}}",
+                "additionalFields": {
+                    "parse_mode": "HTML"
+                }
+            },
+            "name": "ALERT",
+            "type": "n8n-nodes-base.telegram",
+            "typeVersion": 1.2,
+            "position": [
+                1000,
+                300
+            ],
+            "credentials": {
+                "telegramApi": {
+                    "name": "WinCase Bot",
+                    "id": "telegram_cred"
+                }
+            }
+        }
+    ],
+    "connections": {
+        "Schedule Trigger": {
+            "main": [
+                [
+                    {
+                        "node": "Health Check",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Health Check": {
+            "main": [
+                [
+                    {
+                        "node": "Degraded?",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Degraded?": {
+            "main": [
+                [
+                    {
+                        "node": "ALERT",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        }
+    },
+    "active": false,
+    "settings": {
+        "executionOrder": "v1"
+    },
+    "tags": []
+}

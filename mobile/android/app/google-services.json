@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "501751425854",
+    "project_id": "wincase-7206c",
+    "storage_bucket": "wincase-7206c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501751425854:android:42348ac03cc75e95f25a6f",
+        "android_client_info": {
+          "package_name": "com.wincase.wincase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyHGI1mL6-aCOLvKyXnKXPUrWligLWrpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

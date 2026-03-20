@@ -1,0 +1,46 @@
+/*
+Theme Name: javapaper-child
+Author: Tothetheme
+Author URI: https://tothetheme.com
+Template: javapaper
+Description: Child theme for the javapaper theme
+Version: 1.9
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, right-sidebar, left-sidebar, custom-menu, custom-logo, theme-options, custom-colors, flexible-header, translation-ready, news, sticky-post, featured-images, threaded-comments
+Text Domain: javapaper
+*/
+*/
+/* =Basic structure
+-------------------------------------------------------------- */
+/* Body, links, basics */
+html {
+	font-size: 90.5%;
+}
+body {
+	font-family: "Roboto", Helvetica, Arial, sans-serif;	
+	font-size: 14px;
+	line-height:20px;
+	color: #777;	
+	font-display: "swap";
+	text-rendering: optimizeLegibility;
+}
+a {
+	outline: none;
+	color: #050505;
+	text-decoration:none;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    transition: all 500ms ease;	
+}
+a:hover {
+	color: #666;
+	text-decoration:underline !important;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    transition: all 500ms ease;	
+}
+#site-footernavigation a:hover,
+#site-navigation a:hover {
+	text-decoration:none!important;
+}

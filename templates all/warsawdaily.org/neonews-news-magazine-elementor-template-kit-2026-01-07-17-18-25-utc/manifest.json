@@ -1,0 +1,958 @@
+{
+    "manifest_version": "1.0.23",
+    "title": "Neonews - Template kit for News & Magazine",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/shine.creativemox.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Neonews - Loop Post Small Square",
+            "screenshot": "screenshots\/neonews-loop-post-small-square.jpg",
+            "source": "templates\/neonews-loop-post-small-square.json",
+            "preview_url": "https:\/\/shine.creativemox.com\/neonews\/?elementor_library=neonews-loop-post-small-square",
+            "type": "loop-item",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-loop",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "loop-item",
+                "additional_template_information": [
+                    "This is a \"Loop Item\" template for Elementor Pro."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Neonews - Loop Post 1",
+            "screenshot": "screenshots\/neonews-loop-post-1.jpg",
+            "source": "templates\/neonews-loop-post-1.json",
+            "preview_url": "https:\/\/shine.creativemox.com\/neonews\/?elementor_library=neonews-loop-post-1",
+            "type": "loop-item",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-loop",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "loop-item",
+                "additional_template_information": [
+                    "This is a \"Loop Item\" template for Elementor Pro."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Neonews - Loop Post Search",
+            "screenshot": "screenshots\/neonews-loop-post-search.jpg",
+            "source": "templates\/neonews-loop-post-search.json",
+            "preview_url": "https:\/\/shine.creativemox.com\/neonews\/?elementor_library=neonews-loop-post-search",
+            "type": "loop-item",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-loop",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "loop-item",
+                "additional_template_information": [
+                    "This is a \"Loop Item\" template for Elementor Pro."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Neonews - Loop Post Big Square",
+            "screenshot": "screenshots\/neonews-loop-post-big-square.jpg",
+            "source": "templates\/neonews-loop-post-big-square.json",
+            "preview_url": "https:\/\/shine.creativemox.com\/neonews\/?elementor_library=neonews-loop-post-big-square",
+            "type": "loop-item",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-loop",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "loop-item",
+                "additional_template_information": [
+                    "This is a \"Loop Item\" template for Elementor Pro."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Neonews - Loop Post Breaking News",
+            "screenshot": "screenshots\/neonews-loop-post-breaking-news.jpg",
+            "source": "templates\/neonews-loop-post-breaking-news.json",
+            "preview_url": "https:\/\/shine.creativemox.com\/neonews\/?elementor_library=neonews-loop-post-breaking-news",
+            "type": "loop-item",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-loop",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "loop-item",
+                "additional_template_information": [
+                    "This is a \"Loop Item\" template for Elementor Pro."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Team",
+            "screenshot": "screenshots\/team.jpg",
+            "source": "templates\/team.json",
+            "preview_url": "https:\/\/shine.creativemox.com\/neonews\/template-kit\/team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Neonews - Footer",
+            "screenshot": "screenshots\/neonews-footer.jpg",
+            "source": "templates\/neonews-footer.json",
+            "preview_url": "https:\/\/shine.creativemox.com\/neonews\/?elementor_library=neonews-footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Neonews - Archive Post",
+            "screenshot": "screenshots\/neonews-archive-post.jpg",
+            "source": "templates\/neonews-archive-post.json",
+            "preview_url": "https:\/\/shine.creativemox.com\/neonews\/?elementor_library=neonews-archive-post",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: All Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Neonews - Single Post",
+            "screenshot": "screenshots\/neonews-single-post.jpg",
+            "source": "templates\/neonews-single-post.json",
+            "preview_url": "https:\/\/shine.creativemox.com\/neonews\/?elementor_library=neonews-single-post",
+            "type": "single-post",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-post",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Post\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Neonews - Error 404",
+            "screenshot": "screenshots\/neonews-error-404.jpg",
+            "source": "templates\/neonews-error-404.json",
+            "preview_url": "https:\/\/shine.creativemox.com\/neonews\/?elementor_library=neonews-error-404",
+            "type": "error-404",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "error-404",
+                "elementor_pro_conditions": [
+                    "include\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Error 404\" template for Elementor Pro.",
+                    "This template will display on: 404 Page."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Neonews - Search Results",
+            "screenshot": "screenshots\/neonews-search-results.jpg",
+            "source": "templates\/neonews-search-results.json",
+            "preview_url": "https:\/\/shine.creativemox.com\/neonews\/?elementor_library=neonews-search-results",
+            "type": "search-results",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-search",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "search-results",
+                "elementor_pro_conditions": [
+                    "include\/archive\/search"
+                ],
+                "additional_template_information": [
+                    "This is a \"Search Results\" template for Elementor Pro.",
+                    "This template will display on: Search Results."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Neonews - Menu Slide",
+            "screenshot": "screenshots\/neonews-menu-slide.jpg",
+            "source": "templates\/neonews-menu-slide.json",
+            "preview_url": "https:\/\/shine.creativemox.com\/neonews\/?elementor_library=neonews-menu-slide",
+            "type": "popup",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-popup",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "popup",
+                "additional_template_information": [
+                    "This is a \"Popup\" template for Elementor Pro."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact us",
+            "screenshot": "screenshots\/contact-us.jpg",
+            "source": "templates\/contact-us.json",
+            "preview_url": "https:\/\/shine.creativemox.com\/neonews\/template-kit\/contact-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About us",
+            "screenshot": "screenshots\/about-us.jpg",
+            "source": "templates\/about-us.json",
+            "preview_url": "https:\/\/shine.creativemox.com\/neonews\/template-kit\/about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Homepage",
+            "screenshot": "screenshots\/homepage.jpg",
+            "source": "templates\/homepage.json",
+            "preview_url": "https:\/\/shine.creativemox.com\/neonews\/template-kit\/homepage\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Homepage 2",
+            "screenshot": "screenshots\/homepage-2.jpg",
+            "source": "templates\/homepage-2.json",
+            "preview_url": "https:\/\/shine.creativemox.com\/neonews\/template-kit\/homepage-2\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Categories Layout 1",
+            "screenshot": "screenshots\/categories-layout-1.jpg",
+            "source": "templates\/categories-layout-1.json",
+            "preview_url": "https:\/\/shine.creativemox.com\/neonews\/template-kit\/categories-layout-1\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Categories Layout 2",
+            "screenshot": "screenshots\/categories-layout-2.jpg",
+            "source": "templates\/categories-layout-2.json",
+            "preview_url": "https:\/\/shine.creativemox.com\/neonews\/template-kit\/categories-layout-2\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Categories Layout 3",
+            "screenshot": "screenshots\/categories-layout-3.jpg",
+            "source": "templates\/categories-layout-3.json",
+            "preview_url": "https:\/\/shine.creativemox.com\/neonews\/template-kit\/categories-layout-3\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Neonews - Header",
+            "screenshot": "screenshots\/neonews-header.jpg",
+            "source": "templates\/neonews-header.json",
+            "preview_url": "https:\/\/shine.creativemox.com\/neonews\/?elementor_library=neonews-header",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "ElementsKit Lite",
+            "version": "3.2.3",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Skyboot Custom Icons for Elementor - Elementor Icons library",
+            "version": "1.0.8",
+            "file": "skyboot-custom-icons-for-elementor\/skyboot-custom-icons-for-elementor.php",
+            "author": "Skybootstrap"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.23.3",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor Pro",
+            "version": "3.23.0",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "journalists-at-conference.jpg",
+            "thumbnail_url": "http:\/\/shine.creativemox.com\/neonews\/wp-content\/uploads\/sites\/4\/2024\/07\/journalists-at-conference-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 102065,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-SCKHK4J"
+        },
+        {
+            "filename": "young-content-creator-journalist-recording-informal-interview-conversation-with-modern-woman.jpg",
+            "thumbnail_url": "http:\/\/shine.creativemox.com\/neonews\/wp-content\/uploads\/sites\/4\/2024\/07\/young-content-creator-journalist-recording-informal-interview-conversation-with-modern-woman-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 151812,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-KTY5SCG"
+        },
+        {
+            "filename": "img__06.jpg",
+            "thumbnail_url": "http:\/\/shine.creativemox.com\/neonews\/wp-content\/uploads\/sites\/4\/2024\/07\/img__06.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 37406,
+            "dimensions": [
+                500,
+                500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-multiethnic-business-people-portrait-YK2UXCU"
+        },
+        {
+            "filename": "img__14.jpg",
+            "thumbnail_url": "http:\/\/shine.creativemox.com\/neonews\/wp-content\/uploads\/sites\/4\/2024\/07\/img__14.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 34745,
+            "dimensions": [
+                500,
+                500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-multiethnic-business-people-portrait-YK2UXCU"
+        },
+        {
+            "filename": "img__13.jpg",
+            "thumbnail_url": "http:\/\/shine.creativemox.com\/neonews\/wp-content\/uploads\/sites\/4\/2024\/07\/img__13.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 35201,
+            "dimensions": [
+                500,
+                500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-multiethnic-business-people-portrait-YK2UXCU"
+        },
+        {
+            "filename": "img__01.jpg",
+            "thumbnail_url": "http:\/\/shine.creativemox.com\/neonews\/wp-content\/uploads\/sites\/4\/2024\/07\/img__01.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 38912,
+            "dimensions": [
+                500,
+                500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-multiethnic-business-people-portrait-YK2UXCU"
+        },
+        {
+            "filename": "img__11.jpg",
+            "thumbnail_url": "http:\/\/shine.creativemox.com\/neonews\/wp-content\/uploads\/sites\/4\/2024\/07\/img__11.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 48708,
+            "dimensions": [
+                500,
+                500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-multiethnic-business-people-portrait-YK2UXCU"
+        },
+        {
+            "filename": "img__16.jpg",
+            "thumbnail_url": "http:\/\/shine.creativemox.com\/neonews\/wp-content\/uploads\/sites\/4\/2024\/07\/img__16.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 50944,
+            "dimensions": [
+                500,
+                500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-multiethnic-business-people-portrait-YK2UXCU"
+        },
+        {
+            "filename": "img__08.jpg",
+            "thumbnail_url": "http:\/\/shine.creativemox.com\/neonews\/wp-content\/uploads\/sites\/4\/2024\/07\/img__08.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 36488,
+            "dimensions": [
+                500,
+                500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-multiethnic-business-people-portrait-YK2UXCU"
+        },
+        {
+            "filename": "img__09.jpg",
+            "thumbnail_url": "http:\/\/shine.creativemox.com\/neonews\/wp-content\/uploads\/sites\/4\/2024\/07\/img__09.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 33194,
+            "dimensions": [
+                500,
+                500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-multiethnic-business-people-portrait-YK2UXCU"
+        },
+        {
+            "filename": "halftone-pattern-on-a-white-background.jpg",
+            "thumbnail_url": "http:\/\/shine.creativemox.com\/neonews\/wp-content\/uploads\/sites\/4\/2024\/07\/halftone-pattern-on-a-white-background-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/neonews-footer.json",
+                    "name": "Neonews - Footer"
+                }
+            ],
+            "filesize": 75918,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-8MHH55D"
+        },
+        {
+            "filename": "logo_neonews.png",
+            "thumbnail_url": "http:\/\/shine.creativemox.com\/neonews\/wp-content\/uploads\/sites\/4\/2024\/07\/logo_neonews.png",
+            "templates": [
+                {
+                    "source": "templates\/neonews-footer.json",
+                    "name": "Neonews - Footer"
+                },
+                {
+                    "source": "templates\/neonews-menu-slide.json",
+                    "name": "Neonews - Menu Slide"
+                },
+                {
+                    "source": "templates\/neonews-header.json",
+                    "name": "Neonews - Header"
+                }
+            ],
+            "filesize": 20448,
+            "dimensions": [
+                609,
+                125
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "Google-Play-eng.png",
+            "thumbnail_url": "http:\/\/shine.creativemox.com\/neonews\/wp-content\/uploads\/sites\/4\/2024\/07\/Google-Play-eng.png",
+            "templates": [
+                {
+                    "source": "templates\/neonews-footer.json",
+                    "name": "Neonews - Footer"
+                }
+            ],
+            "filesize": 5347,
+            "dimensions": [
+                216,
+                64
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "App-Store-eng.png",
+            "thumbnail_url": "http:\/\/shine.creativemox.com\/neonews\/wp-content\/uploads\/sites\/4\/2024\/07\/App-Store-eng.png",
+            "templates": [
+                {
+                    "source": "templates\/neonews-footer.json",
+                    "name": "Neonews - Footer"
+                }
+            ],
+            "filesize": 3976,
+            "dimensions": [
+                216,
+                64
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "independent-journalists-office.jpg",
+            "thumbnail_url": "http:\/\/shine.creativemox.com\/neonews\/wp-content\/uploads\/sites\/4\/2024\/07\/independent-journalists-office-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 152717,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-5Y6YVJ2"
+        },
+        {
+            "filename": "software-engineers-working-on-project-and-programming-in-company-startup-business-teamwork-concept.jpg",
+            "thumbnail_url": "http:\/\/shine.creativemox.com\/neonews\/wp-content\/uploads\/sites\/4\/2024\/07\/software-engineers-working-on-project-and-programming-in-company-startup-business-teamwork-concept-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 122176,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-X7L6BVK"
+        },
+        {
+            "filename": "logo-1.png",
+            "thumbnail_url": "http:\/\/shine.creativemox.com\/neonews\/wp-content\/uploads\/sites\/4\/2024\/07\/logo-1.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 2063,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-2.png",
+            "thumbnail_url": "http:\/\/shine.creativemox.com\/neonews\/wp-content\/uploads\/sites\/4\/2024\/07\/logo-2.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 1811,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-3.png",
+            "thumbnail_url": "http:\/\/shine.creativemox.com\/neonews\/wp-content\/uploads\/sites\/4\/2024\/07\/logo-3.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 2079,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-4.png",
+            "thumbnail_url": "http:\/\/shine.creativemox.com\/neonews\/wp-content\/uploads\/sites\/4\/2024\/07\/logo-4.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 2193,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-5.png",
+            "thumbnail_url": "http:\/\/shine.creativemox.com\/neonews\/wp-content\/uploads\/sites\/4\/2024\/07\/logo-5.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 2300,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-11.png",
+            "thumbnail_url": "http:\/\/shine.creativemox.com\/neonews\/wp-content\/uploads\/sites\/4\/2024\/07\/logo-11.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 1900,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "top-view-of-business-workplace-with-laptop-and-gadgets.jpg",
+            "thumbnail_url": "http:\/\/shine.creativemox.com\/neonews\/wp-content\/uploads\/sites\/4\/2024\/07\/top-view-of-business-workplace-with-laptop-and-gadgets-800x535.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/homepage-2.json",
+                    "name": "Homepage 2"
+                }
+            ],
+            "filesize": 159113,
+            "dimensions": [
+                1280,
+                856
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-PKZ7TM8"
+        },
+        {
+            "filename": "lake-in-the-mountains.jpg",
+            "thumbnail_url": "http:\/\/shine.creativemox.com\/neonews\/wp-content\/uploads\/sites\/4\/2024\/07\/lake-in-the-mountains-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/homepage-2.json",
+                    "name": "Homepage 2"
+                },
+                {
+                    "source": "templates\/categories-layout-1.json",
+                    "name": "Categories Layout 1"
+                },
+                {
+                    "source": "templates\/categories-layout-2.json",
+                    "name": "Categories Layout 2"
+                }
+            ],
+            "filesize": 113369,
+            "dimensions": [
+                1280,
+                720
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-RYLPDS3"
+        },
+        {
+            "filename": "epic-earth-rotate-sunlight-glow-starry-galaxy.jpg",
+            "thumbnail_url": "http:\/\/shine.creativemox.com\/neonews\/wp-content\/uploads\/sites\/4\/2024\/07\/epic-earth-rotate-sunlight-glow-starry-galaxy-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/homepage-2.json",
+                    "name": "Homepage 2"
+                },
+                {
+                    "source": "templates\/categories-layout-2.json",
+                    "name": "Categories Layout 2"
+                },
+                {
+                    "source": "templates\/categories-layout-3.json",
+                    "name": "Categories Layout 3"
+                }
+            ],
+            "filesize": 113595,
+            "dimensions": [
+                1280,
+                720
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-9BBWC6L"
+        },
+        {
+            "filename": "flat-lay-photograph-olympic-games-e1722587878683.jpg",
+            "thumbnail_url": "http:\/\/shine.creativemox.com\/neonews\/wp-content\/uploads\/sites\/4\/2024\/07\/flat-lay-photograph-olympic-games-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/categories-layout-1.json",
+                    "name": "Categories Layout 1"
+                }
+            ],
+            "filesize": 177615,
+            "dimensions": [
+                960,
+                640
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-PBKA8EP"
+        },
+        {
+            "filename": "astronaut-exploring-a-new-planet-.jpg",
+            "thumbnail_url": "http:\/\/shine.creativemox.com\/neonews\/wp-content\/uploads\/sites\/4\/2024\/07\/astronaut-exploring-a-new-planet--800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-2.json",
+                    "name": "Homepage 2"
+                }
+            ],
+            "filesize": 196425,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-24T2H3J"
+        },
+        {
+            "filename": "wrinkled-paper-texture-background.jpg",
+            "thumbnail_url": "http:\/\/shine.creativemox.com\/neonews\/wp-content\/uploads\/sites\/4\/2024\/07\/wrinkled-paper-texture-background-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-2.json",
+                    "name": "Homepage 2"
+                }
+            ],
+            "filesize": 97939,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-LHZG5N6"
+        },
+        {
+            "filename": "presenter-promoting-artificial-intelligence-business-solutions.jpg",
+            "thumbnail_url": "http:\/\/shine.creativemox.com\/neonews\/wp-content\/uploads\/sites\/4\/2024\/07\/presenter-promoting-artificial-intelligence-business-solutions-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-2.json",
+                    "name": "Homepage 2"
+                },
+                {
+                    "source": "templates\/categories-layout-3.json",
+                    "name": "Categories Layout 3"
+                }
+            ],
+            "filesize": 109140,
+            "dimensions": [
+                1280,
+                720
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/image-LT6RPLH"
+        }
+    ]
+}

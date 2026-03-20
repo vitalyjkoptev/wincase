@@ -1,0 +1,355 @@
+{
+    "version": "0.4",
+    "title": "MetForm_Newslatter",
+    "type": "section",
+    "metadata": {
+        "template_type": "section-cta",
+        "include_in_zip": "1",
+        "elementor_pro_required": null,
+        "wp_page_template": "elementor_canvas"
+    },
+    "content": [
+        {
+            "id": "572393e4",
+            "settings": {
+                "flex_direction": "column",
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "flex_gap": {
+                    "column": "0",
+                    "row": "10",
+                    "isLinked": false,
+                    "unit": "px",
+                    "size": 0
+                },
+                "flex_gap_tablet": {
+                    "column": "0",
+                    "row": "5",
+                    "isLinked": false,
+                    "unit": "px",
+                    "size": 0
+                }
+            },
+            "elements": [
+                {
+                    "id": "61d0497c",
+                    "settings": {
+                        "content_width": "full",
+                        "margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "129772e3",
+                            "settings": {
+                                "mf_input_label": "",
+                                "mf_input_name": "mf-email",
+                                "mf_input_placeholder": "Enter your email",
+                                "mf_input_validation_warning_message": "This field is required.",
+                                "mf_input_background_background": "classic",
+                                "mf_input_border_radius": {
+                                    "unit": "px",
+                                    "size": 10,
+                                    "sizes": []
+                                },
+                                "mf_input_box_shadow_box_shadow_type": "yes",
+                                "mf_input_box_shadow_box_shadow": {
+                                    "horizontal": 0,
+                                    "vertical": 0,
+                                    "blur": 10,
+                                    "spread": 0,
+                                    "color": "rgba(0, 0, 0, 0)"
+                                },
+                                "__globals__": {
+                                    "mf_input_place_holder_typography_typography": "globals\/typography?id=b95b0f1",
+                                    "mf_input_background_color": "globals\/colors?id=19b404c",
+                                    "mf_input_color": "globals\/colors?id=primary",
+                                    "mf_input_color_hover": "globals\/colors?id=secondary",
+                                    "mf_input_color_focus": "globals\/colors?id=secondary"
+                                },
+                                "mf_input_background_color_stop_tablet": {
+                                    "unit": "%"
+                                },
+                                "mf_input_background_color_stop_mobile": {
+                                    "unit": "%"
+                                },
+                                "mf_input_background_color_b_stop_tablet": {
+                                    "unit": "%"
+                                },
+                                "mf_input_background_color_b_stop_mobile": {
+                                    "unit": "%"
+                                },
+                                "mf_input_background_gradient_angle_tablet": {
+                                    "unit": "deg"
+                                },
+                                "mf_input_background_gradient_angle_mobile": {
+                                    "unit": "deg"
+                                },
+                                "mf_input_background_hover_color_stop_tablet": {
+                                    "unit": "%"
+                                },
+                                "mf_input_background_hover_color_stop_mobile": {
+                                    "unit": "%"
+                                },
+                                "mf_input_background_hover_color_b_stop_tablet": {
+                                    "unit": "%"
+                                },
+                                "mf_input_background_hover_color_b_stop_mobile": {
+                                    "unit": "%"
+                                },
+                                "mf_input_background_hover_gradient_angle_tablet": {
+                                    "unit": "deg"
+                                },
+                                "mf_input_background_hover_gradient_angle_mobile": {
+                                    "unit": "deg"
+                                },
+                                "mf_input_background_focus_color_stop_tablet": {
+                                    "unit": "%"
+                                },
+                                "mf_input_background_focus_color_stop_mobile": {
+                                    "unit": "%"
+                                },
+                                "mf_input_background_focus_color_b_stop_tablet": {
+                                    "unit": "%"
+                                },
+                                "mf_input_background_focus_color_b_stop_mobile": {
+                                    "unit": "%"
+                                },
+                                "mf_input_background_focus_gradient_angle_tablet": {
+                                    "unit": "deg"
+                                },
+                                "mf_input_background_focus_gradient_angle_mobile": {
+                                    "unit": "deg"
+                                },
+                                "_background_color_stop_tablet": {
+                                    "unit": "%"
+                                },
+                                "_background_color_stop_mobile": {
+                                    "unit": "%"
+                                },
+                                "_background_color_b_stop_tablet": {
+                                    "unit": "%"
+                                },
+                                "_background_color_b_stop_mobile": {
+                                    "unit": "%"
+                                },
+                                "_background_gradient_angle_tablet": {
+                                    "unit": "deg"
+                                },
+                                "_background_gradient_angle_mobile": {
+                                    "unit": "deg"
+                                },
+                                "_background_hover_color_stop_tablet": {
+                                    "unit": "%"
+                                },
+                                "_background_hover_color_stop_mobile": {
+                                    "unit": "%"
+                                },
+                                "_background_hover_color_b_stop_tablet": {
+                                    "unit": "%"
+                                },
+                                "_background_hover_color_b_stop_mobile": {
+                                    "unit": "%"
+                                },
+                                "_background_hover_gradient_angle_tablet": {
+                                    "unit": "deg"
+                                },
+                                "_background_hover_gradient_angle_mobile": {
+                                    "unit": "deg"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "mf-email",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": true,
+                    "elType": "container"
+                },
+                {
+                    "id": "63b07c3f",
+                    "settings": {
+                        "content_width": "full",
+                        "margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "523f2ca0",
+                            "settings": {
+                                "mf_btn_text": "Sign Up",
+                                "mf_btn_align": "justify",
+                                "mf_btn_icon": {
+                                    "value": "fas fa-envelope-open-text",
+                                    "library": "fa-solid"
+                                },
+                                "mf_hidden_input": [],
+                                "mf_btn_bg_color_background": "classic",
+                                "mf_btn_bg_hover_color_background": "classic",
+                                "mf_btn_box_shadow_group_box_shadow_type": "yes",
+                                "mf_btn_box_shadow_group_box_shadow": {
+                                    "horizontal": 0,
+                                    "vertical": 0,
+                                    "blur": 10,
+                                    "spread": 0,
+                                    "color": "rgba(0, 0, 0, 0)"
+                                },
+                                "__globals__": {
+                                    "mf_btn_bg_color_color": "globals\/colors?id=primary",
+                                    "mf_btn_text_color": "",
+                                    "mf_btn_bg_hover_color_color": "globals\/colors?id=secondary",
+                                    "mf_btn_hover_color": "globals\/colors?id=accent",
+                                    "mf_btn_typography_typography": "globals\/typography?id=accent",
+                                    "mf_btn_hover_icon_color": "globals\/colors?id=accent"
+                                },
+                                "mf_btn_align_tablet": "justify",
+                                "mf_btn_align_mobile": "justify",
+                                "mf_btn_bg_color_color_stop_tablet": {
+                                    "unit": "%"
+                                },
+                                "mf_btn_bg_color_color_stop_mobile": {
+                                    "unit": "%"
+                                },
+                                "mf_btn_bg_color_color_b_stop_tablet": {
+                                    "unit": "%"
+                                },
+                                "mf_btn_bg_color_color_b_stop_mobile": {
+                                    "unit": "%"
+                                },
+                                "mf_btn_bg_color_gradient_angle_tablet": {
+                                    "unit": "deg"
+                                },
+                                "mf_btn_bg_color_gradient_angle_mobile": {
+                                    "unit": "deg"
+                                },
+                                "mf_btn_bg_hover_color_color_stop_tablet": {
+                                    "unit": "%"
+                                },
+                                "mf_btn_bg_hover_color_color_stop_mobile": {
+                                    "unit": "%"
+                                },
+                                "mf_btn_bg_hover_color_color_b_stop_tablet": {
+                                    "unit": "%"
+                                },
+                                "mf_btn_bg_hover_color_color_b_stop_mobile": {
+                                    "unit": "%"
+                                },
+                                "mf_btn_bg_hover_color_gradient_angle_tablet": {
+                                    "unit": "deg"
+                                },
+                                "mf_btn_bg_hover_color_gradient_angle_mobile": {
+                                    "unit": "deg"
+                                },
+                                "mf_btn_bg_focus_color_color_stop_tablet": {
+                                    "unit": "%"
+                                },
+                                "mf_btn_bg_focus_color_color_stop_mobile": {
+                                    "unit": "%"
+                                },
+                                "mf_btn_bg_focus_color_color_b_stop_tablet": {
+                                    "unit": "%"
+                                },
+                                "mf_btn_bg_focus_color_color_b_stop_mobile": {
+                                    "unit": "%"
+                                },
+                                "mf_btn_bg_focus_color_gradient_angle_tablet": {
+                                    "unit": "deg"
+                                },
+                                "mf_btn_bg_focus_color_gradient_angle_mobile": {
+                                    "unit": "deg"
+                                },
+                                "_background_color_stop_tablet": {
+                                    "unit": "%"
+                                },
+                                "_background_color_stop_mobile": {
+                                    "unit": "%"
+                                },
+                                "_background_color_b_stop_tablet": {
+                                    "unit": "%"
+                                },
+                                "_background_color_b_stop_mobile": {
+                                    "unit": "%"
+                                },
+                                "_background_gradient_angle_tablet": {
+                                    "unit": "deg"
+                                },
+                                "_background_gradient_angle_mobile": {
+                                    "unit": "deg"
+                                },
+                                "_background_hover_color_stop_tablet": {
+                                    "unit": "%"
+                                },
+                                "_background_hover_color_stop_mobile": {
+                                    "unit": "%"
+                                },
+                                "_background_hover_color_b_stop_tablet": {
+                                    "unit": "%"
+                                },
+                                "_background_hover_color_b_stop_mobile": {
+                                    "unit": "%"
+                                },
+                                "_background_hover_gradient_angle_tablet": {
+                                    "unit": "deg"
+                                },
+                                "_background_hover_gradient_angle_mobile": {
+                                    "unit": "deg"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "mf-button",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": true,
+                    "elType": "container"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        }
+    ]
+}

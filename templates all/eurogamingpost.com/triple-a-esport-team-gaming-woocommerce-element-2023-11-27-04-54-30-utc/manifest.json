@@ -1,0 +1,1743 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Triple-A",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/templatekits.themewarrior.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/?elementor_library=header",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/?elementor_library=footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.jpg",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/template-kit\/home\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Teams",
+            "screenshot": "screenshots\/teams.jpg",
+            "source": "templates\/teams.json",
+            "preview_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/template-kit\/teams\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About Us",
+            "screenshot": "screenshots\/about-us.jpg",
+            "source": "templates\/about-us.json",
+            "preview_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/template-kit\/about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Merchandise",
+            "screenshot": "screenshots\/merchandise.jpg",
+            "source": "templates\/merchandise.json",
+            "preview_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/template-kit\/merchandise\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single Product",
+            "screenshot": "screenshots\/single-product.jpg",
+            "source": "templates\/single-product.json",
+            "preview_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/?elementor_library=single-product",
+            "type": "product",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-product",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "product",
+                "elementor_pro_conditions": [
+                    "include\/product"
+                ],
+                "additional_template_information": [
+                    "This is a \"Product\" template for Elementor Pro.",
+                    "This template will display on: Products."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Archive Product",
+            "screenshot": "screenshots\/archive-product.jpg",
+            "source": "templates\/archive-product.json",
+            "preview_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/?elementor_library=archive-product",
+            "type": "product-archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-product",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "product-archive",
+                "elementor_pro_conditions": [
+                    "include\/product_archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Product Archive\" template for Elementor Pro.",
+                    "This template will display on: All Product Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "News",
+            "screenshot": "screenshots\/news.jpg",
+            "source": "templates\/news.json",
+            "preview_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/template-kit\/news\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single Post",
+            "screenshot": "screenshots\/single-post.jpg",
+            "source": "templates\/single-post.json",
+            "preview_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/?elementor_library=single-post",
+            "type": "single-post",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-post",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Post\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Archive Post",
+            "screenshot": "screenshots\/archive-post.jpg",
+            "source": "templates\/archive-post.json",
+            "preview_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/?elementor_library=archive-post",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: All Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Track Order",
+            "screenshot": "screenshots\/track-order.jpg",
+            "source": "templates\/track-order.json",
+            "preview_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/template-kit\/track-order\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Partners",
+            "screenshot": "screenshots\/partners.jpg",
+            "source": "templates\/partners.json",
+            "preview_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/template-kit\/partners\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Pricing",
+            "screenshot": "screenshots\/pricing.jpg",
+            "source": "templates\/pricing.json",
+            "preview_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/template-kit\/pricing\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact Us",
+            "screenshot": "screenshots\/contact-us.jpg",
+            "source": "templates\/contact-us.json",
+            "preview_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/template-kit\/contact-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Coming soon",
+            "screenshot": "screenshots\/coming-soon.jpg",
+            "source": "templates\/coming-soon.json",
+            "preview_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/template-kit\/coming-soon\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "404",
+            "screenshot": "screenshots\/404.jpg",
+            "source": "templates\/404.json",
+            "preview_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/?elementor_library=404",
+            "type": "error-404",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "error-404",
+                "elementor_pro_conditions": [
+                    "include\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Error 404\" template for Elementor Pro.",
+                    "This template will display on: 404 Page."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Login",
+            "screenshot": "screenshots\/login.jpg",
+            "source": "templates\/login.json",
+            "preview_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/template-kit\/login\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Popups Banner",
+            "screenshot": "screenshots\/popups-banner.jpg",
+            "source": "templates\/popups-banner.json",
+            "preview_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/?elementor_library=popups-banner",
+            "type": "popup",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-popup",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "popup",
+                "elementor_pro_conditions": [
+                    "include\/singular\/front_page"
+                ],
+                "additional_template_information": [
+                    "This is a \"Popup\" template for Elementor Pro.",
+                    "This template will display on: Front Page."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Cart",
+            "screenshot": "screenshots\/cart.jpg",
+            "source": "templates\/cart.json",
+            "preview_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/?elementor_library=cart",
+            "type": "single-page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-page",
+                "elementor_pro_conditions": [
+                    "include\/singular\/page\/7"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Page\" template for Elementor Pro.",
+                    "This template will display on: Page #7."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Checkout",
+            "screenshot": "screenshots\/checkout.jpg",
+            "source": "templates\/checkout.json",
+            "preview_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/?elementor_library=checkout",
+            "type": "single-page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-page",
+                "elementor_pro_conditions": [
+                    "include\/singular\/page\/8"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Page\" template for Elementor Pro.",
+                    "This template will display on: Page #8."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "My Account",
+            "screenshot": "screenshots\/my-account.jpg",
+            "source": "templates\/my-account.json",
+            "preview_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/?elementor_library=my-account",
+            "type": "single-page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-page",
+                "elementor_pro_conditions": [
+                    "include\/singular\/page\/9"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Page\" template for Elementor Pro.",
+                    "This template will display on: Page #9."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "WooCommerce",
+            "version": "6.5.1",
+            "file": "woocommerce\/woocommerce.php",
+            "author": "Automattic"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.6.6",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor Pro",
+            "version": "3.7.1",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "logoipsum1.png",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/logoipsum1.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                }
+            ],
+            "filesize": 1505,
+            "dimensions": [
+                80,
+                20
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logoipsum2.png",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/logoipsum2.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                }
+            ],
+            "filesize": 1258,
+            "dimensions": [
+                76,
+                20
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logoipsum3.png",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/logoipsum3.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                }
+            ],
+            "filesize": 915,
+            "dimensions": [
+                40,
+                20
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logoipsum4.png",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/logoipsum4.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                }
+            ],
+            "filesize": 1539,
+            "dimensions": [
+                83,
+                20
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "ogoipsum5.png",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/ogoipsum5.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                }
+            ],
+            "filesize": 1771,
+            "dimensions": [
+                56,
+                20
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logoipsum6.png",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/logoipsum6.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                }
+            ],
+            "filesize": 1530,
+            "dimensions": [
+                84,
+                20
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "footer-bg.png",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/footer-bg-800x428.png",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 182675,
+            "dimensions": [
+                1440,
+                770
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "hero-home.jpg",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/hero-home-800x444.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 102622,
+            "dimensions": [
+                1440,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/professional-team-posing-at-camera-in-cyber-club-GRD7T5Z"
+        },
+        {
+            "filename": "logo-vs.png",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/logo-vs.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 884,
+            "dimensions": [
+                43,
+                20
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo-vs2.png",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/logo-vs2.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 1129,
+            "dimensions": [
+                64,
+                20
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "bg-card-schedule.jpg",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/bg-card-schedule.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 11140,
+            "dimensions": [
+                370,
+                204
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/professional-gamer-participates-in-team-play-in-co-TL986AR"
+        },
+        {
+            "filename": "circle-secondary.png",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/circle-secondary-800x813.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/teams.json",
+                    "name": "Teams"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/merchandise.json",
+                    "name": "Merchandise"
+                },
+                {
+                    "source": "templates\/single-product.json",
+                    "name": "Single Product"
+                },
+                {
+                    "source": "templates\/archive-product.json",
+                    "name": "Archive Product"
+                },
+                {
+                    "source": "templates\/news.json",
+                    "name": "News"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/archive-post.json",
+                    "name": "Archive Post"
+                },
+                {
+                    "source": "templates\/track-order.json",
+                    "name": "Track Order"
+                },
+                {
+                    "source": "templates\/partners.json",
+                    "name": "Partners"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 492892,
+            "dimensions": [
+                900,
+                915
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "about-sect.jpg",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/about-sect.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 50271,
+            "dimensions": [
+                570,
+                376
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/young-team-happy-with-successful-game-in-cyber-clu-RG94UFN"
+        },
+        {
+            "filename": "video1.jpg",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/video1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 55562,
+            "dimensions": [
+                740,
+                416
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/professional-gamer-participating-in-esports-tourna-DBXYWNV"
+        },
+        {
+            "filename": "video2.jpg",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/video2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 41797,
+            "dimensions": [
+                740,
+                416
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/team-of-professional-cybersport-gamers-celebrating-8MDEB8E"
+        },
+        {
+            "filename": "video3.jpg",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/video3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 48348,
+            "dimensions": [
+                740,
+                416
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/cyber-sportsman-participating-in-important-match-a-QKV9KJD"
+        },
+        {
+            "filename": "bg-team.jpg",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/bg-team-800x644.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/teams.json",
+                    "name": "Teams"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 99386,
+            "dimensions": [
+                1440,
+                1159
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/team-of-professional-cybersport-gamers-celebrating-GC6MLD8"
+        },
+        {
+            "filename": "teams1.jpg",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/teams1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/teams.json",
+                    "name": "Teams"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 54893,
+            "dimensions": [
+                570,
+                370
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/cheerful-gamer-participates-in-team-play-in-cyber--JCVT6PQ"
+        },
+        {
+            "filename": "logo-team.png",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/logo-team.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/teams.json",
+                    "name": "Teams"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 716,
+            "dimensions": [
+                42,
+                20
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "teams2.jpg",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/teams2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/teams.json",
+                    "name": "Teams"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 49284,
+            "dimensions": [
+                570,
+                370
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/asian-gamer-happy-with-his-game-in-cyber-club-ZD49HQP"
+        },
+        {
+            "filename": "teams3.jpg",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/teams3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/teams.json",
+                    "name": "Teams"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 53326,
+            "dimensions": [
+                570,
+                370
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/female-gamer-succeed-in-gaming-tournament-in-compu-Y9DURZJ"
+        },
+        {
+            "filename": "teams4.jpg",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/teams4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/teams.json",
+                    "name": "Teams"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 52997,
+            "dimensions": [
+                570,
+                370
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/smart-gamer-playing-online-video-game-professional-DGLRJ9Y"
+        },
+        {
+            "filename": "bg-darkpattern.jpg",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/bg-darkpattern.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/teams.json",
+                    "name": "Teams"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 7748,
+            "dimensions": [
+                97,
+                94
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "achieve1.png",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/achieve1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/teams.json",
+                    "name": "Teams"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 6551,
+            "dimensions": [
+                127,
+                60
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "achieve2.png",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/achieve2.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/teams.json",
+                    "name": "Teams"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 4889,
+            "dimensions": [
+                74,
+                60
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "achieve3.png",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/achieve3.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/teams.json",
+                    "name": "Teams"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 5965,
+            "dimensions": [
+                125,
+                60
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "achieve4.png",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/achieve4.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/teams.json",
+                    "name": "Teams"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 5481,
+            "dimensions": [
+                183,
+                60
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "player1.jpg",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/player1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/teams.json",
+                    "name": "Teams"
+                }
+            ],
+            "filesize": 45676,
+            "dimensions": [
+                540,
+                740
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/young-confident-caucasian-guy-male-cyber-sport-gam-VSG6FMA"
+        },
+        {
+            "filename": "player2.jpg",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/player2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/teams.json",
+                    "name": "Teams"
+                }
+            ],
+            "filesize": 42427,
+            "dimensions": [
+                540,
+                740
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/vertical-shot-of-young-asian-guy-male-cyber-sport--RZPCP5H"
+        },
+        {
+            "filename": "player3.jpg",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/player3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/teams.json",
+                    "name": "Teams"
+                }
+            ],
+            "filesize": 49530,
+            "dimensions": [
+                540,
+                740
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/vertical-shot-of-young-confident-african-guy-male--EFCCPTS"
+        },
+        {
+            "filename": "player4.jpg",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/player4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/teams.json",
+                    "name": "Teams"
+                }
+            ],
+            "filesize": 38686,
+            "dimensions": [
+                540,
+                740
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/portrait-of-a-happy-teenage-mixed-race-girl-female-7W5GHBQ"
+        },
+        {
+            "filename": "promo-bg.jpg",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/promo-bg-800x205.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/merchandise.json",
+                    "name": "Merchandise"
+                }
+            ],
+            "filesize": 34385,
+            "dimensions": [
+                1170,
+                300
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/esports-gamer-succeed-in-gaming-tournament-in-comp-5832WV3"
+        },
+        {
+            "filename": "logoipsum12.png",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/logoipsum12.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/partners.json",
+                    "name": "Partners"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 2669,
+            "dimensions": [
+                159,
+                40
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logoipsum22.png",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/logoipsum22.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/partners.json",
+                    "name": "Partners"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 2485,
+            "dimensions": [
+                152,
+                40
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logoipsum32.png",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/logoipsum32.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/partners.json",
+                    "name": "Partners"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 1822,
+            "dimensions": [
+                80,
+                40
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logoipsum42.png",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/logoipsum42.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/partners.json",
+                    "name": "Partners"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 3288,
+            "dimensions": [
+                164,
+                40
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logoipsum52.png",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/logoipsum52.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/partners.json",
+                    "name": "Partners"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 3695,
+            "dimensions": [
+                112,
+                40
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logoipsum62.png",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/logoipsum62.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/partners.json",
+                    "name": "Partners"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 3066,
+            "dimensions": [
+                166,
+                40
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "hero-teams.jpg",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/hero-teams-800x278.jpg",
+            "templates": [
+                {
+                    "source": "templates\/teams.json",
+                    "name": "Teams"
+                }
+            ],
+            "filesize": 64440,
+            "dimensions": [
+                1440,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/side-view-of-a-happy-mixed-race-girl-female-cybers-AHCVA96"
+        },
+        {
+            "filename": "hero-about.jpg",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/hero-about-800x278.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 67247,
+            "dimensions": [
+                1440,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/multiracial-team-of-professional-cybersport-gamers-7H4K8U6"
+        },
+        {
+            "filename": "circle-tertiery.png",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/circle-tertiery.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/news.json",
+                    "name": "News"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/archive-post.json",
+                    "name": "Archive Post"
+                },
+                {
+                    "source": "templates\/track-order.json",
+                    "name": "Track Order"
+                },
+                {
+                    "source": "templates\/partners.json",
+                    "name": "Partners"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 207778,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "comunity-sect.jpg",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/comunity-sect-800x556.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 63044,
+            "dimensions": [
+                835,
+                580
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/team-of-excited-teenage-participants-of-e-sports-v-M9T4JLV"
+        },
+        {
+            "filename": "hero-merch.jpg",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/hero-merch-800x278.jpg",
+            "templates": [
+                {
+                    "source": "templates\/merchandise.json",
+                    "name": "Merchandise"
+                },
+                {
+                    "source": "templates\/single-product.json",
+                    "name": "Single Product"
+                },
+                {
+                    "source": "templates\/archive-product.json",
+                    "name": "Archive Product"
+                },
+                {
+                    "source": "templates\/cart.json",
+                    "name": "Cart"
+                },
+                {
+                    "source": "templates\/checkout.json",
+                    "name": "Checkout"
+                },
+                {
+                    "source": "templates\/my-account.json",
+                    "name": "My Account"
+                }
+            ],
+            "filesize": 72310,
+            "dimensions": [
+                1440,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/team-of-happy-professional-cyber-sport-gamers-cele-GGLKVS8"
+        },
+        {
+            "filename": "hero-news.jpg",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/hero-news-800x278.jpg",
+            "templates": [
+                {
+                    "source": "templates\/news.json",
+                    "name": "News"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/archive-post.json",
+                    "name": "Archive Post"
+                }
+            ],
+            "filesize": 61638,
+            "dimensions": [
+                1440,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/the-guy-puts-on-green-headphones-and-plays-and-vid-9BY63VB"
+        },
+        {
+            "filename": "hero-trackorder.jpg",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/hero-trackorder-800x278.jpg",
+            "templates": [
+                {
+                    "source": "templates\/track-order.json",
+                    "name": "Track Order"
+                }
+            ],
+            "filesize": 74524,
+            "dimensions": [
+                1440,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/team-of-four-professional-cybersport-gamers-wearin-S375HPK"
+        },
+        {
+            "filename": "hero-partners.jpg",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/hero-partners-800x278.jpg",
+            "templates": [
+                {
+                    "source": "templates\/partners.json",
+                    "name": "Partners"
+                }
+            ],
+            "filesize": 78849,
+            "dimensions": [
+                1440,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/multiracial-team-of-professional-cybersport-gamers-7H4K8U6"
+        },
+        {
+            "filename": "hero-pricing.jpg",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/hero-pricing-800x278.jpg",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 66203,
+            "dimensions": [
+                1440,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/team-of-focused-professional-cybersport-gamers-wea-PXV9NBQ"
+        },
+        {
+            "filename": "faq1.jpg",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/faq1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 53159,
+            "dimensions": [
+                570,
+                376
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/oung-multiracial-team-of-happy-professional-cyber--2A6DV4R"
+        },
+        {
+            "filename": "hero-contact.jpg",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/hero-contact-800x278.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 61706,
+            "dimensions": [
+                1440,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/esports-team-playing-game-on-computers-in-gaming-c-NP48JLV"
+        },
+        {
+            "filename": "hero-faq.jpg",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/hero-faq-800x278.jpg",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 63398,
+            "dimensions": [
+                1440,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/oung-multiracial-team-of-happy-professional-cyber--2A6DV4R"
+        },
+        {
+            "filename": "faq2.jpg",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/faq2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 47602,
+            "dimensions": [
+                570,
+                376
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/side-view-of-a-happy-mixed-race-girl-female-cybers-AHCVA96"
+        },
+        {
+            "filename": "comingsoon-tra.jpg",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/comingsoon-tra-800x500.jpg",
+            "templates": [
+                {
+                    "source": "templates\/coming-soon.json",
+                    "name": "Coming soon"
+                }
+            ],
+            "filesize": 91203,
+            "dimensions": [
+                1440,
+                900
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/the-guy-puts-on-green-headphones-and-plays-and-vid-9BY63VB"
+        },
+        {
+            "filename": "404-bgg.jpg",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/404-bgg-800x444.jpg",
+            "templates": [
+                {
+                    "source": "templates\/404.json",
+                    "name": "404"
+                }
+            ],
+            "filesize": 102005,
+            "dimensions": [
+                1440,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/young-woman-gamer-feeling-depressed-while-playing--8CA58V9"
+        },
+        {
+            "filename": "login-bg.jpg",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/login-bg-800x500.jpg",
+            "templates": [
+                {
+                    "source": "templates\/login.json",
+                    "name": "Login"
+                }
+            ],
+            "filesize": 102926,
+            "dimensions": [
+                1440,
+                900
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/team-of-professional-cybersport-gamers-celebrating-GC6MLD8"
+        },
+        {
+            "filename": "popups-tripleaa.jpg",
+            "thumbnail_url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/popups-tripleaa.jpg",
+            "templates": [
+                {
+                    "source": "templates\/popups-banner.json",
+                    "name": "Popups Banner"
+                }
+            ],
+            "filesize": 48177,
+            "dimensions": [
+                724,
+                724
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/side-view-of-a-happy-mixed-race-girl-female-cybers-AHCVA96"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+Changelog for Javapaper WordPress Theme | 
+
+= 1.4 =
+* Released: FEB 06 2023
+* Cruccial update for Elementor add-on
+* Fix: Minor CSS issue
+
+= 1.3 =
+* Released: Mei 27, 2022
+* Fix: Minor CSS issue
+How to update:
+1. Update the theme with the new one.
+2. Deactivate and delete plugin name "Javapaper for Elementor."
+3. Install and activate "Javapaper for Elementor" plugin.
+
+
+= 1.2 =
+* Released: April 10, 2022
+* Fix: Minor CSS issue
+
+
+= 1.0 =
+* Released: April 05, 2022

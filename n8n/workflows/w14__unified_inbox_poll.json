@@ -1,0 +1,142 @@
+{
+    "name": "W14: Unified Inbox Poll",
+    "nodes": [
+        {
+            "parameters": {
+                "rule": {
+                    "interval": [
+                        {
+                            "field": "cronExpression",
+                            "expression": "*\/10 * * * *"
+                        }
+                    ]
+                }
+            },
+            "name": "Schedule Trigger",
+            "type": "n8n-nodes-base.scheduleTrigger",
+            "typeVersion": 1.2,
+            "position": [
+                250,
+                300
+            ]
+        },
+        {
+            "parameters": {
+                "method": "GET",
+                "url": "https:\/\/crm.wincase.eu\/api\/v1\/social\/inbox\/poll",
+                "options": [],
+                "sendHeaders": true,
+                "headerParameters": {
+                    "parameters": [
+                        {
+                            "name": "Accept",
+                            "value": "application\/json"
+                        }
+                    ]
+                }
+            },
+            "name": "Poll Inbox",
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 4.2,
+            "position": [
+                500,
+                300
+            ]
+        },
+        {
+            "parameters": {
+                "conditions": {
+                    "string": [
+                        {
+                            "value1": "={{\\$json.data.new_count}}",
+                            "operation": "isNotEmpty"
+                        }
+                    ]
+                }
+            },
+            "name": "New Messages?",
+            "type": "n8n-nodes-base.if",
+            "typeVersion": 1,
+            "position": [
+                750,
+                300
+            ]
+        },
+        {
+            "parameters": {
+                "method": "POST",
+                "url": "https:\/\/crm.wincase.eu\/api\/v1\/notifications\/push",
+                "options": [],
+                "sendHeaders": true,
+                "headerParameters": {
+                    "parameters": [
+                        {
+                            "name": "Accept",
+                            "value": "application\/json"
+                        }
+                    ]
+                },
+                "sendBody": true,
+                "bodyParameters": {
+                    "parameters": [
+                        {
+                            "name": "type",
+                            "value": "inbox_new"
+                        },
+                        {
+                            "name": "count",
+                            "value": "={{\\$json.data.new_count}}"
+                        }
+                    ]
+                }
+            },
+            "name": "Push Notification",
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 4.2,
+            "position": [
+                1000,
+                300
+            ]
+        }
+    ],
+    "connections": {
+        "Schedule Trigger": {
+            "main": [
+                [
+                    {
+                        "node": "Poll Inbox",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Poll Inbox": {
+            "main": [
+                [
+                    {
+                        "node": "New Messages?",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "New Messages?": {
+            "main": [
+                [
+                    {
+                        "node": "Push Notification",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        }
+    },
+    "active": false,
+    "settings": {
+        "executionOrder": "v1"
+    },
+    "tags": []
+}

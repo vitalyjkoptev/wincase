@@ -1,0 +1,56 @@
+<?php
+/**
+ * The template for displaying 404 pages
+ *
+ * @package Qalam
+ * @since 1.0.0
+ * @version 2.4.0
+ */
+
+get_header();
+
+$full_width = get_theme_mod( 'archive_fw', false );
+$archive_template = get_theme_mod( 'archive_style', 'list' );
+$archive_template = ( 'card' == $archive_template ? 'grid' : $archive_template );
+
+$content_class = '';
+
+if ( is_active_sidebar( 'default-sidebar' ) ) {
+    $content_class .= ' has-sba';
+}
+
+if ( is_active_sidebar( 'sidebar-b' ) ) {
+    $content_class .= ' has-sbb';
+}
+
+if ( ! is_active_sidebar( 'default-sidebar' ) && ! ( in_array( get_theme_mod( 'sb_pos', 'ca' ), array( 'cba', 'acb', 'bca', 'abc' ) ) && is_active_sidebar( 'sidebar-b' ) ) || get_theme_mod( 'archive_fw', false ) ) {
+    $content_class = ' full-width';
+}
+?>
+<div id="primary" class="site-content<?php echo esc_attr( $content_class ); ?>">
+    <div class="primary-row">
+        <div id="content" role="main">
+            <article id="post-0" class="post error404 no-results not-found">
+                <header class="page-header">
+                    <h1 class="entry-title"><?php esc_html_e( 'Nothing found!', 'qalam' ); ?></h1>
+                </header>
+                <div class="entry-content">
+                    <p><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'qalam' ); ?></p>
+                    <?php get_search_form(); ?>
+                </div><!-- .entry-content -->
+            </article><!-- #post-0 -->
+        </div><!-- #content -->
+        <?php
+        if ( ! $full_width ) {
+            qalam_sidebar_b();
+        }
+        ?>
+    </div><!-- .primary-row -->
+</div><!-- #primary -->
+<?php
+if ( 'no-sb' != get_theme_mod( 'sb_pos', 'ca' ) ) {
+    if ( ! $full_width ) {
+        get_sidebar();
+    }
+}
+get_footer();

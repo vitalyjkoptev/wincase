@@ -1,0 +1,287 @@
+{
+    "version": "0.4",
+    "title": "Neonews &#8211; Menu Slide",
+    "type": "popup",
+    "metadata": {
+        "template_type": "section-popup",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "elementor_library_type": "popup",
+        "additional_template_information": [
+            "This is a \"Popup\" template for Elementor Pro."
+        ],
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "1cc206e",
+            "settings": {
+                "flex_direction": "column",
+                "margin": {
+                    "unit": "px",
+                    "top": "28",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "21",
+                    "right": "21",
+                    "bottom": "21",
+                    "left": "21",
+                    "isLinked": true
+                }
+            },
+            "elements": [
+                {
+                    "id": "52acf9d7",
+                    "settings": {
+                        "content_width": "full",
+                        "image": {
+                            "url": "http:\/\/shine.creativemox.com\/neonews\/wp-content\/uploads\/sites\/4\/2024\/07\/logo_neonews.png",
+                            "id": 142,
+                            "size": "",
+                            "alt": "",
+                            "source": "library"
+                        },
+                        "image_size": "custom",
+                        "image_custom_dimension": {
+                            "width": "",
+                            "height": "42"
+                        },
+                        "align": "left",
+                        "height": {
+                            "unit": "px",
+                            "size": 42,
+                            "sizes": []
+                        },
+                        "object-fit": "contain"
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "image",
+                    "elType": "widget"
+                },
+                {
+                    "id": "25d80a3a",
+                    "settings": {
+                        "content_width": "full",
+                        "icon_list": [
+                            {
+                                "text": "Politics",
+                                "selected_icon": {
+                                    "value": "fas fa-hashtag",
+                                    "library": "fa-solid"
+                                },
+                                "_id": "eb83fa8",
+                                "link": {
+                                    "url": "#",
+                                    "is_external": "",
+                                    "nofollow": "",
+                                    "custom_attributes": ""
+                                }
+                            },
+                            {
+                                "text": "Business",
+                                "selected_icon": {
+                                    "value": "fas fa-hashtag",
+                                    "library": "fa-solid"
+                                },
+                                "link": {
+                                    "url": "#",
+                                    "is_external": "",
+                                    "nofollow": "",
+                                    "custom_attributes": ""
+                                },
+                                "_id": "2efd22e"
+                            },
+                            {
+                                "text": "Technology",
+                                "selected_icon": {
+                                    "value": "fas fa-hashtag",
+                                    "library": "fa-solid"
+                                },
+                                "link": {
+                                    "url": "#",
+                                    "is_external": "",
+                                    "nofollow": "",
+                                    "custom_attributes": ""
+                                },
+                                "_id": "0d63776"
+                            },
+                            {
+                                "text": "Sports",
+                                "selected_icon": {
+                                    "value": "fas fa-hashtag",
+                                    "library": "fa-solid"
+                                },
+                                "link": {
+                                    "url": "#",
+                                    "is_external": "",
+                                    "nofollow": "",
+                                    "custom_attributes": ""
+                                },
+                                "_id": "d1ba4d5"
+                            },
+                            {
+                                "text": "Entertainment",
+                                "selected_icon": {
+                                    "value": "fas fa-hashtag",
+                                    "library": "fa-solid"
+                                },
+                                "link": {
+                                    "url": "#",
+                                    "is_external": "",
+                                    "nofollow": "",
+                                    "custom_attributes": ""
+                                },
+                                "_id": "1b48283"
+                            },
+                            {
+                                "text": "Health",
+                                "selected_icon": {
+                                    "value": "fas fa-hashtag",
+                                    "library": "fa-solid"
+                                },
+                                "link": {
+                                    "url": "#",
+                                    "is_external": "",
+                                    "nofollow": "",
+                                    "custom_attributes": ""
+                                },
+                                "_id": "6440379"
+                            },
+                            {
+                                "text": "Science",
+                                "selected_icon": {
+                                    "value": "fas fa-hashtag",
+                                    "library": "fa-solid"
+                                },
+                                "link": {
+                                    "url": "#",
+                                    "is_external": "",
+                                    "nofollow": "",
+                                    "custom_attributes": ""
+                                },
+                                "_id": "0793606"
+                            },
+                            {
+                                "text": "Travel",
+                                "selected_icon": {
+                                    "value": "fas fa-hashtag",
+                                    "library": "fa-solid"
+                                },
+                                "link": {
+                                    "url": "#",
+                                    "is_external": "",
+                                    "nofollow": "",
+                                    "custom_attributes": ""
+                                },
+                                "_id": "f9b2091"
+                            },
+                            {
+                                "text": "Lifestyle",
+                                "selected_icon": {
+                                    "value": "fas fa-hashtag",
+                                    "library": "fa-solid"
+                                },
+                                "link": {
+                                    "url": "#",
+                                    "is_external": "",
+                                    "nofollow": "",
+                                    "custom_attributes": ""
+                                },
+                                "_id": "ebd0ba2"
+                            }
+                        ],
+                        "space_between": {
+                            "unit": "px",
+                            "size": 21,
+                            "sizes": []
+                        },
+                        "divider": "yes",
+                        "_padding": {
+                            "unit": "px",
+                            "top": "21",
+                            "right": "0",
+                            "bottom": "21",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "__globals__": {
+                            "divider_color": "globals\/colors?id=4d462f5",
+                            "icon_color": "globals\/colors?id=d49ac81",
+                            "icon_typography_typography": "globals\/typography?id=83682a1"
+                        }
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "icon-list",
+                    "elType": "widget"
+                },
+                {
+                    "id": "5b4bdf8f",
+                    "settings": {
+                        "content_width": "full",
+                        "text": "Subscribe"
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "button",
+                    "elType": "widget"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        }
+    ],
+    "page_settings": {
+        "width": {
+            "unit": "px",
+            "size": 320,
+            "sizes": []
+        },
+        "height_type": "fit_to_screen",
+        "horizontal_position": "left",
+        "entrance_animation": "fadeInLeft",
+        "exit_animation": "fadeInLeft",
+        "entrance_animation_duration": {
+            "unit": "px",
+            "size": 0.5,
+            "sizes": []
+        },
+        "close_button_vertical": {
+            "unit": "px",
+            "size": 0,
+            "sizes": []
+        },
+        "close_button_horizontal": {
+            "unit": "%",
+            "size": 0,
+            "sizes": []
+        },
+        "icon_size": {
+            "unit": "px",
+            "size": 28,
+            "sizes": []
+        },
+        "close_button_vertical_tablet": {
+            "unit": "px",
+            "size": "",
+            "sizes": []
+        },
+        "close_button_vertical_mobile": {
+            "unit": "px",
+            "size": "",
+            "sizes": []
+        },
+        "__globals__": {
+            "close_button_color": "globals\/colors?id=text",
+            "close_button_background_color": "globals\/colors?id=d49ac81",
+            "close_button_hover_color": "globals\/colors?id=text",
+            "close_button_hover_background_color": "globals\/colors?id=332724a"
+        }
+    }
+}

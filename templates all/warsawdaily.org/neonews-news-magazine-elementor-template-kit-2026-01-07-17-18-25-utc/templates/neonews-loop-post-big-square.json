@@ -1,0 +1,274 @@
+{
+    "version": "0.4",
+    "title": "Neonews &#8211; Loop Post Big Square",
+    "type": "loop-item",
+    "metadata": {
+        "template_type": "section-loop",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "elementor_library_type": "loop-item",
+        "additional_template_information": [
+            "This is a \"Loop Item\" template for Elementor Pro."
+        ],
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "76981e73",
+            "settings": {
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                    "unit": "px",
+                    "size": "",
+                    "sizes": []
+                },
+                "boxed_width": {
+                    "unit": "px",
+                    "size": 640,
+                    "sizes": []
+                },
+                "min_height": {
+                    "unit": "px",
+                    "size": 500,
+                    "sizes": []
+                },
+                "min_height_tablet": {
+                    "unit": "px",
+                    "size": 350,
+                    "sizes": []
+                },
+                "min_height_mobile": {
+                    "unit": "px",
+                    "size": 275,
+                    "sizes": []
+                },
+                "flex_justify_content": "flex-end",
+                "overflow": "hidden",
+                "background_background": "classic",
+                "background_position": "center center",
+                "background_repeat": "no-repeat",
+                "background_size": "cover",
+                "background_overlay_background": "gradient",
+                "background_overlay_color": "#0F101200",
+                "background_overlay_color_b": "#0F1012",
+                "background_overlay_opacity": {
+                    "unit": "px",
+                    "size": 1,
+                    "sizes": []
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "__dynamic__": {
+                    "background_image": "[elementor-tag id=\"505375e\" name=\"post-featured-image\" settings=\"%7B%7D\"]"
+                },
+                "__globals__": {
+                    "background_overlay_color": "",
+                    "background_overlay_color_b": "globals\/colors?id=638d055"
+                }
+            },
+            "elements": [
+                {
+                    "id": "78cc0925",
+                    "settings": {
+                        "background_background": "classic",
+                        "margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "-100",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding": {
+                            "unit": "em",
+                            "top": "2",
+                            "right": "2",
+                            "bottom": "2",
+                            "left": "2",
+                            "isLinked": true
+                        },
+                        "padding_tablet": {
+                            "unit": "em",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "padding_mobile": {
+                            "unit": "em",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "_transform_translate_popover_hover": "transform",
+                        "_transform_translateY_effect_hover": {
+                            "unit": "px",
+                            "size": -100,
+                            "sizes": []
+                        },
+                        "__globals__": {
+                            "background_color": ""
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "13ce811a",
+                            "settings": {
+                                "content_width": "full",
+                                "icon_list": [
+                                    {
+                                        "type": "custom",
+                                        "selected_icon": {
+                                            "value": "mdi mdi-bookmark-outline",
+                                            "library": "skb_cife-materialdesign-icon"
+                                        },
+                                        "_id": "a6d7a4b",
+                                        "custom_date_format": "F j, Y",
+                                        "custom_time_format": "g:i a",
+                                        "show_icon": "custom",
+                                        "__dynamic__": {
+                                            "custom_text": "[elementor-tag id=\"8df3262\" name=\"post-terms\" settings=\"%7B%22taxonomy%22%3A%22category%22%2C%22separator%22%3A%22%2C%20%22%7D\"]"
+                                        }
+                                    }
+                                ],
+                                "_padding": {
+                                    "unit": "px",
+                                    "top": "3",
+                                    "right": "10",
+                                    "bottom": "3",
+                                    "left": "10",
+                                    "isLinked": false
+                                },
+                                "_flex_align_self": "flex-start",
+                                "_background_background": "classic",
+                                "__globals__": {
+                                    "icon_typography_typography": "globals\/typography?id=112b6c4",
+                                    "icon_color": "globals\/colors?id=text",
+                                    "text_color": "globals\/colors?id=text",
+                                    "_background_color": "globals\/colors?id=accent"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "post-info",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "d356dd2",
+                            "settings": {
+                                "content_width": "full",
+                                "title": "Add Your Heading Text Here",
+                                "header_size": "h4",
+                                "__dynamic__": {
+                                    "title": "[elementor-tag id=\"6b5c0f2\" name=\"post-title\" settings=\"%7B%7D\"]"
+                                },
+                                "__globals__": {
+                                    "title_color": "globals\/colors?id=text"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "1c19ca83",
+                            "settings": {
+                                "content_width": "full",
+                                "icon_list": [
+                                    {
+                                        "type": "author",
+                                        "selected_icon": {
+                                            "value": "mdi mdi-check-decagram",
+                                            "library": "skb_cife-materialdesign-icon"
+                                        },
+                                        "_id": "f811e76",
+                                        "custom_date_format": "F j, Y",
+                                        "custom_time_format": "g:i a",
+                                        "show_icon": "custom"
+                                    },
+                                    {
+                                        "selected_icon": {
+                                            "value": "mdi mdi-calendar-month",
+                                            "library": "skb_cife-materialdesign-icon"
+                                        },
+                                        "_id": "dd3dfa8",
+                                        "custom_date_format": "F j, Y",
+                                        "custom_time_format": "g:i a",
+                                        "show_icon": "custom"
+                                    }
+                                ],
+                                "__globals__": {
+                                    "icon_color": "globals\/colors?id=a2c0d56",
+                                    "icon_typography_typography": "globals\/typography?id=112b6c4",
+                                    "text_color": "globals\/colors?id=text"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "post-info",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "716448a7",
+                            "settings": {
+                                "content_width": "full",
+                                "text": "Divider",
+                                "gap": {
+                                    "unit": "px",
+                                    "size": 7,
+                                    "sizes": []
+                                },
+                                "__globals__": {
+                                    "color": "globals\/colors?id=accent"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "divider",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "23027929",
+                            "settings": {
+                                "content_width": "full",
+                                "text": "Read more",
+                                "selected_icon": {
+                                    "value": "mdi mdi-arrow-right",
+                                    "library": "skb_cife-materialdesign-icon"
+                                },
+                                "icon_align": "row-reverse",
+                                "icon_indent": {
+                                    "unit": "px",
+                                    "size": 7,
+                                    "sizes": []
+                                },
+                                "__dynamic__": {
+                                    "link": "[elementor-tag id=\"cbe3b1b\" name=\"post-url\" settings=\"%7B%7D\"]"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "button",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": true,
+                    "elType": "container"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        }
+    ]
+}

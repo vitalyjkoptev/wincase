@@ -1,0 +1,164 @@
+{
+    "version": "0.4",
+    "title": "404",
+    "type": "error-404",
+    "metadata": {
+        "template_type": "single-404",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "elementor_library_type": "error-404",
+        "elementor_pro_conditions": [
+            "include\/singular\/not_found404"
+        ],
+        "additional_template_information": [
+            "This is a \"Error 404\" template for Elementor Pro.",
+            "This template will display on: 404 Page."
+        ],
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "652ff3d1",
+            "settings": {
+                "gap": "no",
+                "background_background": "classic",
+                "background_image": {
+                    "url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/404-bgg.jpg",
+                    "id": "349",
+                    "alt": "",
+                    "source": "library"
+                },
+                "background_position": "center center",
+                "background_repeat": "no-repeat",
+                "background_size": "cover",
+                "background_overlay_background": "classic",
+                "background_overlay_opacity": {
+                    "unit": "px",
+                    "size": "1",
+                    "sizes": []
+                },
+                "shape_divider_bottom": "triangle",
+                "shape_divider_bottom_height": {
+                    "unit": "px",
+                    "size": "30",
+                    "sizes": []
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "300",
+                    "right": "0",
+                    "bottom": "200",
+                    "left": "0",
+                    "isLinked": ""
+                },
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "200",
+                    "right": "32",
+                    "bottom": "100",
+                    "left": "32",
+                    "isLinked": ""
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "200",
+                    "right": "16",
+                    "bottom": "100",
+                    "left": "16",
+                    "isLinked": ""
+                },
+                "__globals__": {
+                    "background_overlay_color": "globals\/colors?id=239ee08",
+                    "shape_divider_bottom_color": "globals\/colors?id=af5460f"
+                },
+                "_title": "Section: 404"
+            },
+            "elements": [
+                {
+                    "id": "3016b971",
+                    "settings": {
+                        "_column_size": "100",
+                        "_inline_size": "",
+                        "space_between_widgets": "32"
+                    },
+                    "elements": [
+                        {
+                            "id": "3d8d98ab",
+                            "settings": {
+                                "title": "page not found",
+                                "header_size": "h4",
+                                "align": "center",
+                                "__globals__": {
+                                    "title_color": "globals\/colors?id=accent",
+                                    "typography_typography": "globals\/typography?id=2137814"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "6a09f142",
+                            "settings": {
+                                "title": "404",
+                                "header_size": "h1",
+                                "align": "center",
+                                "_animation": "fadeInUp",
+                                "__globals__": {
+                                    "title_color": "globals\/colors?id=1f8e86b",
+                                    "typography_typography": "globals\/typography?id=82f75f1"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "60ce7bb5",
+                            "settings": {
+                                "title": "Sorry, we couldn\u2019t find the page you are looking for.",
+                                "header_size": "div",
+                                "align": "center",
+                                "__globals__": {
+                                    "title_color": "globals\/colors?id=1f8e86b",
+                                    "typography_typography": "globals\/typography?id=a720993"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "121eabe1",
+                            "settings": {
+                                "text": "back to home",
+                                "align": "center",
+                                "hover_animation": "bob",
+                                "__globals__": {
+                                    "typography_typography": "globals\/typography?id=accent",
+                                    "button_text_color": "globals\/colors?id=secondary",
+                                    "background_color": "globals\/colors?id=accent"
+                                },
+                                "_animation": "fadeInUp",
+                                "__dynamic__": {
+                                    "link": "[elementor-tag id=\"0d7aca9\" name=\"site-url\" settings=\"%7B%7D\"]"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "button",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": "",
+                    "elType": "column"
+                }
+            ],
+            "isInner": "",
+            "elType": "section"
+        }
+    ]
+}

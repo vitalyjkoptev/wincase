@@ -1,0 +1,1488 @@
+# Copyright (C) 2017 Saurabh Sharma
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qalam 2.4.0\n"
+"POT-Creation-Date: 2026-01-04 13:12+0530\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:35
+msgid "Nothing found!"
+msgstr ""
+
+#: ../404.php:38 ../functions.php:399
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: ../comments.php:27 ../functions.php:743
+msgid "One Comment"
+msgstr ""
+
+#: ../comments.php:32 ../functions.php:750
+#, php-format
+msgctxt "number of comments"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../comments.php:50
+msgid "Reply"
+msgstr ""
+
+#: ../comments.php:56
+msgid "Previous"
+msgstr ""
+
+#: ../comments.php:57
+msgid "Next"
+msgstr ""
+
+#: ../comments.php:65
+msgid "Comments are closed."
+msgstr ""
+
+#: ../content-full.php:57
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: ../content-full.php:62 ../page.php:47 ../single.php:127
+#: ../templates/canvas.php:18 ../templates/page-full.php:31
+#: ../templates/single-full-header.php:91 ../templates/single-full-width.php:77
+#: ../templates/single-inline-header.php:81
+msgid "Pages:"
+msgstr ""
+
+#: ../content-full.php:75 ../content-grid.php:84 ../content-list.php:79
+#: ../content-mix.php:182
+msgid "Previous page"
+msgstr ""
+
+#: ../content-full.php:76 ../content-grid.php:85 ../content-list.php:80
+#: ../content-mix.php:183
+msgid "Next page"
+msgstr ""
+
+#: ../content-full.php:77 ../content-grid.php:86 ../content-list.php:81
+#: ../content-mix.php:184
+msgid "Page"
+msgstr ""
+
+#: ../functions.php:50
+msgid "Mobile Menu"
+msgstr ""
+
+#: ../functions.php:51
+msgid "Top Menu"
+msgstr ""
+
+#: ../functions.php:52
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:197
+msgid "Toggle child menu"
+msgstr ""
+
+#: ../functions.php:225
+msgid "Sidebar A"
+msgstr ""
+
+#: ../functions.php:227
+msgid "The main sidebar"
+msgstr ""
+
+#: ../functions.php:236
+msgid "Sidebar B"
+msgstr ""
+
+#: ../functions.php:238
+msgid "Additional sidebar for two sidebar layouts"
+msgstr ""
+
+#: ../functions.php:247 ../functions.php:249
+msgid "Top widget area"
+msgstr ""
+
+#: ../functions.php:257 ../functions.php:259
+msgid "Header widget area"
+msgstr ""
+
+#: ../functions.php:267 ../functions.php:269 ../includes/kirki-config.php:177
+msgid "Widget area before content"
+msgstr ""
+
+#: ../functions.php:277 ../functions.php:279 ../includes/kirki-config.php:185
+msgid "Widget area after content"
+msgstr ""
+
+#: ../functions.php:287
+msgid "Inline widget area before post"
+msgstr ""
+
+#: ../functions.php:289
+msgid "Inline widget area before post content"
+msgstr ""
+
+#: ../functions.php:297
+msgid "Inline widget area after post"
+msgstr ""
+
+#: ../functions.php:299
+msgid "Inline widget area after post content"
+msgstr ""
+
+#: ../functions.php:307 ../functions.php:309 ../includes/kirki-config.php:193
+msgid "Secondary widget area"
+msgstr ""
+
+#: ../functions.php:317 ../functions.php:319 ../includes/kirki-config.php:201
+msgid "Footer widget area"
+msgstr ""
+
+#: ../functions.php:397
+msgid "Nothing Found"
+msgstr ""
+
+#: ../functions.php:459
+#, php-format
+msgctxt "human time difference. E.g. 10 days ago"
+msgid "%s ago"
+msgstr ""
+
+#: ../functions.php:462
+#, php-format
+msgctxt "date - separator - time"
+msgid "%s<span class=\"sep time-sep\"></span><span class=\"publish-time\">%s</span>"
+msgstr ""
+
+#: ../functions.php:473 ../functions.php:522
+#, php-format
+msgid "More posts by %s"
+msgstr ""
+
+#: ../functions.php:491 ../functions.php:532
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr ""
+
+#: ../functions.php:493 ../functions.php:534
+msgid "Posted by"
+msgstr ""
+
+#: ../functions.php:502 ../functions.php:538
+msgctxt "post published date label"
+msgid "Published"
+msgstr ""
+
+#: ../functions.php:509 ../functions.php:543
+msgid "Updated"
+msgstr ""
+
+#: ../functions.php:564
+#, php-format
+msgid "Posted by %s on %s. %s"
+msgstr ""
+
+#: ../functions.php:572
+msgid "Updated: "
+msgstr ""
+
+#: ../functions.php:586 ../includes/kirki-config.php:677
+msgid "X (Twitter) URL"
+msgstr ""
+
+#: ../functions.php:587 ../includes/kirki-config.php:693
+msgid "Facebook URL"
+msgstr ""
+
+#: ../functions.php:588 ../includes/kirki-config.php:709
+msgid "LinkedIn URL"
+msgstr ""
+
+#: ../functions.php:589 ../includes/kirki-config.php:725
+msgid "Instagram URL"
+msgstr ""
+
+#: ../functions.php:590
+msgid "YouTube URL"
+msgstr ""
+
+#: ../functions.php:591 ../includes/kirki-config.php:741
+msgid "Threads URL"
+msgstr ""
+
+#: ../functions.php:746
+msgid "Leave a comment"
+msgstr ""
+
+#: ../functions.php:777
+msgid "Previous Post"
+msgstr ""
+
+#: ../functions.php:778
+msgid "Next Post"
+msgstr ""
+
+#: ../functions.php:837
+#, php-format
+msgid "&copy; %s %s. All rights reserved."
+msgstr ""
+
+#: ../functions.php:875
+msgid "Scroll to top"
+msgstr ""
+
+#: ../functions.php:875
+msgid "scroll to top"
+msgstr ""
+
+#: ../functions.php:900
+msgid "Search for:"
+msgstr ""
+
+#: ../functions.php:901
+msgid "Search for..."
+msgstr ""
+
+#: ../functions.php:903 ../functions.php:966 ../functions.php:983
+msgid "Search"
+msgstr ""
+
+#: ../functions.php:949 ../template-parts/header/top-bar.php:89
+#: ../woocommerce/woocommerce-hooks.php:16
+msgid "View your shopping cart"
+msgstr ""
+
+#: ../header.php:27
+msgid "Close"
+msgstr ""
+
+#: ../includes/bfi_thumb.php:145
+msgid "The server does not have ImageMagick or GD installed and/or enabled! Any of these libraries are required for WordPress to be able to resize images. Please contact your server administrator to enable this before continuing."
+msgstr ""
+
+#: ../includes/bfi_thumb.php:273
+msgid "Image rotate failed."
+msgstr ""
+
+#: ../includes/bfi_thumb.php:296
+msgid "Image opacity change failed."
+msgstr ""
+
+#: ../includes/bfi_thumb.php:383
+msgid "Image color change failed."
+msgstr ""
+
+#: ../includes/bfi_thumb.php:400
+msgid "Image grayscale failed."
+msgstr ""
+
+#: ../includes/bfi_thumb.php:417
+msgid "Image negate failed."
+msgstr ""
+
+#: ../includes/breadcrumbs.php:17 ../includes/breadcrumbs.php:32
+msgid "Home"
+msgstr ""
+
+#: ../includes/breadcrumbs.php:28
+#, php-format
+msgid " (Page %s)"
+msgstr ""
+
+#: ../includes/breadcrumbs.php:223
+msgid "Search results for: "
+msgstr ""
+
+#: ../includes/breadcrumbs.php:232
+msgid "Posts tagged: "
+msgstr ""
+
+#: ../includes/breadcrumbs.php:243
+msgid "Articles posted by: "
+msgstr ""
+
+#: ../includes/breadcrumbs.php:247
+msgid "Error 404"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../includes/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../includes/class-tgm-plugin-activation.php:355
+#, php-format
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../includes/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../includes/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../includes/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../includes/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../includes/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../includes/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../includes/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:393
+#: ../includes/class-tgm-plugin-activation.php:912
+#: ../includes/class-tgm-plugin-activation.php:2618
+#: ../includes/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:394
+#: ../includes/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:395
+#: ../includes/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../includes/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:399
+#, php-format
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:403
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1019
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1019
+#: ../includes/class-tgm-plugin-activation.php:1022
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1022
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1206
+#: ../includes/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../includes/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../includes/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../includes/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../includes/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:3592
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:3594
+#: ../includes/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:3594
+#: ../includes/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:3600
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../includes/kirki-config.php:24
+msgid "Layout"
+msgstr ""
+
+#: ../includes/kirki-config.php:31
+msgid "Layout style"
+msgstr ""
+
+#: ../includes/kirki-config.php:37
+msgid "Stretched"
+msgstr ""
+
+#: ../includes/kirki-config.php:38
+msgid "Boxed"
+msgstr ""
+
+#: ../includes/kirki-config.php:45
+msgid "Layout width (in px)"
+msgstr ""
+
+#: ../includes/kirki-config.php:71
+msgid "Sidebars Layout"
+msgstr ""
+
+#: ../includes/kirki-config.php:90
+msgid "Sidebar A ratio"
+msgstr ""
+
+#: ../includes/kirki-config.php:91
+msgid "Set a width ratio (in %) for Sidebar A"
+msgstr ""
+
+#: ../includes/kirki-config.php:119
+msgid "Sidebar B ratio"
+msgstr ""
+
+#: ../includes/kirki-config.php:120
+msgid "Set a width ratio (in %) for Sidebar B"
+msgstr ""
+
+#: ../includes/kirki-config.php:148 ../includes/kirki-config.php:831
+#: ../includes/kirki-config.php:1280
+msgid "Gutter width (in px)"
+msgstr ""
+
+#: ../includes/kirki-config.php:149
+msgid "Set a gutter width between main content and sidebars."
+msgstr ""
+
+#: ../includes/kirki-config.php:209
+msgid "Schema Microdata"
+msgstr ""
+
+#: ../includes/kirki-config.php:217
+msgid "Breadcrumbs"
+msgstr ""
+
+#: ../includes/kirki-config.php:225
+msgid "Page Titles"
+msgstr ""
+
+#: ../includes/kirki-config.php:234 ../includes/kirki-config.php:1712
+msgid "Header"
+msgstr ""
+
+#: ../includes/kirki-config.php:235
+msgid "Header area settings"
+msgstr ""
+
+#: ../includes/kirki-config.php:240 ../includes/kirki-config.php:248
+#: ../includes/kirki-config.php:1633
+msgid "Top Bar"
+msgstr ""
+
+#: ../includes/kirki-config.php:249
+msgid "Enable top utility bar."
+msgstr ""
+
+#: ../includes/kirki-config.php:257
+msgid "Top Bar Height"
+msgstr ""
+
+#: ../includes/kirki-config.php:284
+msgid "Top bar left section"
+msgstr ""
+
+#: ../includes/kirki-config.php:285
+msgid "Choose what to show in left side of top bar."
+msgstr ""
+
+#: ../includes/kirki-config.php:291 ../includes/kirki-config.php:323
+msgid "Custom Text"
+msgstr ""
+
+#: ../includes/kirki-config.php:292
+msgid "WordPress Menu"
+msgstr ""
+
+#: ../includes/kirki-config.php:299
+msgid "Custom text for left section"
+msgstr ""
+
+#: ../includes/kirki-config.php:301 ../template-parts/header/top-bar.php:10
+msgid "Optional callout text"
+msgstr ""
+
+#: ../includes/kirki-config.php:315
+msgid "Top bar right section"
+msgstr ""
+
+#: ../includes/kirki-config.php:316
+msgid "Choose what to show in right side of top bar."
+msgstr ""
+
+#: ../includes/kirki-config.php:322
+msgid "Utility links (Login, cart, etc.)"
+msgstr ""
+
+#: ../includes/kirki-config.php:330
+msgid "Choose utility links"
+msgstr ""
+
+#: ../includes/kirki-config.php:336
+msgid "Welcome Username"
+msgstr ""
+
+#: ../includes/kirki-config.php:337
+msgid "Login / Register"
+msgstr ""
+
+#: ../includes/kirki-config.php:338
+msgid "WooCommerce Cart"
+msgstr ""
+
+#: ../includes/kirki-config.php:352
+msgid "Custom text for right section"
+msgstr ""
+
+#: ../includes/kirki-config.php:354 ../template-parts/header/top-bar.php:99
+msgid "Hello World!"
+msgstr ""
+
+#: ../includes/kirki-config.php:367
+msgid "Main Header"
+msgstr ""
+
+#: ../includes/kirki-config.php:375
+msgid "Main header style"
+msgstr ""
+
+#: ../includes/kirki-config.php:376
+msgid "Choose a header style for the theme"
+msgstr ""
+
+#: ../includes/kirki-config.php:392
+msgid "Sticky navigation bar"
+msgstr ""
+
+#: ../includes/kirki-config.php:393
+msgid "Enable sticky navbar upon scroll. The sticky feature will be applied for device width 768px and above."
+msgstr ""
+
+#: ../includes/kirki-config.php:401
+msgid "Main header height"
+msgstr ""
+
+#: ../includes/kirki-config.php:402 ../includes/kirki-config.php:431
+#: ../includes/kirki-config.php:461 ../includes/kirki-config.php:491
+#: ../includes/kirki-config.php:520 ../includes/kirki-config.php:550
+msgid "Provide a height for main header containing the logo. Default: 64px, Minimum: 48px"
+msgstr ""
+
+#: ../includes/kirki-config.php:430 ../includes/kirki-config.php:519
+msgid "Main header height (Tablet)"
+msgstr ""
+
+#: ../includes/kirki-config.php:460 ../includes/kirki-config.php:549
+msgid "Main header height (Mobile)"
+msgstr ""
+
+#: ../includes/kirki-config.php:490
+msgid "Main header height (Desktop)"
+msgstr ""
+
+#: ../includes/kirki-config.php:579
+msgid "Navigation Bar Height"
+msgstr ""
+
+#: ../includes/kirki-config.php:580
+msgid "Provide a height for navigation bar containing the main menu."
+msgstr ""
+
+#: ../includes/kirki-config.php:614
+msgid "Show search panel in main header"
+msgstr ""
+
+#: ../includes/kirki-config.php:622
+msgid "Search form type"
+msgstr ""
+
+#: ../includes/kirki-config.php:623
+msgid "Choose type of search form display"
+msgstr ""
+
+#: ../includes/kirki-config.php:629 ../includes/kirki-config.php:1167
+msgid "Inline"
+msgstr ""
+
+#: ../includes/kirki-config.php:630
+msgid "Full Screen Overlay"
+msgstr ""
+
+#: ../includes/kirki-config.php:645
+msgid "WooCommerce cart link"
+msgstr ""
+
+#: ../includes/kirki-config.php:646
+msgid "Choose where to place the WooCommerce cart link."
+msgstr ""
+
+#: ../includes/kirki-config.php:652
+msgid "None"
+msgstr ""
+
+#: ../includes/kirki-config.php:653
+msgid "Top bar"
+msgstr ""
+
+#: ../includes/kirki-config.php:654
+msgid "Main header"
+msgstr ""
+
+#: ../includes/kirki-config.php:660
+msgid "Social Links"
+msgstr ""
+
+#: ../includes/kirki-config.php:668
+msgid "Enable social links"
+msgstr ""
+
+#: ../includes/kirki-config.php:669
+msgid "Check to enable social links in header"
+msgstr ""
+
+#: ../includes/kirki-config.php:757
+msgid "Youtube URL"
+msgstr ""
+
+#: ../includes/kirki-config.php:773
+msgid "Archives"
+msgstr ""
+
+#: ../includes/kirki-config.php:780
+msgid "Global Archive Template"
+msgstr ""
+
+#: ../includes/kirki-config.php:786
+msgid "List"
+msgstr ""
+
+#: ../includes/kirki-config.php:787
+msgid "Grid"
+msgstr ""
+
+#: ../includes/kirki-config.php:788
+msgid "Mix"
+msgstr ""
+
+#: ../includes/kirki-config.php:789
+msgid "Card"
+msgstr ""
+
+#: ../includes/kirki-config.php:790
+msgid "Full post"
+msgstr ""
+
+#: ../includes/kirki-config.php:797
+msgid "Number of grid columns"
+msgstr ""
+
+#: ../includes/kirki-config.php:803
+msgid "2"
+msgstr ""
+
+#: ../includes/kirki-config.php:804
+msgid "3"
+msgstr ""
+
+#: ../includes/kirki-config.php:805
+msgid "4"
+msgstr ""
+
+#: ../includes/kirki-config.php:832
+msgid "Set a gutter width between post modules in archives"
+msgstr ""
+
+#: ../includes/kirki-config.php:923
+msgid "Image container width (in %)"
+msgstr ""
+
+#: ../includes/kirki-config.php:924
+#, php-format
+msgid "Set an image container width % for list style archives."
+msgstr ""
+
+#: ../includes/kirki-config.php:962
+msgid "Excerpt in archives"
+msgstr ""
+
+#: ../includes/kirki-config.php:970
+msgid "Excerpt length (in words)"
+msgstr ""
+
+#: ../includes/kirki-config.php:971
+msgid "Provide an excerpt length in words. Default: 20"
+msgstr ""
+
+#: ../includes/kirki-config.php:992
+msgid "Full width on archives"
+msgstr ""
+
+#: ../includes/kirki-config.php:993
+msgid "Hides all sidebars on archives."
+msgstr ""
+
+#: ../includes/kirki-config.php:1001
+msgid "Post meta in archives"
+msgstr ""
+
+#: ../includes/kirki-config.php:1009
+msgid "Post Meta Format"
+msgstr ""
+
+#: ../includes/kirki-config.php:1011
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: ../includes/kirki-config.php:1012
+#, php-format
+msgid "Use %1$s for date, %2$s for Author and %3$s for comment count respectively. E.g. Posted on %1$s by %2$s with %3$s comments."
+msgstr ""
+
+#: ../includes/kirki-config.php:1026
+msgid "Show Video Embeds"
+msgstr ""
+
+#: ../includes/kirki-config.php:1027
+msgid "If enabled, posts with video post format and a video content in it will show video embed in archives."
+msgstr ""
+
+#: ../includes/kirki-config.php:1035
+msgid "Social sharing in archives"
+msgstr ""
+
+#: ../includes/kirki-config.php:1043
+msgid "Social sharing links in archives"
+msgstr ""
+
+#: ../includes/kirki-config.php:1044
+msgid "Deselect all for hiding the links"
+msgstr ""
+
+#: ../includes/kirki-config.php:1050 ../includes/kirki-config.php:1326
+msgid "X (Twitter)"
+msgstr ""
+
+#: ../includes/kirki-config.php:1051 ../includes/kirki-config.php:1327
+msgid "Facebook"
+msgstr ""
+
+#: ../includes/kirki-config.php:1052 ../includes/kirki-config.php:1328
+msgid "LinkedIn"
+msgstr ""
+
+#: ../includes/kirki-config.php:1053 ../includes/kirki-config.php:1329
+msgid "Pinterest"
+msgstr ""
+
+#: ../includes/kirki-config.php:1054 ../includes/kirki-config.php:1330
+msgid "VKOntakte"
+msgstr ""
+
+#: ../includes/kirki-config.php:1055 ../includes/kirki-config.php:1331
+msgid "LINE"
+msgstr ""
+
+#: ../includes/kirki-config.php:1056 ../includes/kirki-config.php:1332
+msgid "Reddit"
+msgstr ""
+
+#: ../includes/kirki-config.php:1057 ../includes/kirki-config.php:1333
+msgid "Digg"
+msgstr ""
+
+#: ../includes/kirki-config.php:1058 ../includes/kirki-config.php:1334
+msgid "Tumblr"
+msgstr ""
+
+#: ../includes/kirki-config.php:1059 ../includes/kirki-config.php:1335
+msgid "StumbleUpon"
+msgstr ""
+
+#: ../includes/kirki-config.php:1060 ../includes/kirki-config.php:1336
+msgid "Yahoo"
+msgstr ""
+
+#: ../includes/kirki-config.php:1061 ../includes/kirki-config.php:1337
+msgid "GetPocket"
+msgstr ""
+
+#: ../includes/kirki-config.php:1062 ../includes/kirki-config.php:1338
+msgid "Skype"
+msgstr ""
+
+#: ../includes/kirki-config.php:1063 ../includes/kirki-config.php:1339
+msgid "Telegram"
+msgstr ""
+
+#: ../includes/kirki-config.php:1064 ../includes/kirki-config.php:1340
+msgid "Xing"
+msgstr ""
+
+#: ../includes/kirki-config.php:1065 ../includes/kirki-config.php:1341
+msgid "RenRen"
+msgstr ""
+
+#: ../includes/kirki-config.php:1066 ../includes/kirki-config.php:1343
+msgid "WhatsApp"
+msgstr ""
+
+#: ../includes/kirki-config.php:1067 ../includes/kirki-config.php:1342
+msgid "Threads"
+msgstr ""
+
+#: ../includes/kirki-config.php:1068 ../includes/kirki-config.php:1344
+msgid "Email"
+msgstr ""
+
+#: ../includes/kirki-config.php:1082
+msgid "Single Posts"
+msgstr ""
+
+#: ../includes/kirki-config.php:1089
+msgid "Single post layout"
+msgstr ""
+
+#: ../includes/kirki-config.php:1108
+msgid "Global Layout width (in px)"
+msgstr ""
+
+#: ../includes/kirki-config.php:1134
+msgid "Local Layout width (in px)"
+msgstr ""
+
+#: ../includes/kirki-config.php:1135
+msgid "This width applies to posts using the full width post template."
+msgstr ""
+
+#: ../includes/kirki-config.php:1161
+msgid "Title header style"
+msgstr ""
+
+#: ../includes/kirki-config.php:1168
+msgid "Full Width"
+msgstr ""
+
+#: ../includes/kirki-config.php:1175
+msgid "Show post meta"
+msgstr ""
+
+#: ../includes/kirki-config.php:1183
+msgid "Show featured image"
+msgstr ""
+
+#: ../includes/kirki-config.php:1191
+msgid "Show author bio"
+msgstr ""
+
+#: ../includes/kirki-config.php:1199
+msgid "Show posts navigation"
+msgstr ""
+
+#: ../includes/kirki-config.php:1207
+msgid "Show related posts"
+msgstr ""
+
+#: ../includes/kirki-config.php:1215
+msgid "Related posts heading"
+msgstr ""
+
+#: ../includes/kirki-config.php:1217 ../includes/related-posts.php:47
+msgid "Related Stories"
+msgstr ""
+
+#: ../includes/kirki-config.php:1231
+msgid "Number of related posts"
+msgstr ""
+
+#: ../includes/kirki-config.php:1251
+msgid "Columns per row"
+msgstr ""
+
+#: ../includes/kirki-config.php:1281
+msgid "Set a gutter width between post items in related posts"
+msgstr ""
+
+#: ../includes/kirki-config.php:1320
+msgid "Social sharing links"
+msgstr ""
+
+#: ../includes/kirki-config.php:1351
+msgid "Footer"
+msgstr ""
+
+#: ../includes/kirki-config.php:1358
+msgid "Secondary widget columns"
+msgstr ""
+
+#: ../includes/kirki-config.php:1359
+msgid "Number of columns in secondary widget area"
+msgstr ""
+
+#: ../includes/kirki-config.php:1372
+msgid "Footer widget columns"
+msgstr ""
+
+#: ../includes/kirki-config.php:1373
+msgid "Number of columns in footer widget area"
+msgstr ""
+
+#: ../includes/kirki-config.php:1386
+msgid "Typography"
+msgstr ""
+
+#: ../includes/kirki-config.php:1393
+msgid "Use Theme's Default Font"
+msgstr ""
+
+#: ../includes/kirki-config.php:1394
+msgid "The theme uses Open Sans as default font."
+msgstr ""
+
+#: ../includes/kirki-config.php:1402
+msgid "Body"
+msgstr ""
+
+#: ../includes/kirki-config.php:1425
+msgid "General Headings"
+msgstr ""
+
+#: ../includes/kirki-config.php:1446
+msgid "Site Title"
+msgstr ""
+
+#: ../includes/kirki-config.php:1469
+msgid "Navigation Links"
+msgstr ""
+
+#: ../includes/kirki-config.php:1491
+msgid "Site Tagline"
+msgstr ""
+
+#: ../includes/kirki-config.php:1514
+msgid "Widget Titles"
+msgstr ""
+
+#: ../includes/kirki-config.php:1536
+msgid "Image Sizes"
+msgstr ""
+
+#: ../includes/kirki-config.php:1543
+msgid "Enable BFI Thumb support"
+msgstr ""
+
+#: ../includes/kirki-config.php:1544
+msgid "If BFI Thumb script is enabled, images can be resized on-the-fly without regenerating thumbnails."
+msgstr ""
+
+#: ../includes/kirki-config.php:1552
+msgid "Archive images"
+msgstr ""
+
+#: ../includes/kirki-config.php:1553
+msgid "This setting applies on all archive images except full post archive style."
+msgstr ""
+
+#: ../includes/kirki-config.php:1562 ../includes/kirki-config.php:1599
+msgid "Width"
+msgstr ""
+
+#: ../includes/kirki-config.php:1575 ../includes/kirki-config.php:1612
+msgid "Height"
+msgstr ""
+
+#: ../includes/kirki-config.php:1576
+msgid "Use 0 for auto height."
+msgstr ""
+
+#: ../includes/kirki-config.php:1589
+msgid "Single post images"
+msgstr ""
+
+#: ../includes/kirki-config.php:1590
+msgid "This setting applies to single posts and full post style archives."
+msgstr ""
+
+#: ../includes/kirki-config.php:1627
+msgid "Colors"
+msgstr ""
+
+#: ../includes/kirki-config.php:1628
+msgid "Color Settings"
+msgstr ""
+
+#: ../includes/kirki-config.php:1641
+msgid "Top Bar Background"
+msgstr ""
+
+#: ../includes/kirki-config.php:1659
+msgid "Top Bar Text Color"
+msgstr ""
+
+#: ../includes/kirki-config.php:1677
+msgid "Top Bar Links Color"
+msgstr ""
+
+#: ../includes/kirki-config.php:1695
+msgid "Top Bar Links Hover Color"
+msgstr ""
+
+#: ../includes/kirki-config.php:1720
+msgid "Header Background"
+msgstr ""
+
+#: ../includes/kirki-config.php:1738
+msgid "Site Title Color"
+msgstr ""
+
+#: ../includes/kirki-config.php:1756
+msgid "Site Title Hover Color"
+msgstr ""
+
+#: ../includes/kirki-config.php:1774
+msgid "Site Tagline Color"
+msgstr ""
+
+#: ../includes/kirki-config.php:1792
+msgid "Header Links Color"
+msgstr ""
+
+#: ../includes/kirki-config.php:1814
+msgid "Header Links Hover Color"
+msgstr ""
+
+#: ../includes/kirki-config.php:1836
+msgid "Navigation Background"
+msgstr ""
+
+#: ../includes/kirki-config.php:1854
+msgid "Nav Links Color"
+msgstr ""
+
+#: ../includes/kirki-config.php:1872
+msgid "Nav Links Color (Hover)"
+msgstr ""
+
+#: ../includes/kirki-config.php:1890
+msgid "Nav Links Background (Hover)"
+msgstr ""
+
+#: ../includes/kirki-config.php:1908
+msgid "Current Link Color"
+msgstr ""
+
+#: ../includes/kirki-config.php:1926
+msgid "Current Link Background Color"
+msgstr ""
+
+#: ../includes/kirki-config.php:1944
+msgid "Submenu Background Color"
+msgstr ""
+
+#: ../includes/kirki-config.php:1962
+msgid "Submenu Link Color"
+msgstr ""
+
+#: ../includes/kirki-config.php:1980
+msgid "Submenu Link Color (Hover)"
+msgstr ""
+
+#: ../includes/kirki-config.php:1998
+msgid "Submenu Link Background (Hover)"
+msgstr ""
+
+#: ../includes/kirki-config.php:2015
+msgid "Secondary Widget Area"
+msgstr ""
+
+#: ../includes/kirki-config.php:2023 ../includes/kirki-config.php:2120
+msgid "Background"
+msgstr ""
+
+#: ../includes/kirki-config.php:2041 ../includes/kirki-config.php:2138
+msgid "Text Color"
+msgstr ""
+
+#: ../includes/kirki-config.php:2059 ../includes/kirki-config.php:2156
+msgid "Links Color"
+msgstr ""
+
+#: ../includes/kirki-config.php:2077 ../includes/kirki-config.php:2174
+msgid "Links Hover Color"
+msgstr ""
+
+#: ../includes/kirki-config.php:2095 ../includes/kirki-config.php:2192
+msgid "Widget Title Color"
+msgstr ""
+
+#: ../includes/kirki-config.php:2112
+msgid "Footer Widget Area"
+msgstr ""
+
+#: ../template-parts/header/header-1.php:18
+#: ../template-parts/header/header-2.php:18
+#: ../template-parts/header/header-3.php:49
+#: ../template-parts/header/header-4.php:55
+msgid "Menu"
+msgstr ""
+
+#: ../template-parts/header/top-bar.php:27
+#, php-format
+msgid "%s%sWelcome, Guest%s"
+msgstr ""
+
+#: ../template-parts/header/top-bar.php:38
+#, php-format
+msgid "%s%sWelcome, %s%s"
+msgstr ""
+
+#: ../template-parts/header/top-bar.php:54
+msgid "Sign in to your account"
+msgstr ""
+
+#: ../template-parts/header/top-bar.php:56
+msgid "Sign in"
+msgstr ""
+
+#: ../template-parts/header/top-bar.php:63
+msgid "Register for a new account"
+msgstr ""
+
+#: ../template-parts/header/top-bar.php:65
+msgid "Register"
+msgstr ""
+
+#: ../template-parts/header/top-bar.php:73
+msgid "Sign out from your account"
+msgstr ""
+
+#: ../template-parts/header/top-bar.php:75
+msgid "Sign out"
+msgstr ""

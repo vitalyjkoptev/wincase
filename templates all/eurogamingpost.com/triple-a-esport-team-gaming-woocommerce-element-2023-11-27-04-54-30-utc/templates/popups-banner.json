@@ -1,0 +1,196 @@
+{
+    "version": "0.4",
+    "title": "Popups Banner",
+    "type": "popup",
+    "metadata": {
+        "template_type": "section-popup",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "elementor_library_type": "popup",
+        "elementor_pro_conditions": [
+            "include\/singular\/front_page"
+        ],
+        "additional_template_information": [
+            "This is a \"Popup\" template for Elementor Pro.",
+            "This template will display on: Front Page."
+        ],
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "7cf0063a",
+            "settings": {
+                "gap": "no",
+                "structure": "20",
+                "_title": "Section: Popups"
+            },
+            "elements": [
+                {
+                    "id": "6fdacfd6",
+                    "settings": {
+                        "_column_size": "50",
+                        "_inline_size": ""
+                    },
+                    "elements": [
+                        {
+                            "id": "69b4c7d",
+                            "settings": {
+                                "image": {
+                                    "url": "https:\/\/templatekits.themewarrior.com\/triple-a\/wp-content\/uploads\/sites\/59\/2022\/06\/popups-tripleaa.jpg",
+                                    "id": "354",
+                                    "alt": "",
+                                    "source": "library"
+                                },
+                                "image_size": "custom",
+                                "image_custom_dimension": {
+                                    "width": "724",
+                                    "height": "724"
+                                },
+                                "width": {
+                                    "unit": "%",
+                                    "size": "100",
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "image",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": "",
+                    "elType": "column"
+                },
+                {
+                    "id": "36a8a836",
+                    "settings": {
+                        "_column_size": "50",
+                        "_inline_size": "",
+                        "content_position": "center",
+                        "background_background": "classic",
+                        "padding": {
+                            "unit": "px",
+                            "top": "32",
+                            "right": "32",
+                            "bottom": "32",
+                            "left": "32",
+                            "isLinked": "1"
+                        },
+                        "__globals__": {
+                            "background_color": "globals\/colors?id=accent"
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "5e0911a3",
+                            "settings": {
+                                "title": "on all productions",
+                                "header_size": "h5",
+                                "align": "center",
+                                "__globals__": {
+                                    "typography_typography": "globals\/typography?id=accent",
+                                    "title_color": "globals\/colors?id=1f8e86b"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "24f16dab",
+                            "settings": {
+                                "title": "Sale 50% OFF",
+                                "align": "center",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "-16",
+                                    "right": "0",
+                                    "bottom": "-16",
+                                    "left": "0",
+                                    "isLinked": ""
+                                },
+                                "__globals__": {
+                                    "typography_typography": "globals\/typography?id=7b4fb9b",
+                                    "title_color": "globals\/colors?id=secondary"
+                                },
+                                "_animation": "fadeInDown"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "57df00a4",
+                            "settings": {
+                                "title": "Ovver valid only today!",
+                                "header_size": "div",
+                                "align": "center",
+                                "__globals__": {
+                                    "typography_typography": "globals\/typography?id=a720993",
+                                    "title_color": "globals\/colors?id=1f8e86b"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "5a2c7577",
+                            "settings": {
+                                "text": "shop now",
+                                "align": "justify",
+                                "hover_animation": "bob",
+                                "button_box_shadow_box_shadow_type": "yes",
+                                "button_box_shadow_box_shadow": {
+                                    "horizontal": "0",
+                                    "vertical": "5",
+                                    "blur": "20",
+                                    "spread": "0",
+                                    "color": "rgba(18, 11.999999999999996, 2.000000000000001, 0.3)"
+                                },
+                                "__globals__": {
+                                    "typography_typography": "globals\/typography?id=accent",
+                                    "button_text_color": "globals\/colors?id=1f8e86b",
+                                    "background_color": "globals\/colors?id=secondary"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "button",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": "",
+                    "elType": "column"
+                }
+            ],
+            "isInner": "",
+            "elType": "section"
+        }
+    ],
+    "page_settings": {
+        "width": {
+            "unit": "px",
+            "size": "724",
+            "sizes": []
+        },
+        "entrance_animation": "fadeInUp",
+        "exit_animation": "fadeIn",
+        "width_tablet": {
+            "unit": "px",
+            "size": "650",
+            "sizes": []
+        },
+        "width_mobile": {
+            "unit": "px",
+            "size": "305",
+            "sizes": []
+        },
+        "__globals__": {
+            "close_button_color": "globals\/colors?id=1f8e86b"
+        }
+    }
+}

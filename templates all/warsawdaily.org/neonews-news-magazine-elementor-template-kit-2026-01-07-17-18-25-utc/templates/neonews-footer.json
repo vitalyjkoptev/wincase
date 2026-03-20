@@ -1,0 +1,1051 @@
+{
+    "version": "0.4",
+    "title": "Neonews &#8211; Footer",
+    "type": "footer",
+    "metadata": {
+        "template_type": "section-header",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "elementor_library_type": "footer",
+        "elementor_pro_conditions": [
+            "include\/general"
+        ],
+        "additional_template_information": [
+            "This is a \"Footer\" template for Elementor Pro.",
+            "This template will display on: Entire Site."
+        ],
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "32c6cdf6",
+            "settings": {
+                "flex_direction": "row",
+                "flex_justify_content": "space-between",
+                "flex_gap": {
+                    "column": "0",
+                    "row": "0",
+                    "isLinked": false,
+                    "unit": "px",
+                    "size": 0
+                },
+                "flex_wrap": "wrap",
+                "background_background": "classic",
+                "background_image": {
+                    "url": "http:\/\/shine.creativemox.com\/neonews\/wp-content\/uploads\/sites\/4\/2024\/07\/halftone-pattern-on-a-white-background.jpg",
+                    "id": 169,
+                    "size": "",
+                    "alt": "Halftone pattern on a white background",
+                    "source": "library"
+                },
+                "background_position": "center center",
+                "background_repeat": "no-repeat",
+                "background_size": "cover",
+                "padding": {
+                    "unit": "em",
+                    "top": "3",
+                    "right": "1",
+                    "bottom": "0",
+                    "left": "1",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "em",
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": "",
+                    "isLinked": true
+                },
+                "padding_mobile": {
+                    "unit": "em",
+                    "top": "1",
+                    "right": "1",
+                    "bottom": "0",
+                    "left": "1",
+                    "isLinked": false
+                },
+                "border_border": "solid",
+                "border_width": {
+                    "unit": "px",
+                    "top": "5",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "__globals__": {
+                    "border_color": "globals\/colors?id=a2c0d56"
+                }
+            },
+            "elements": [
+                {
+                    "id": "3f5e6d4f",
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 30,
+                            "sizes": []
+                        },
+                        "width_tablet": {
+                            "unit": "%",
+                            "size": 45,
+                            "sizes": []
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "padding": {
+                            "unit": "em",
+                            "top": "1",
+                            "right": "2",
+                            "bottom": "1",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding_tablet": {
+                            "unit": "em",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "padding_mobile": {
+                            "unit": "em",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "6704edaa",
+                            "settings": {
+                                "content_width": "full",
+                                "title": "Categories",
+                                "header_size": "h4"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "18fa08b4",
+                            "settings": {
+                                "container_type": "grid",
+                                "presetTitle": "Grid",
+                                "presetIcon": "eicon-container-grid",
+                                "content_width": "full",
+                                "grid_columns_grid": {
+                                    "unit": "fr",
+                                    "size": 2,
+                                    "sizes": []
+                                },
+                                "grid_columns_grid_mobile": {
+                                    "unit": "fr",
+                                    "size": 2,
+                                    "sizes": []
+                                },
+                                "grid_rows_grid": {
+                                    "unit": "fr",
+                                    "size": 0,
+                                    "sizes": []
+                                },
+                                "grid_gaps_mobile": {
+                                    "column": "14",
+                                    "row": "14",
+                                    "isLinked": true,
+                                    "unit": "px"
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "4cc89257",
+                                    "settings": {
+                                        "content_width": "full",
+                                        "icon_list": [
+                                            {
+                                                "text": "Politics",
+                                                "selected_icon": {
+                                                    "value": "mdi mdi-arrow-right-drop-circle",
+                                                    "library": "skb_cife-materialdesign-icon"
+                                                },
+                                                "_id": "6b4fa36",
+                                                "link": {
+                                                    "url": "#",
+                                                    "is_external": "",
+                                                    "nofollow": "",
+                                                    "custom_attributes": ""
+                                                }
+                                            },
+                                            {
+                                                "text": "Business",
+                                                "selected_icon": {
+                                                    "value": "mdi mdi-arrow-right-drop-circle",
+                                                    "library": "skb_cife-materialdesign-icon"
+                                                },
+                                                "link": {
+                                                    "url": "#",
+                                                    "is_external": "",
+                                                    "nofollow": "",
+                                                    "custom_attributes": ""
+                                                },
+                                                "_id": "cebf3ba"
+                                            },
+                                            {
+                                                "text": "Technology",
+                                                "selected_icon": {
+                                                    "value": "mdi mdi-arrow-right-drop-circle",
+                                                    "library": "skb_cife-materialdesign-icon"
+                                                },
+                                                "link": {
+                                                    "url": "#",
+                                                    "is_external": "",
+                                                    "nofollow": "",
+                                                    "custom_attributes": ""
+                                                },
+                                                "_id": "5b953ac"
+                                            },
+                                            {
+                                                "text": "Sports",
+                                                "selected_icon": {
+                                                    "value": "mdi mdi-arrow-right-drop-circle",
+                                                    "library": "skb_cife-materialdesign-icon"
+                                                },
+                                                "link": {
+                                                    "url": "#",
+                                                    "is_external": "",
+                                                    "nofollow": "",
+                                                    "custom_attributes": ""
+                                                },
+                                                "_id": "5ea11a7"
+                                            },
+                                            {
+                                                "text": "Entertainment",
+                                                "selected_icon": {
+                                                    "value": "mdi mdi-arrow-right-drop-circle",
+                                                    "library": "skb_cife-materialdesign-icon"
+                                                },
+                                                "link": {
+                                                    "url": "#",
+                                                    "is_external": "",
+                                                    "nofollow": "",
+                                                    "custom_attributes": ""
+                                                },
+                                                "_id": "b31372b"
+                                            }
+                                        ],
+                                        "space_between": {
+                                            "unit": "px",
+                                            "size": 7,
+                                            "sizes": []
+                                        },
+                                        "__globals__": {
+                                            "icon_color": "globals\/colors?id=a2c0d56",
+                                            "icon_typography_typography": "globals\/typography?id=b2ce6af"
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "icon-list",
+                                    "elType": "widget"
+                                },
+                                {
+                                    "id": "3050b8bf",
+                                    "settings": {
+                                        "content_width": "full",
+                                        "icon_list": [
+                                            {
+                                                "text": "Breaking News",
+                                                "selected_icon": {
+                                                    "value": "mdi mdi-arrow-right-drop-circle",
+                                                    "library": "skb_cife-materialdesign-icon"
+                                                },
+                                                "_id": "6b4fa36",
+                                                "link": {
+                                                    "url": "#",
+                                                    "is_external": "",
+                                                    "nofollow": "",
+                                                    "custom_attributes": ""
+                                                }
+                                            },
+                                            {
+                                                "text": "Health",
+                                                "selected_icon": {
+                                                    "value": "mdi mdi-arrow-right-drop-circle",
+                                                    "library": "skb_cife-materialdesign-icon"
+                                                },
+                                                "link": {
+                                                    "url": "#",
+                                                    "is_external": "",
+                                                    "nofollow": "",
+                                                    "custom_attributes": ""
+                                                },
+                                                "_id": "a7f6d05"
+                                            },
+                                            {
+                                                "text": "Science",
+                                                "selected_icon": {
+                                                    "value": "mdi mdi-arrow-right-drop-circle",
+                                                    "library": "skb_cife-materialdesign-icon"
+                                                },
+                                                "link": {
+                                                    "url": "#",
+                                                    "is_external": "",
+                                                    "nofollow": "",
+                                                    "custom_attributes": ""
+                                                },
+                                                "_id": "3a6d823"
+                                            },
+                                            {
+                                                "text": "Travel",
+                                                "selected_icon": {
+                                                    "value": "mdi mdi-arrow-right-drop-circle",
+                                                    "library": "skb_cife-materialdesign-icon"
+                                                },
+                                                "link": {
+                                                    "url": "#",
+                                                    "is_external": "",
+                                                    "nofollow": "",
+                                                    "custom_attributes": ""
+                                                },
+                                                "_id": "20357af"
+                                            },
+                                            {
+                                                "text": "Lifestyle",
+                                                "selected_icon": {
+                                                    "value": "mdi mdi-arrow-right-drop-circle",
+                                                    "library": "skb_cife-materialdesign-icon"
+                                                },
+                                                "link": {
+                                                    "url": "#",
+                                                    "is_external": "",
+                                                    "nofollow": "",
+                                                    "custom_attributes": ""
+                                                },
+                                                "_id": "def63d6"
+                                            }
+                                        ],
+                                        "space_between": {
+                                            "unit": "px",
+                                            "size": 7,
+                                            "sizes": []
+                                        },
+                                        "__globals__": {
+                                            "icon_color": "globals\/colors?id=a2c0d56",
+                                            "icon_typography_typography": "globals\/typography?id=b2ce6af"
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "icon-list",
+                                    "elType": "widget"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "container"
+                        }
+                    ],
+                    "isInner": true,
+                    "elType": "container"
+                },
+                {
+                    "id": "56e74fcd",
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 20,
+                            "sizes": []
+                        },
+                        "width_tablet": {
+                            "unit": "%",
+                            "size": 30,
+                            "sizes": []
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 50,
+                            "sizes": []
+                        },
+                        "padding": {
+                            "unit": "em",
+                            "top": "1",
+                            "right": "1",
+                            "bottom": "1",
+                            "left": "1",
+                            "isLinked": true
+                        },
+                        "padding_tablet": {
+                            "unit": "em",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "padding_mobile": {
+                            "unit": "em",
+                            "top": "1",
+                            "right": "1",
+                            "bottom": "1",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "2a210f26",
+                            "settings": {
+                                "content_width": "full",
+                                "title": "Useful Link",
+                                "header_size": "h4"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "47465faf",
+                            "settings": {
+                                "content_width": "full",
+                                "icon_list": [
+                                    {
+                                        "text": "Send Us Tips",
+                                        "selected_icon": {
+                                            "value": "mdi mdi-arrow-right-drop-circle",
+                                            "library": "skb_cife-materialdesign-icon"
+                                        },
+                                        "_id": "6b4fa36",
+                                        "link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    },
+                                    {
+                                        "text": "Commercial Real Estate",
+                                        "selected_icon": {
+                                            "value": "mdi mdi-arrow-right-drop-circle",
+                                            "library": "skb_cife-materialdesign-icon"
+                                        },
+                                        "link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        },
+                                        "_id": "42e3b8e"
+                                    },
+                                    {
+                                        "text": "Digital Access",
+                                        "selected_icon": {
+                                            "value": "mdi mdi-arrow-right-drop-circle",
+                                            "library": "skb_cife-materialdesign-icon"
+                                        },
+                                        "link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        },
+                                        "_id": "a7f6d05"
+                                    },
+                                    {
+                                        "text": "Customer Service",
+                                        "selected_icon": {
+                                            "value": "mdi mdi-arrow-right-drop-circle",
+                                            "library": "skb_cife-materialdesign-icon"
+                                        },
+                                        "link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        },
+                                        "_id": "6b20301"
+                                    }
+                                ],
+                                "space_between": {
+                                    "unit": "px",
+                                    "size": 7,
+                                    "sizes": []
+                                },
+                                "icon_align_tablet": "left",
+                                "icon_self_align_tablet": "left",
+                                "icon_self_vertical_align_tablet": "flex-start",
+                                "__globals__": {
+                                    "icon_color": "globals\/colors?id=a2c0d56",
+                                    "icon_typography_typography": "globals\/typography?id=b2ce6af"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "icon-list",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": true,
+                    "elType": "container"
+                },
+                {
+                    "id": "104a71d7",
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 20,
+                            "sizes": []
+                        },
+                        "width_tablet": {
+                            "unit": "%",
+                            "size": 25,
+                            "sizes": []
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 50,
+                            "sizes": []
+                        },
+                        "padding": {
+                            "unit": "em",
+                            "top": "1",
+                            "right": "1",
+                            "bottom": "1",
+                            "left": "1",
+                            "isLinked": true
+                        },
+                        "padding_tablet": {
+                            "unit": "em",
+                            "top": "1",
+                            "right": "0",
+                            "bottom": "1",
+                            "left": "1",
+                            "isLinked": false
+                        },
+                        "padding_mobile": {
+                            "unit": "em",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "559d0c78",
+                            "settings": {
+                                "content_width": "full",
+                                "title": "Company",
+                                "header_size": "h4"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "6e82fe03",
+                            "settings": {
+                                "content_width": "full",
+                                "icon_list": [
+                                    {
+                                        "text": "About us",
+                                        "selected_icon": {
+                                            "value": "mdi mdi-arrow-right-drop-circle",
+                                            "library": "skb_cife-materialdesign-icon"
+                                        },
+                                        "_id": "6b4fa36",
+                                        "link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    },
+                                    {
+                                        "text": "Careers",
+                                        "selected_icon": {
+                                            "value": "mdi mdi-arrow-right-drop-circle",
+                                            "library": "skb_cife-materialdesign-icon"
+                                        },
+                                        "link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        },
+                                        "_id": "a2e6515"
+                                    },
+                                    {
+                                        "text": "Advertise",
+                                        "selected_icon": {
+                                            "value": "mdi mdi-arrow-right-drop-circle",
+                                            "library": "skb_cife-materialdesign-icon"
+                                        },
+                                        "link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        },
+                                        "_id": "1caf18d"
+                                    },
+                                    {
+                                        "text": "Digital Library",
+                                        "selected_icon": {
+                                            "value": "mdi mdi-arrow-right-drop-circle",
+                                            "library": "skb_cife-materialdesign-icon"
+                                        },
+                                        "link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        },
+                                        "_id": "c5aef92"
+                                    },
+                                    {
+                                        "text": "Sitemap",
+                                        "selected_icon": {
+                                            "value": "mdi mdi-arrow-right-drop-circle",
+                                            "library": "skb_cife-materialdesign-icon"
+                                        },
+                                        "link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        },
+                                        "_id": "197c095"
+                                    }
+                                ],
+                                "space_between": {
+                                    "unit": "px",
+                                    "size": 7,
+                                    "sizes": []
+                                },
+                                "__globals__": {
+                                    "icon_color": "globals\/colors?id=a2c0d56",
+                                    "icon_typography_typography": "globals\/typography?id=b2ce6af"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "icon-list",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": true,
+                    "elType": "container"
+                },
+                {
+                    "id": "715c9f1",
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 30,
+                            "sizes": []
+                        },
+                        "width_tablet": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "margin_tablet": {
+                            "unit": "em",
+                            "top": "2",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "margin_mobile": {
+                            "unit": "em",
+                            "top": "1",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding": {
+                            "unit": "em",
+                            "top": "1",
+                            "right": "0",
+                            "bottom": "1",
+                            "left": "2",
+                            "isLinked": false
+                        },
+                        "padding_tablet": {
+                            "unit": "em",
+                            "top": "1",
+                            "right": "10",
+                            "bottom": "1",
+                            "left": "10",
+                            "isLinked": false
+                        },
+                        "padding_mobile": {
+                            "unit": "em",
+                            "top": "1",
+                            "right": "0",
+                            "bottom": "1",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "e2749ca",
+                            "settings": {
+                                "content_width": "full",
+                                "image": {
+                                    "url": "http:\/\/shine.creativemox.com\/neonews\/wp-content\/uploads\/sites\/4\/2024\/07\/logo_neonews.png",
+                                    "id": 142,
+                                    "size": "",
+                                    "alt": "",
+                                    "source": "library"
+                                },
+                                "image_size": "custom",
+                                "image_custom_dimension": {
+                                    "width": "",
+                                    "height": "49"
+                                },
+                                "align": "left",
+                                "align_tablet": "center",
+                                "height": {
+                                    "unit": "px",
+                                    "size": 49,
+                                    "sizes": []
+                                },
+                                "object-fit": "contain"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "image",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "4f1a69ab",
+                            "settings": {
+                                "content_width": "full",
+                                "title": "News that Matters, Delivered with Integrity. NeoNews: Keeping You Connected to the World Around You.",
+                                "header_size": "div",
+                                "align_tablet": "center",
+                                "__globals__": {
+                                    "typography_typography": "globals\/typography?id=b2ce6af"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "bdcbe8c",
+                            "settings": {
+                                "container_type": "grid",
+                                "presetTitle": "Grid",
+                                "presetIcon": "eicon-container-grid",
+                                "content_width": "full",
+                                "width": {
+                                    "unit": "px",
+                                    "size": 250,
+                                    "sizes": []
+                                },
+                                "width_mobile": {
+                                    "unit": "px",
+                                    "size": 200,
+                                    "sizes": []
+                                },
+                                "grid_columns_grid": {
+                                    "unit": "fr",
+                                    "size": 2,
+                                    "sizes": []
+                                },
+                                "grid_columns_grid_mobile": {
+                                    "unit": "fr",
+                                    "size": 2,
+                                    "sizes": []
+                                },
+                                "grid_rows_grid": {
+                                    "unit": "fr",
+                                    "size": 1,
+                                    "sizes": []
+                                },
+                                "grid_gaps": {
+                                    "column": "7",
+                                    "row": "7",
+                                    "isLinked": true,
+                                    "unit": "px"
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "_flex_align_self_tablet": "center"
+                            },
+                            "elements": [
+                                {
+                                    "id": "4706ddb3",
+                                    "settings": {
+                                        "content_width": "full",
+                                        "image": {
+                                            "url": "http:\/\/shine.creativemox.com\/neonews\/wp-content\/uploads\/sites\/4\/2024\/07\/Google-Play-eng.png",
+                                            "id": 181,
+                                            "size": "",
+                                            "alt": "",
+                                            "source": "library"
+                                        },
+                                        "link_to": "custom",
+                                        "link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "image",
+                                    "elType": "widget"
+                                },
+                                {
+                                    "id": "3bcedac7",
+                                    "settings": {
+                                        "content_width": "full",
+                                        "image": {
+                                            "url": "http:\/\/shine.creativemox.com\/neonews\/wp-content\/uploads\/sites\/4\/2024\/07\/App-Store-eng.png",
+                                            "id": 180,
+                                            "size": "",
+                                            "alt": "",
+                                            "source": "library"
+                                        },
+                                        "link_to": "custom",
+                                        "link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "image",
+                                    "elType": "widget"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "container"
+                        }
+                    ],
+                    "isInner": true,
+                    "elType": "container"
+                },
+                {
+                    "id": "47c893b1",
+                    "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_direction_mobile": "column",
+                        "flex_justify_content": "space-between",
+                        "flex_align_items": "center",
+                        "flex_gap_mobile": {
+                            "column": "14",
+                            "row": "14",
+                            "isLinked": true,
+                            "unit": "px",
+                            "size": 14
+                        },
+                        "border_border": "double",
+                        "border_width": {
+                            "unit": "px",
+                            "top": "3",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "margin": {
+                            "unit": "em",
+                            "top": "3",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "margin_tablet": {
+                            "unit": "em",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "margin_mobile": {
+                            "unit": "em",
+                            "top": "1",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding": {
+                            "unit": "em",
+                            "top": "2",
+                            "right": "0",
+                            "bottom": "2",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding_tablet": {
+                            "unit": "em",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "padding_mobile": {
+                            "unit": "em",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "__globals__": {
+                            "border_color": "globals\/colors?id=4d462f5"
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "4bead286",
+                            "settings": {
+                                "content_width": "full",
+                                "title": "Copyright \u00a9 2024 Neonews, All rights reserved. Powered by MoxCreative.\n",
+                                "header_size": "div",
+                                "align": "center",
+                                "__globals__": {
+                                    "typography_typography": "globals\/typography?id=112b6c4"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "6f2be7c3",
+                            "settings": {
+                                "content_width": "full",
+                                "social_icon_list": [
+                                    {
+                                        "social_icon": {
+                                            "value": "fab fa-facebook-f",
+                                            "library": "fa-brands"
+                                        },
+                                        "_id": "bd39748"
+                                    },
+                                    {
+                                        "social_icon": {
+                                            "value": "fab fa-instagram",
+                                            "library": "fa-brands"
+                                        },
+                                        "_id": "49c423d"
+                                    },
+                                    {
+                                        "social_icon": {
+                                            "value": "fab fa-twitter",
+                                            "library": "fa-brands"
+                                        },
+                                        "_id": "3fa42f6"
+                                    },
+                                    {
+                                        "social_icon": {
+                                            "value": "fab fa-telegram-plane",
+                                            "library": "fa-brands"
+                                        },
+                                        "_id": "f405d7b"
+                                    },
+                                    {
+                                        "social_icon": {
+                                            "value": "fab fa-youtube",
+                                            "library": "fa-brands"
+                                        },
+                                        "_id": "2ce1f55"
+                                    }
+                                ],
+                                "shape": "circle",
+                                "align": "",
+                                "icon_color": "custom",
+                                "icon_size": {
+                                    "unit": "px",
+                                    "size": 14,
+                                    "sizes": []
+                                },
+                                "icon_padding": {
+                                    "unit": "px",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "icon_padding_tablet": {
+                                    "unit": "px",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "icon_padding_mobile": {
+                                    "unit": "px",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "hover_animation": "pop",
+                                "__globals__": {
+                                    "icon_primary_color": "globals\/colors?id=d49ac81",
+                                    "icon_secondary_color": "globals\/colors?id=text",
+                                    "hover_primary_color": "globals\/colors?id=332724a",
+                                    "hover_secondary_color": "globals\/colors?id=text"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "social-icons",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": true,
+                    "elType": "container"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        }
+    ]
+}

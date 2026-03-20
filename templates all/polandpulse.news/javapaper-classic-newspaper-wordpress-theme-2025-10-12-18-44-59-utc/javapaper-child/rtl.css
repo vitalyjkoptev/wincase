@@ -1,0 +1,9 @@
+/*
+Theme Name:     javapaper-child
+Template:       javapaper
+
+This is the child theme for Javapaper 1.1 theme, generated with Generate Child Theme plugin by catchthemes.
+
+Right to Left text support.
+*/
+@import url("../javapaper/rtl.css");

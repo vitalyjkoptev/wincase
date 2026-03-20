@@ -1,0 +1,195 @@
+{
+    "version": "0.4",
+    "title": "Neonews &#8211; Loop Post Search",
+    "type": "loop-item",
+    "metadata": {
+        "template_type": "section-loop",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "elementor_library_type": "loop-item",
+        "additional_template_information": [
+            "This is a \"Loop Item\" template for Elementor Pro."
+        ],
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "45539d97",
+            "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                    "column": "0",
+                    "row": "0",
+                    "isLinked": false,
+                    "unit": "px",
+                    "size": 0
+                },
+                "background_background": "classic",
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                    "horizontal": 0,
+                    "vertical": 3,
+                    "blur": 10,
+                    "spread": 0,
+                    "color": "rgba(0, 0, 0, 0.1)"
+                },
+                "__globals__": {
+                    "background_color": "globals\/colors?id=text"
+                },
+                "__dynamic__": []
+            },
+            "elements": [
+                {
+                    "id": "7fe45746",
+                    "settings": {
+                        "content_width": "full",
+                        "image_size": "custom",
+                        "image_custom_dimension": {
+                            "width": "150",
+                            "height": "150"
+                        },
+                        "width": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        },
+                        "width_tablet": {
+                            "unit": "px",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "width_mobile": {
+                            "unit": "px",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "height_tablet": {
+                            "unit": "vh",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "height_mobile": {
+                            "unit": "vh",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "object-fit": "cover",
+                        "_element_width": "initial",
+                        "_element_custom_width": {
+                            "unit": "%",
+                            "size": 30,
+                            "sizes": []
+                        },
+                        "_element_custom_width_mobile": {
+                            "unit": "%",
+                            "size": 25,
+                            "sizes": []
+                        },
+                        "__dynamic__": {
+                            "image": "[elementor-tag id=\"aa06dab\" name=\"post-featured-image\" settings=\"%7B%7D\"]"
+                        }
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "image",
+                    "elType": "widget"
+                },
+                {
+                    "id": "2db4387a",
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 70,
+                            "sizes": []
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 75,
+                            "sizes": []
+                        },
+                        "flex_gap": {
+                            "column": "7",
+                            "row": "7",
+                            "isLinked": true,
+                            "unit": "px",
+                            "size": 7
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "14",
+                            "right": "14",
+                            "bottom": "14",
+                            "left": "14",
+                            "isLinked": true
+                        },
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "10",
+                            "right": "10",
+                            "bottom": "10",
+                            "left": "10",
+                            "isLinked": true
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "5762240a",
+                            "settings": {
+                                "content_width": "full",
+                                "title": "Add Your Heading Text Here",
+                                "header_size": "div",
+                                "__dynamic__": {
+                                    "title": "[elementor-tag id=\"0f28f7b\" name=\"post-title\" settings=\"%7B%7D\"]",
+                                    "link": "[elementor-tag id=\"4c99690\" name=\"post-url\" settings=\"%7B%7D\"]"
+                                },
+                                "__globals__": {
+                                    "typography_typography": "globals\/typography?id=520c191"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "4d9aa84c",
+                            "settings": {
+                                "content_width": "full",
+                                "icon_list": [
+                                    {
+                                        "selected_icon": {
+                                            "value": "mdi mdi-calendar-clock",
+                                            "library": "skb_cife-materialdesign-icon"
+                                        },
+                                        "_id": "2be7c08",
+                                        "custom_date_format": "F j, Y",
+                                        "custom_time_format": "g:i a",
+                                        "show_icon": "custom"
+                                    }
+                                ],
+                                "icon_size": {
+                                    "unit": "px",
+                                    "size": 16,
+                                    "sizes": []
+                                },
+                                "__globals__": {
+                                    "icon_typography_typography": "globals\/typography?id=112b6c4",
+                                    "icon_color": "globals\/colors?id=a2c0d56"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "post-info",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": true,
+                    "elType": "container"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        }
+    ]
+}

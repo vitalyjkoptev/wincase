@@ -1,0 +1,16 @@
+vendor
+node_modules
+.git
+.env
+.env.backup
+.env.production
+.DS_Store
+*.log
+storage/logs/*
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+database/database.sqlite
+wincase file
+docs
+mobile

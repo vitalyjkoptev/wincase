@@ -1,0 +1,7 @@
+<h3>LETAKKAN FILE INI SAMA DENGAN LOKASI JAVAPAPER-OPTION</h3>
+
+Supercharge the Gutenberg editor with our ever-growing library of WordPress Blocks and templates. Discover what’s possible and implement any design on your website in virtually no time at all.
+<br>
+Worried that our templates may not work with your theme? We’ve got you covered. With our custom page templates option you can override any theme. Missing a plugin a template needs? No worries, we’ll even help you install what you need, all from the Gutenberg editor.
+
+Don’t waste hours trying to recreate a template you love. With a click of a button it is own website where you can start customizing it for your needs.
